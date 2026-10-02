@@ -1,0 +1,23 @@
+# A4 member 4: slack=0 e=156 n=28 mults=[05:2 06:6 14:4 15:4 23:5 24:1 25:2 34:2 36:1 46:1] generators=18 backend=boyer Fri Oct  2 19:56:29 2026 cube=[-105, -94, -136, -143, 106]
+[f034-a4-04-e156] n=28 m=156 cap=78 | 415 K5s, 3798 K3,3s, 18 sym generators, 41174 clauses, propagator check_at=9 planarity=boyer, clause dump -> /root/earth-moon/population/f034-a4-cert/cs-a4_m04c/s/n105_n94_n136_n143_p106/dump.jsonl
+    ... {'checks': 50000, 'confl': 11590, 'model_rej': 0} 3s
+    ... {'checks': 100000, 'confl': 21983, 'model_rej': 0} 6s
+    ... {'checks': 150000, 'confl': 33679, 'model_rej': 0} 8s
+    ... {'checks': 200000, 'confl': 44445, 'model_rej': 0} 11s
+    ... {'checks': 250000, 'confl': 52879, 'model_rej': 0} 14s
+    ... {'checks': 300000, 'confl': 62032, 'model_rej': 0} 17s
+    ... {'checks': 350000, 'confl': 72135, 'model_rej': 0} 20s
+    ... {'checks': 400000, 'confl': 79902, 'model_rej': 0} 23s
+    ... {'checks': 450000, 'confl': 85220, 'model_rej': 0} 26s
+    ... {'checks': 500000, 'confl': 90867, 'model_rej': 0} 29s
+    ... {'checks': 550000, 'confl': 95229, 'model_rej': 0} 31s
+    ... {'checks': 600000, 'confl': 98994, 'model_rej': 0} 34s
+    ... {'checks': 650000, 'confl': 103049, 'model_rej': 0} 37s
+    ... {'checks': 700000, 'confl': 106168, 'model_rej': 0} 40s
+    ... {'checks': 750000, 'confl': 109649, 'model_rej': 0} 43s
+    ... {'checks': 800000, 'confl': 112702, 'model_rej': 0} 46s
+    ... {'checks': 850000, 'confl': 115421, 'model_rej': 0} 48s
+[f034-a4-04-e156] stats: {'checks': 888458, 'confl': 117214, 'model_rej': 0}
+[f034-a4-04-e156] clause dump closed: {'preseed': 8426, 'prop': 234428, 'model': 0}
+[f034-a4-04-e156] UNSAT in 50.9s — NOT BIPLANAR (subject to control validation)
+RESULT f034-a4-04-e156 UNSAT 51.1s

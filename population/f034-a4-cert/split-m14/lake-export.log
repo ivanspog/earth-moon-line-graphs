@@ -1,0 +1,19 @@
+⚠ [7/73] Replayed Biplanar.Basic
+warning: Biplanar/Basic.lean:204:12: unused variable `G`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [59/73] Built Biplanar.Instances.A4M14S.Base (7.4s)
+✔ [60/73] Built Biplanar.Instances.A4M14S.Base:c.o (373ms)
+✔ [61/73] Built Biplanar.Instances.A4M14S.W2 (1.2s)
+✔ [62/73] Built Biplanar.Instances.A4M14S.W3 (1.1s)
+✔ [63/73] Built Biplanar.Instances.A4M14S.W4 (1.1s)
+✔ [64/73] Built Biplanar.Instances.A4M14S.W1 (1.2s)
+✔ [65/73] Built Biplanar.Instances.A4M14S.W1:c.o (68ms)
+✔ [66/73] Built Biplanar.Instances.A4M14S.W2:c.o (69ms)
+✔ [67/73] Built Biplanar.Instances.A4M14S.W3:c.o (76ms)
+✔ [68/73] Built Biplanar.Instances.A4M14S.W4:c.o (74ms)
+✔ [69/73] Built Biplanar.Instances (897ms)
+✔ [70/73] Built Biplanar.Instances:c.o (97ms)
+✔ [71/73] Built Export (882ms)
+✔ [73/73] Built «biplanar-export»:exe (4.1s)
+Build completed successfully (73 jobs).

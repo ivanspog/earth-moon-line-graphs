@@ -1,0 +1,500 @@
+{
+ "member": "13",
+ "key": "a4_m13s",
+ "name": "A4M13S",
+ "replay_wall_s": 3044,
+ "replay_stats": "{'checks': 17051403, 'confl': 1175531, 'model_rej': 0}",
+ "replay_solve_s": 3012.5,
+ "dump_bytes": 481193283,
+ "dump_sha256": "a501e8196a42a624e018500d641ca8222d542de19b110dcd18b86a73599f6012",
+ "split_edges": [
+  32,
+  52,
+  15,
+  36
+ ],
+ "split_edge_freq": {
+  "32": 1030496,
+  "52": 734318,
+  "15": 686992,
+  "36": 615436
+ },
+ "py_stage_wall_s": 3125,
+ "cubes": {
+  "1": {
+   "cube": [
+    33,
+    53,
+    16,
+    37
+   ],
+   "py_solve_s": 424.7,
+   "py_check_s": 7.1,
+   "py_lrat_bytes": 376314334,
+   "core": 261909,
+   "dumped": 2358960,
+   "py_maxrss": 247693312
+  },
+  "2": {
+   "cube": [
+    33,
+    53,
+    16,
+    -37
+   ],
+   "py_solve_s": 305.9,
+   "py_check_s": 6.1,
+   "py_lrat_bytes": 319524945,
+   "core": 224383,
+   "dumped": 2358960,
+   "py_maxrss": 237142016
+  },
+  "3": {
+   "cube": [
+    33,
+    53,
+    -16,
+    37
+   ],
+   "py_solve_s": 301.1,
+   "py_check_s": 6.5,
+   "py_lrat_bytes": 346789999,
+   "core": 207412,
+   "dumped": 2358960,
+   "py_maxrss": 278462464
+  },
+  "4": {
+   "cube": [
+    33,
+    53,
+    -16,
+    -37
+   ],
+   "py_solve_s": 237.9,
+   "py_check_s": 5.5,
+   "py_lrat_bytes": 276957999,
+   "core": 180484,
+   "dumped": 2358960,
+   "py_maxrss": 253673472
+  },
+  "5": {
+   "cube": [
+    33,
+    -53,
+    16,
+    37
+   ],
+   "py_solve_s": 418.8,
+   "py_check_s": 7.9,
+   "py_lrat_bytes": 430104947,
+   "core": 271831,
+   "dumped": 2358960,
+   "py_maxrss": 269860864
+  },
+  "6": {
+   "cube": [
+    33,
+    -53,
+    16,
+    -37
+   ],
+   "py_solve_s": 357.7,
+   "py_check_s": 6.9,
+   "py_lrat_bytes": 358669862,
+   "core": 242270,
+   "dumped": 2358960,
+   "py_maxrss": 250019840
+  },
+  "7": {
+   "cube": [
+    33,
+    -53,
+    -16,
+    37
+   ],
+   "py_solve_s": 255.0,
+   "py_check_s": 6.3,
+   "py_lrat_bytes": 323457890,
+   "core": 214180,
+   "dumped": 2358960,
+   "py_maxrss": 254148608
+  },
+  "8": {
+   "cube": [
+    33,
+    -53,
+    -16,
+    -37
+   ],
+   "py_solve_s": 247.8,
+   "py_check_s": 5.8,
+   "py_lrat_bytes": 289086289,
+   "core": 198631,
+   "dumped": 2358960,
+   "py_maxrss": 221495296
+  },
+  "9": {
+   "cube": [
+    -33,
+    53,
+    16,
+    37
+   ],
+   "py_solve_s": 318.1,
+   "py_check_s": 6.9,
+   "py_lrat_bytes": 361447447,
+   "core": 260887,
+   "dumped": 2358960,
+   "py_maxrss": 230408192
+  },
+  "10": {
+   "cube": [
+    -33,
+    53,
+    16,
+    -37
+   ],
+   "py_solve_s": 340.5,
+   "py_check_s": 6.7,
+   "py_lrat_bytes": 349919521,
+   "core": 255847,
+   "dumped": 2358960,
+   "py_maxrss": 234930176
+  },
+  "11": {
+   "cube": [
+    -33,
+    53,
+    -16,
+    37
+   ],
+   "py_solve_s": 267.9,
+   "py_check_s": 5.6,
+   "py_lrat_bytes": 272829533,
+   "core": 202492,
+   "dumped": 2358960,
+   "py_maxrss": 248332288
+  },
+  "12": {
+   "cube": [
+    -33,
+    53,
+    -16,
+    -37
+   ],
+   "py_solve_s": 305.1,
+   "py_check_s": 5.9,
+   "py_lrat_bytes": 290539157,
+   "core": 205523,
+   "dumped": 2358960,
+   "py_maxrss": 219971584
+  },
+  "13": {
+   "cube": [
+    -33,
+    -53,
+    16,
+    37
+   ],
+   "py_solve_s": 391.2,
+   "py_check_s": 7.0,
+   "py_lrat_bytes": 370897277,
+   "core": 282092,
+   "dumped": 2358960,
+   "py_maxrss": 226295808
+  },
+  "14": {
+   "cube": [
+    -33,
+    -53,
+    16,
+    -37
+   ],
+   "py_solve_s": 431.3,
+   "py_check_s": 7.6,
+   "py_lrat_bytes": 408079218,
+   "core": 285031,
+   "dumped": 2358960,
+   "py_maxrss": 245825536
+  },
+  "15": {
+   "cube": [
+    -33,
+    -53,
+    -16,
+    37
+   ],
+   "py_solve_s": 351.2,
+   "py_check_s": 6.0,
+   "py_lrat_bytes": 304563471,
+   "core": 225449,
+   "dumped": 2358960,
+   "py_maxrss": 232226816
+  },
+  "16": {
+   "cube": [
+    -33,
+    -53,
+    -16,
+    -37
+   ],
+   "py_solve_s": 347.6,
+   "py_check_s": 6.9,
+   "py_lrat_bytes": 360586401,
+   "core": 216352,
+   "dumped": 2358960,
+   "py_maxrss": 259538944
+  }
+ },
+ "cubes_done": true,
+ "writer_s": 43,
+ "exported_by": "writer",
+ "export_done": true,
+ "lean": {
+  "leaf2": {
+   "exported_by": "writer",
+   "cadical_s": 129.9,
+   "lratcheck_s": 4.3,
+   "lrat_bytes": 289938627,
+   "lrat_sha256": "09ab23b154073e0e4a6396761eed15a6f980ef038ff82d697edf85213af8b5e1",
+   "cnf_sha256": "12ea4c40b8c54f6212fadcd2caaca4540578b314c41cb9861be56cc03a564981",
+   "build_s": 57,
+   "build_maxrss": 3425353728
+  },
+  "leaf1": {
+   "exported_by": "writer",
+   "cadical_s": 149.4,
+   "lratcheck_s": 4.3,
+   "lrat_bytes": 286842001,
+   "lrat_sha256": "877e013f64628787cf5b1d8ad261317126edab449e4ad56a31cf497f6ebf0101",
+   "cnf_sha256": "1a48458f46cbf9203c2a95dbe9d15bfc10ca626c8932b651a564d7e56755717f",
+   "build_s": 70,
+   "build_maxrss": 2884468736
+  },
+  "leaf3": {
+   "exported_by": "writer",
+   "cadical_s": 86.4,
+   "lratcheck_s": 3.2,
+   "lrat_bytes": 216833478,
+   "lrat_sha256": "b96bde2d29e66abf1c5c9b637b00422d6afe9831231b482575802b58876e76e8",
+   "cnf_sha256": "3f5bb2fbf3a4af590a403d3eb1057b39834cf877e02736c18a2f10d51bc174ae",
+   "build_s": 47,
+   "build_maxrss": 3477782528
+  },
+  "leaf4": {
+   "exported_by": "writer",
+   "cadical_s": 72.0,
+   "lratcheck_s": 2.9,
+   "lrat_bytes": 197134511,
+   "lrat_sha256": "648b7b5de6f52bc186958b95e9c33e9b9be8847adb09c9c5fc9bb427b6b6e3ea",
+   "cnf_sha256": "9c07d68f01246229192c2f90a308f1ad1bb84272e714e98a383f6d923f9ec28d",
+   "build_s": 41,
+   "build_maxrss": 4085415936
+  },
+  "leaf6": {
+   "exported_by": "writer",
+   "cadical_s": 112.4,
+   "lratcheck_s": 3.6,
+   "lrat_bytes": 238142198,
+   "lrat_sha256": "aa551a32d9a8c2b90aba9f445431fe21768a652dedb4201a85457e5ad7a434db",
+   "cnf_sha256": "152435c7d73a1456abc8ff6dfc5066a1be80300d26a438afceedff3bb4c53e3e",
+   "build_s": 54,
+   "build_maxrss": 4071669760
+  },
+  "leaf5": {
+   "exported_by": "writer",
+   "cadical_s": 167.0,
+   "lratcheck_s": 4.7,
+   "lrat_bytes": 317101456,
+   "lrat_sha256": "42798e1944da00ce0f926c326ab7232d634a404c983ab55e837947bafa613ed0",
+   "cnf_sha256": "4a5bcfbd7fb3c82d36c6bf37a0ec4ee4ad6a65de6c44451f8c2f75ebc0d721ce",
+   "build_s": 65,
+   "build_maxrss": 3627270144
+  },
+  "leaf7": {
+   "exported_by": "writer",
+   "cadical_s": 97.3,
+   "lratcheck_s": 3.4,
+   "lrat_bytes": 225794668,
+   "lrat_sha256": "4577dfb09d23a525910068d03a8b9e72222f593d9d1d04d4596a82009d9abf4d",
+   "cnf_sha256": "68ca27ccd16a47e962342f49d0c2d554841b2405d48d110a221d27c8c72cb560",
+   "build_s": 47,
+   "build_maxrss": 4548657152
+  },
+  "leaf8": {
+   "exported_by": "writer",
+   "cadical_s": 85.7,
+   "lratcheck_s": 3.2,
+   "lrat_bytes": 214492022,
+   "lrat_sha256": "ba95608a25ca9e81ceec989831e6a81e1a5f992ba0f51915f7d784b1599cc295",
+   "cnf_sha256": "ac3933cad42309a74a3d394afdf7cc2bef7c7b6fc78cc6e0b4eca9c48bc79a1e",
+   "build_s": 44,
+   "build_maxrss": 4326473728
+  },
+  "leaf9": {
+   "exported_by": "writer",
+   "cadical_s": 156.4,
+   "lratcheck_s": 4.7,
+   "lrat_bytes": 310547062,
+   "lrat_sha256": "01cf2f63094bdcbee9c2cfb33255396e618d72feb7301c50ac414af83f5b1e58",
+   "cnf_sha256": "014f6f8ba97f6decf270eedbd2f18179e87ee86ce903db181526f2ca0d0438da",
+   "build_s": 63,
+   "build_maxrss": 4143972352
+  },
+  "leaf10": {
+   "exported_by": "writer",
+   "cadical_s": 138.0,
+   "lratcheck_s": 4.2,
+   "lrat_bytes": 281281664,
+   "lrat_sha256": "ff0c25790e3ffe92fb283f10edb3b0967917dc44c3a1321ec096047503d414af",
+   "cnf_sha256": "e6f4e285ab5693b936fdb654d200be3bdedf921ae7c3b81f4b5786376169f393",
+   "build_s": 60,
+   "build_maxrss": 4470882304
+  },
+  "leaf11": {
+   "exported_by": "writer",
+   "cadical_s": 85.1,
+   "lratcheck_s": 3.0,
+   "lrat_bytes": 197299585,
+   "lrat_sha256": "a99d574d7110b30c5fee42703eaf17aa564e1d6212278e672a1427a0c729aadc",
+   "cnf_sha256": "cd967ede6386856e01c251829014525530e8a18a7b2d4f48184169f254e3f9ad",
+   "build_s": 44,
+   "build_maxrss": 3192913920
+  },
+  "leaf12": {
+   "exported_by": "writer",
+   "cadical_s": 81.9,
+   "lratcheck_s": 2.9,
+   "lrat_bytes": 188451095,
+   "lrat_sha256": "67afa60680534c431f4c11503a023f48f57875b326035a6561531b245109a80b",
+   "cnf_sha256": "b4d3e96d9673c9b6e21f7c997269fc70639289b6d56f6693ac90973d08881e2e",
+   "build_s": 43,
+   "build_maxrss": 3709075456
+  },
+  "leaf13": {
+   "exported_by": "writer",
+   "cadical_s": 160.7,
+   "lratcheck_s": 4.6,
+   "lrat_bytes": 302615637,
+   "lrat_sha256": "d7f577a731a74304160e46a257a4b5011e1b1c371894d6cb24c634d34ed3d814",
+   "cnf_sha256": "3b3ef849cb46f6d6d31be3ec1b7c71ce95c9ea375539cdeade5431e52da310f7",
+   "build_s": 65,
+   "build_maxrss": 3435954176
+  },
+  "leaf14": {
+   "exported_by": "writer",
+   "cadical_s": 153.4,
+   "lratcheck_s": 4.6,
+   "lrat_bytes": 301275137,
+   "lrat_sha256": "2a5c4405649c8ffc140e0c9b0995954d338b5817e74478c6af7aa77fce54126e",
+   "cnf_sha256": "72770e8ae5e8e877960a7e3429fdd60f7e49f0a5dbfe9d5238573a977d1cc5c8",
+   "build_s": 64,
+   "build_maxrss": 4396974080
+  },
+  "leaf15": {
+   "exported_by": "writer",
+   "cadical_s": 94.3,
+   "lratcheck_s": 3.1,
+   "lrat_bytes": 207813845,
+   "lrat_sha256": "df11319d070a0b697ef1f12e98ffa237d89dd3e8e60b643a7591930c503914b2",
+   "cnf_sha256": "b12ca461a38d591375f50aa8afae8fdfabd6da9c8d9740c0dbe4d4d8221c8276",
+   "build_s": 47,
+   "build_maxrss": 4510990336
+  },
+  "cover": {
+   "exported_by": "writer",
+   "cadical_s": 0.0,
+   "lratcheck_s": 0.0,
+   "lrat_bytes": 369,
+   "lrat_sha256": "3dccef25b771218a89f9e40466e50581a94b554ab1de514a093fa7ce5c3fda79",
+   "cnf_sha256": "f145184a00f70c1bb776c2dbb897552f57b450e9eac709e472d152adedce8d65"
+  },
+  "leaf16": {
+   "exported_by": "writer",
+   "cadical_s": 89.5,
+   "lratcheck_s": 3.1,
+   "lrat_bytes": 208047206,
+   "lrat_sha256": "7023b1e4517bf8a6820209810e49b5a6013e63021c585dbbac55ceb87bbc5623",
+   "cnf_sha256": "1262583d92008264644295ee786b2f7eae67fb51c5e5b80491f954027a48ae16",
+   "build_s": 45,
+   "build_maxrss": 4035952640
+  }
+ },
+ "lean_solve_wall_s": 969,
+ "lean_solved": true,
+ "main_build_s": 2,
+ "axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "cover_unsat._native.native_decide.ax_1_1",
+  "leaf1._native.native_decide.ax_1_1",
+  "leaf1._native.native_decide.ax_1_2",
+  "leaf1._native.native_decide.ax_1_3",
+  "leaf10._native.native_decide.ax_1_1",
+  "leaf10._native.native_decide.ax_1_2",
+  "leaf10._native.native_decide.ax_1_3",
+  "leaf10_unsat._native.native_decide.ax_1_1",
+  "leaf11._native.native_decide.ax_1_1",
+  "leaf11._native.native_decide.ax_1_2",
+  "leaf11._native.native_decide.ax_1_3",
+  "leaf11_unsat._native.native_decide.ax_1_1",
+  "leaf12._native.native_decide.ax_1_1",
+  "leaf12._native.native_decide.ax_1_2",
+  "leaf12._native.native_decide.ax_1_3",
+  "leaf12_unsat._native.native_decide.ax_1_1",
+  "leaf13._native.native_decide.ax_1_1",
+  "leaf13._native.native_decide.ax_1_2",
+  "leaf13._native.native_decide.ax_1_3",
+  "leaf13_unsat._native.native_decide.ax_1_1",
+  "leaf14._native.native_decide.ax_1_1",
+  "leaf14._native.native_decide.ax_1_2",
+  "leaf14._native.native_decide.ax_1_3",
+  "leaf14_unsat._native.native_decide.ax_1_1",
+  "leaf15._native.native_decide.ax_1_1",
+  "leaf15._native.native_decide.ax_1_2",
+  "leaf15._native.native_decide.ax_1_3",
+  "leaf15_unsat._native.native_decide.ax_1_1",
+  "leaf16._native.native_decide.ax_1_1",
+  "leaf16._native.native_decide.ax_1_2",
+  "leaf16._native.native_decide.ax_1_3",
+  "leaf16_unsat._native.native_decide.ax_1_1",
+  "leaf1_unsat._native.native_decide.ax_1_1",
+  "leaf2._native.native_decide.ax_1_1",
+  "leaf2._native.native_decide.ax_1_2",
+  "leaf2._native.native_decide.ax_1_3",
+  "leaf2_unsat._native.native_decide.ax_1_1",
+  "leaf3._native.native_decide.ax_1_1",
+  "leaf3._native.native_decide.ax_1_2",
+  "leaf3._native.native_decide.ax_1_3",
+  "leaf3_unsat._native.native_decide.ax_1_1",
+  "leaf4._native.native_decide.ax_1_1",
+  "leaf4._native.native_decide.ax_1_2",
+  "leaf4._native.native_decide.ax_1_3",
+  "leaf4_unsat._native.native_decide.ax_1_1",
+  "leaf5._native.native_decide.ax_1_1",
+  "leaf5._native.native_decide.ax_1_2",
+  "leaf5._native.native_decide.ax_1_3",
+  "leaf5_unsat._native.native_decide.ax_1_1",
+  "leaf6._native.native_decide.ax_1_1",
+  "leaf6._native.native_decide.ax_1_2",
+  "leaf6._native.native_decide.ax_1_3",
+  "leaf6_unsat._native.native_decide.ax_1_1",
+  "leaf7._native.native_decide.ax_1_1",
+  "leaf7._native.native_decide.ax_1_2",
+  "leaf7._native.native_decide.ax_1_3",
+  "leaf7_unsat._native.native_decide.ax_1_1",
+  "leaf8._native.native_decide.ax_1_1",
+  "leaf8._native.native_decide.ax_1_2",
+  "leaf8._native.native_decide.ax_1_3",
+  "leaf8_unsat._native.native_decide.ax_1_1",
+  "leaf9._native.native_decide.ax_1_1",
+  "leaf9._native.native_decide.ax_1_2",
+  "leaf9._native.native_decide.ax_1_3",
+  "leaf9_unsat._native.native_decide.ax_1_1",
+  "not_biplanar._native.native_decide.ax_1_1",
+  "not_biplanar._native.native_decide.ax_1_2"
+ ],
+ "built": true,
+ "free_gb_end": 19.1
+}

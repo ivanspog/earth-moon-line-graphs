@@ -1,0 +1,55 @@
+[split] 2026-09-25 19:54:18 member 13 -> A4M13S (a4_m13s); 25.1 GB free
+[split] 2026-09-25 20:45:04 replay UNSAT, identical stats {'checks': 17051403, 'confl': 1175531, 'model_rej': 0}
+[split] 2026-09-25 20:45:13 16 cubes on edges [32, 52, 15, 36]: [[33, 53, 16, 37], [33, 53, 16, -37], [33, 53, -16, 37], [33, 53, -16, -37], [33, -53, 16, 37], [33, -53, 16, -37], [33, -53, -16, 37], [33, -53, -16, -37], [-33, 53, 16, 37], [-33, 53, 16, -37], [-33, 53, -16, 37], [-33, 53, -16, -37], [-33, -53, 16, 37], [-33, -53, 16, -37], [-33, -53, -16, 37], [-33, -53, -16, -37]]
+[split] 2026-09-25 20:51:11 cube 2/16 [33, 53, 16, -37]: UNSAT solve 305.9s check 6.1s LRAT 0.32 GB core 224383 py-mem 237 MB wall 358s
+[split] 2026-09-25 20:53:13 cube 1/16 [33, 53, 16, 37]: UNSAT solve 424.7s check 7.1s LRAT 0.38 GB core 261909 py-mem 248 MB wall 480s
+[split] 2026-09-25 20:57:05 cube 3/16 [33, 53, -16, 37]: UNSAT solve 301.1s check 6.5s LRAT 0.35 GB core 207412 py-mem 278 MB wall 353s
+[split] 2026-09-25 20:58:01 cube 4/16 [33, 53, -16, -37]: UNSAT solve 237.9s check 5.5s LRAT 0.28 GB core 180484 py-mem 254 MB wall 288s
+[split] 2026-09-25 21:04:52 cube 6/16 [33, -53, 16, -37]: UNSAT solve 357.7s check 6.9s LRAT 0.36 GB core 242270 py-mem 250 MB wall 411s
+[split] 2026-09-25 21:04:59 cube 5/16 [33, -53, 16, 37]: UNSAT solve 418.8s check 7.9s LRAT 0.43 GB core 271831 py-mem 270 MB wall 475s
+[split] 2026-09-25 21:09:59 cube 8/16 [33, -53, -16, -37]: UNSAT solve 247.8s check 5.8s LRAT 0.29 GB core 198631 py-mem 221 MB wall 299s
+[split] 2026-09-25 21:10:00 cube 7/16 [33, -53, -16, 37]: UNSAT solve 255.0s check 6.3s LRAT 0.32 GB core 214180 py-mem 254 MB wall 308s
+[split] 2026-09-25 21:16:11 cube 9/16 [-33, 53, 16, 37]: UNSAT solve 318.1s check 6.9s LRAT 0.36 GB core 260887 py-mem 230 MB wall 372s
+[split] 2026-09-25 21:16:34 cube 10/16 [-33, 53, 16, -37]: UNSAT solve 340.5s check 6.7s LRAT 0.35 GB core 255847 py-mem 235 MB wall 394s
+[split] 2026-09-25 21:21:30 cube 11/16 [-33, 53, -16, 37]: UNSAT solve 267.9s check 5.6s LRAT 0.27 GB core 202492 py-mem 248 MB wall 319s
+[split] 2026-09-25 21:22:30 cube 12/16 [-33, 53, -16, -37]: UNSAT solve 305.1s check 5.9s LRAT 0.29 GB core 205523 py-mem 220 MB wall 356s
+[split] 2026-09-25 21:28:57 cube 13/16 [-33, -53, 16, 37]: UNSAT solve 391.2s check 7.0s LRAT 0.37 GB core 282092 py-mem 226 MB wall 447s
+[split] 2026-09-25 21:30:37 cube 14/16 [-33, -53, 16, -37]: UNSAT solve 431.3s check 7.6s LRAT 0.41 GB core 285031 py-mem 246 MB wall 487s
+[split] 2026-09-25 21:35:39 cube 15/16 [-33, -53, -16, 37]: UNSAT solve 351.2s check 6.0s LRAT 0.30 GB core 225449 py-mem 232 MB wall 403s
+[split] 2026-09-25 21:37:18 cube 16/16 [-33, -53, -16, -37]: UNSAT solve 347.6s check 6.9s LRAT 0.36 GB core 216352 py-mem 260 MB wall 401s
+[split] 2026-09-25 21:37:18 deleted the dump (sha256 in split_metrics.json)
+[split] 2026-09-25 21:38:36 modules generated, graph check OK, leaves exported (0 tautologies, lex MATCH)
+[split] 2026-09-25 21:40:51 leaf2: Lean-side CaDiCaL 130s, 0.29 GB, lrat-check VERIFIED 4s
+[split] 2026-09-25 21:41:11 leaf1: Lean-side CaDiCaL 149s, 0.29 GB, lrat-check VERIFIED 4s
+[split] 2026-09-25 21:42:21 leaf3: Lean-side CaDiCaL 86s, 0.22 GB, lrat-check VERIFIED 3s
+[split] 2026-09-25 21:42:26 leaf4: Lean-side CaDiCaL 72s, 0.20 GB, lrat-check VERIFIED 3s
+[split] 2026-09-25 21:44:23 leaf6: Lean-side CaDiCaL 112s, 0.24 GB, lrat-check VERIFIED 4s
+[split] 2026-09-25 21:45:14 leaf5: Lean-side CaDiCaL 167s, 0.32 GB, lrat-check VERIFIED 5s
+[split] 2026-09-25 21:46:04 leaf7: Lean-side CaDiCaL 97s, 0.23 GB, lrat-check VERIFIED 3s
+[split] 2026-09-25 21:46:44 leaf8: Lean-side CaDiCaL 86s, 0.21 GB, lrat-check VERIFIED 3s
+[split] 2026-09-25 21:48:47 leaf9: Lean-side CaDiCaL 156s, 0.31 GB, lrat-check VERIFIED 5s
+[split] 2026-09-25 21:49:07 leaf10: Lean-side CaDiCaL 138s, 0.28 GB, lrat-check VERIFIED 4s
+[split] 2026-09-25 21:50:15 leaf11: Lean-side CaDiCaL 85s, 0.20 GB, lrat-check VERIFIED 3s
+[split] 2026-09-25 21:50:32 leaf12: Lean-side CaDiCaL 82s, 0.19 GB, lrat-check VERIFIED 3s
+[split] 2026-09-25 21:53:02 leaf13: Lean-side CaDiCaL 161s, 0.30 GB, lrat-check VERIFIED 5s
+[split] 2026-09-25 21:53:11 leaf14: Lean-side CaDiCaL 153s, 0.30 GB, lrat-check VERIFIED 5s
+[split] 2026-09-25 21:54:40 leaf15: Lean-side CaDiCaL 94s, 0.21 GB, lrat-check VERIFIED 3s
+[split] 2026-09-25 21:54:40 cover: Lean-side CaDiCaL 0s, 0.00 GB, lrat-check VERIFIED 0s
+[split] 2026-09-25 21:54:45 leaf16: Lean-side CaDiCaL 89s, 0.21 GB, lrat-check VERIFIED 3s
+[split] 2026-09-25 21:55:55 leaf1: lake build OK 70s (max RSS 2.9 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 21:56:51 leaf2: lake build OK 57s (max RSS 3.4 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 21:57:38 leaf3: lake build OK 47s (max RSS 3.5 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 21:58:19 leaf4: lake build OK 41s (max RSS 4.1 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 21:59:24 leaf5: lake build OK 65s (max RSS 3.6 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 22:00:19 leaf6: lake build OK 54s (max RSS 4.1 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 22:01:06 leaf7: lake build OK 47s (max RSS 4.5 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 22:01:50 leaf8: lake build OK 44s (max RSS 4.3 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 22:02:54 leaf9: lake build OK 63s (max RSS 4.1 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 22:03:54 leaf10: lake build OK 60s (max RSS 4.5 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 22:04:38 leaf11: lake build OK 44s (max RSS 3.2 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 22:05:21 leaf12: lake build OK 43s (max RSS 3.7 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 22:06:26 leaf13: lake build OK 65s (max RSS 3.4 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 22:07:30 leaf14: lake build OK 64s (max RSS 4.4 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 22:08:17 leaf15: lake build OK 47s (max RSS 4.5 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 22:09:01 leaf16: lake build OK 45s (max RSS 4.0 GB); its LRAT and CNF deleted, .olean kept until the main build
+[split] 2026-09-25 22:09:06 CERTIFIED: Biplanar.A4M13S.not_biplanar via 16 cubes (axioms: standard + 67 native_decide)

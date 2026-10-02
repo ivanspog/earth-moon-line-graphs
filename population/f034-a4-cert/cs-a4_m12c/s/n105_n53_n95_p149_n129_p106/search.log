@@ -1,0 +1,30 @@
+# A4 member 12: slack=1 e=155 n=28 mults=[05:2 06:6 14:5 15:2 16:1 23:5 25:3 34:2 36:1 45:1] generators=18 backend=boyer Fri Oct  2 20:19:26 2026 cube=[-105, -53, -95, 149, -129, 106]
+[f034-a4-12-e155] n=28 m=155 cap=78 | 414 K5s, 3736 K3,3s, 18 sym generators, 40681 clauses, propagator check_at=9 planarity=boyer, clause dump -> /root/earth-moon/population/f034-a4-cert/cs-a4_m12c/s/n105_n53_n95_p149_n129_p106/dump.jsonl
+    ... {'checks': 50000, 'confl': 11604, 'model_rej': 0} 3s
+    ... {'checks': 100000, 'confl': 22123, 'model_rej': 0} 5s
+    ... {'checks': 150000, 'confl': 34050, 'model_rej': 0} 8s
+    ... {'checks': 200000, 'confl': 44132, 'model_rej': 0} 11s
+    ... {'checks': 250000, 'confl': 52396, 'model_rej': 0} 13s
+    ... {'checks': 300000, 'confl': 57475, 'model_rej': 0} 16s
+    ... {'checks': 350000, 'confl': 64494, 'model_rej': 0} 18s
+    ... {'checks': 400000, 'confl': 72888, 'model_rej': 0} 21s
+    ... {'checks': 450000, 'confl': 78906, 'model_rej': 0} 24s
+    ... {'checks': 500000, 'confl': 84467, 'model_rej': 0} 26s
+    ... {'checks': 550000, 'confl': 89351, 'model_rej': 0} 29s
+    ... {'checks': 600000, 'confl': 93329, 'model_rej': 0} 31s
+    ... {'checks': 650000, 'confl': 98288, 'model_rej': 0} 34s
+    ... {'checks': 700000, 'confl': 103231, 'model_rej': 0} 37s
+    ... {'checks': 750000, 'confl': 108417, 'model_rej': 0} 40s
+    ... {'checks': 800000, 'confl': 112613, 'model_rej': 0} 43s
+    ... {'checks': 850000, 'confl': 116378, 'model_rej': 0} 45s
+    ... {'checks': 900000, 'confl': 120402, 'model_rej': 0} 49s
+    ... {'checks': 950000, 'confl': 124850, 'model_rej': 0} 52s
+    ... {'checks': 1000000, 'confl': 130462, 'model_rej': 0} 55s
+    ... {'checks': 1050000, 'confl': 135758, 'model_rej': 0} 58s
+    ... {'checks': 1100000, 'confl': 141419, 'model_rej': 0} 62s
+    ... {'checks': 1150000, 'confl': 146281, 'model_rej': 0} 65s
+    ... {'checks': 1200000, 'confl': 150224, 'model_rej': 0} 69s
+[f034-a4-12-e155] stats: {'checks': 1209251, 'confl': 150874, 'model_rej': 0}
+[f034-a4-12-e155] clause dump closed: {'preseed': 8300, 'prop': 301748, 'model': 0}
+[f034-a4-12-e155] UNSAT in 69.4s — NOT BIPLANAR (subject to control validation)
+RESULT f034-a4-12-e155 UNSAT 69.6s

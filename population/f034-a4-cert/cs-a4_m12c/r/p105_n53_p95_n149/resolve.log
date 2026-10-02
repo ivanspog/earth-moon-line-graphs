@@ -1,0 +1,210 @@
+# lean_static_resolve 2026-10-02 19:19:14
+# dump=/root/earth-moon/population/f034-a4-cert/cs-a4_m12c/s/p105_n53_p95_n149/dump.jsonl raw=14578 dedup=14578 footer={'type': 'footer', 'verdict': 'UNSAT', 'counts': {'preseed': 8300, 'prop': 6278, 'model': 0}, 'stats': {'checks': 13110, 'confl': 3139, 'model_rej': 0}, 'time': '2026-10-02T19:19:12+0000'}
+# counters=False
+$ /root/bin/cadical --lrat --no-binary --no-factor /root/earth-moon/population/f034-a4-cert/cs-a4_m12c/r/p105_n53_p95_n149/round-0/F.cnf /root/earth-moon/population/f034-a4-cert/cs-a4_m12c/r/p105_n53_p95_n149/round-0/F.lrat
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2026
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 3.0.1 c60730422e758ef1cebe7aeddf2dda31c996bf04
+c g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0 -Wall -Wextra -O3 -DNDEBUG
+c Fri Oct 2 18:00:09 UTC 2026 Linux ai-math 6.8.0-139-generic x86_64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/root/earth-moon/population/f034-a4-cert/cs-a4_m12c/r/p105_n53_p95_n149/round-0/F.lrat'
+c writing non-binary proof trace to '/root/earth-moon/population/f034-a4-cert/cs-a4_m12c/r/p105_n53_p95_n149/round-0/F.lrat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/root/earth-moon/population/f034-a4-cert/cs-a4_m12c/r/p105_n53_p95_n149/round-0/F.cnf'
+c opening file to read '/root/earth-moon/population/f034-a4-cert/cs-a4_m12c/r/p105_n53_p95_n149/round-0/F.cnf'
+c found 'p cnf 2945 22935' header
+c parsed 22935 clauses in 0.01 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c   --lrat=true                    (different from default 'false')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2      variables
+c         MB    restarts   redundant    glue  trail        remaining
+c          level     rate       size/glu tier1  irredundant
+c 
+c *  0.01  7  0 0   0  0    0    0 0.0 0 0 2 6  0% 17761 2904 99%
+c )  0.01  8  0 0   0  0    0    0 0.0 0 0 2 6  0% 17761 2904 99%
+c {  0.01  8  0 0   0  0    0    0 0.0 0 0 2 6  0% 17761 2904 99%
+c i  0.01  8 914 0   0 12  107   40 1.3 13 10 2 6 39% 17702 2898 98%
+c -  0.02  8 511 1   5  9  301   54 1.3 13 10 2 6 28% 17654 2898 98%
+c -  0.02  9 206 2   5  4  735   67 1.2 10 8 2 6 13% 17654 2898 98%
+c }  0.02  9 152 2   5  3 1001   76 1.2 9 8 2 6 11% 17654 2898 98%
+c [  0.02  9  0 2   5  0 1001   76 0.0 0 0 2 6  0% 17654 2898 98%
+c O  0.02  9  4 2   5  5 1002   77 2.0 4 2 2 6 18% 17654 2898 98%
+c -  0.03  9 18 3   5  1 1413  189 2.7 21 8 2 6 38% 17558 2898 98%
+c ]  0.03  9 17 3   5  1 1448  204 2.5 20 8 2 6 37% 17557 2898 98%
+c {  0.03  9 152 3   5  3 1448  204 1.2 9 8 2 6 11% 17557 2898 98%
+c 2  0.03  9 115 3   5  3 1807  397 1.3 10 7 2 6 14% 17524 2882 98%
+c p  0.04  9 115 3   5  3 1807  397 1.3 10 7 2 6 14% 17524 2881 98%
+c i  0.04 10 114 3  16  3 1975  451 1.3 10 8 2 6 17% 17436 2878 98%
+c i  0.04 10 109 3  22  4 2078  488 1.3 10 7 2 6 16% 17386 2877 98%
+c -  0.05 10 104 4  58  5 2359  430 1.3 10 8 2 6 17% 17201 2877 98%
+c i  0.05 10 100 4  95  6 2525  469 1.3 10 8 2 6 18% 17083 2876 98%
+c i  0.05 10 100 4  95  6 2526  469 1.3 10 8 2 6 18% 17083 2875 98%
+c i  0.05 10 100 4  95  6 2530  470 1.3 10 8 2 6 18% 17082 2867 97%
+c 
+c  seconds   reduction conflicts       size  tier2      variables
+c         MB     restarts   redundant     glue  trail        remaining
+c           level     rate       size/glue tier1  irredundant
+c 
+c i  0.05 10 100 4  95  6 2531  470 1.3 10 8 2 6 18% 17082 2866 97%
+c i  0.05 10 97 4 101  6 2633  500 1.3 10 8 2 6 18% 17017 2865 97%
+c }  0.05 10 94 4 102  6 2757  553 1.4 10 8 2 6 19% 16974 2865 97%
+c [  0.05 10 17 4 102  1 2757  553 2.5 20 8 2 6 37% 16974 2865 97%
+c I  0.05 10 16 4 102  1 3004  673 2.3 18 8 2 6 32% 16958 2865 97%
+c i  0.05 10 16 4 102  1 3004  673 2.3 18 8 2 6 32% 16958 2864 97%
+c i  0.05 10 16 4 102  1 3006  673 2.3 18 8 2 6 32% 16957 2863 97%
+c i  0.05 10 16 4 102  1 3008  673 2.3 18 8 2 6 32% 16956 2837 96%
+c i  0.06 10 15 4 102  1 3137  719 2.1 17 8 2 6 30% 16939 2836 96%
+c i  0.06 10 15 4 102  1 3138  719 2.1 17 8 2 6 30% 16939 2835 96%
+c i  0.06 10 15 4 102  1 3139  719 2.1 16 8 2 6 30% 16939 2834 96%
+c i  0.06 10 15 4 102  1 3140  719 2.1 16 8 2 6 30% 16939 2833 96%
+c i  0.06 10 15 4 102  1 3141  719 2.1 16 8 2 6 29% 16939 2832 96%
+c i  0.06 10 15 4 102  1 3142  719 2.1 16 8 2 6 29% 16939 2831 96%
+c i  0.06 10 15 4 102  1 3147  720 2.1 16 8 2 6 29% 16939 2830 96%
+c i  0.06 10 15 4 102  1 3148  720 2.1 16 8 2 6 29% 16939 2829 96%
+c i  0.06 10 15 4 102  1 3149  720 2.1 16 8 2 6 29% 16939 2828 96%
+c i  0.06 10 15 4 102  1 3150  720 2.1 16 8 2 6 29% 16939 2819 96%
+c i  0.06 10 15 4 102  1 3152  720 2.1 16 8 2 6 29% 16939 2818 96%
+c i  0.06 10 15 4 102  1 3153  720 2.1 16 8 2 6 29% 16939 2817 96%
+c 
+c  seconds  reduction conflicts       size  tier2      variables
+c         MB    restarts   redundant     glue  trail        remaining
+c          level     rate       size/glue tier1  irredundant
+c 
+c i  0.06 10 15 4 102  1 3154  720 2.1 16 8 2 6 29% 16939 2816 96%
+c i  0.06 10 15 4 102  1 3188  738 2.1 16 8 2 6 29% 16936 2807 95%
+c i  0.06 10 15 4 102  1 3199  740 2.1 16 8 2 6 28% 16936 2799 95%
+c i  0.06 10 15 4 102  1 3200  740 2.1 16 8 2 6 28% 16936 2790 95%
+c i  0.06 10 15 4 102  1 3206  742 2.1 16 8 2 6 28% 16935 2789 95%
+c i  0.06 10 15 4 102  1 3209  742 2.1 16 8 2 6 28% 16934 2788 95%
+c i  0.06 10 15 4 102  1 3232  746 2.0 15 8 2 6 28% 16929 2787 95%
+c i  0.06 10 15 4 102  1 3234  747 2.0 15 8 2 6 28% 16929 2786 95%
+c i  0.06 10 15 4 102  1 3238  747 2.0 15 8 2 6 28% 16928 2785 95%
+c i  0.06 10 14 4 102  1 3239  747 2.0 15 8 2 6 28% 16928 2784 95%
+c i  0.06 10 14 4 102  1 3243  749 2.0 15 8 2 6 28% 16928 2783 94%
+c i  0.06 10 14 4 102  2 3247  750 2.0 15 8 2 6 28% 16927 2782 94%
+c i  0.06 10 14 4 102  2 3249  747 2.0 15 7 2 6 28% 16927 2693 91%
+c i  0.06 10 14 4 102  2 3250  747 2.0 15 7 2 6 28% 16927 2672 91%
+c i  0.06 10 14 4 102  1 3291  749 2.0 15 7 2 6 27% 16927 2651 90%
+c i  0.06 10 14 4 102  1 3292  749 2.0 15 7 2 6 27% 16927 2558 87%
+c -  0.06 10 12 5 102  1 3573  511 1.8 12 7 2 6 24% 16258 2558 87%
+c i  0.06 11 11 5 103  1 3637  517 1.8 12 6 2 6  2% 16258 2557 87%
+c i  0.07 11 10 5 103  1 3832  537 1.8 11 6 2 6  2% 16258 2556 87%
+c i  0.07 11 10 5 103  1 3836  537 1.8 11 6 2 6  2% 16255 2555 87%
+c 
+c  seconds  reduction conflicts       size  tier2      variables
+c         MB    restarts   redundant     glue  trail        remaining
+c          level     rate       size/glue tier1  irredundant
+c 
+c i  0.07 11 10 5 103  1 3842  536 1.8 11 6 2 6  2% 16252 2544 86%
+c i  0.07 11 10 5 103  1 3844  536 1.8 11 6 2 6  2% 16251 2526 86%
+c ]  0.07 11 10 5 103  1 3846  536 1.8 11 6 2 6  2% 16251 2523 86%
+c 0  0.07 11 10 5 103  1 3846  536 1.8 11 6 2 6  2% 16251 2523 86%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c LRAT proof file '/root/earth-moon/population/f034-a4-cert/cs-a4_m12c/r/p105_n53_p95_n149/round-0/F.lrat' closed
+c LRAT 12164 added clauses 40.48%
+c LRAT 17889 deleted clauses 59.52%
+c LRAT 1632243 bytes (1.56 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.05   93.95% search
+c         0.03   50.64% unstable
+c         0.02   40.76% stable
+c         0.01   19.88% parse
+c         0.00    5.81% simplify
+c         0.00    3.66% congruence
+c         0.00    2.39% lucky
+c         0.00    0.44% backbone
+c         0.00    0.13% probe
+c   =================================
+c         0.05   83.16% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:              1004        26.11 %  of conflicts
+c conflicts:                  3846     70755.76    per second
+c backbone:                  17298       587.37 %  of vars
+c decisions:                 14553    267734.93    per second
+c fixed:                       422        14.33 %  of all variables
+c learned:                    2778        72.23 %  per conflict
+c learned_lits:              41906       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                  11960        28.54 %  learned literals
+c minishrunken:                497         1.19 %  learned literals
+c otfs:                       1842        47.89 %  of conflict
+c propagations:             241992         4.45 M  per second
+c reduced:                     542        14.09 %  per conflict
+c rephased:                      2      1923.00    interval
+c restarts:                    103        37.34    interval
+c stabilizing:                   2        37.36 %  of conflicts
+c subsumed:                   3202        15.62 %  of all clauses
+c strengthened:               1032         5.03 %  of all clauses
+c ticks:                   1765757         7.31    propagation
+c congruence:                    1      3846.00    interval
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 2 used 174 clauses 8.508% accumulated 14.27% tier1
+c focused glue 3 used 228 clauses 11.14% accumulated 25.42%
+c focused glue 4 used 195 clauses 9.535% accumulated 34.96%
+c focused glue 5 used 159 clauses 7.775% accumulated 42.73%
+c focused glue 6 used 245 clauses 11.98% accumulated 54.71% tier2
+c 
+c stable glue 3 used 263 clauses 8.903% accumulated 52.13% tier1
+c stable glue 4 used 271 clauses 9.174% accumulated 61.30%
+c stable glue 5 used 238 clauses 8.056% accumulated 69.36%
+c stable glue 6 used 206 clauses 6.973% accumulated 76.33%
+c stable glue 7 used 197 clauses 6.668% accumulated 83.00% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.07    seconds
+c total real time since initialization:            0.07    seconds
+c maximum resident set size of process:           42.05    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+
+[rc=20 0.1s]
+$ /root/earth-moon/verifier/../tools/drat-trim/lrat-check /root/earth-moon/population/f034-a4-cert/cs-a4_m12c/r/p105_n53_p95_n149/round-0/F.cnf /root/earth-moon/population/f034-a4-cert/cs-a4_m12c/r/p105_n53_p95_n149/round-0/F.lrat
+c parsed a formula with 2945 variables and 22935 clauses
+c VERIFIED
+c allocated 1024 348322 29450
+c Added clauses = 35099.  Deleted clauses = 17889.  Max live clauses = 22935
+c verification time = 0.08 secs
+
+[rc=0 0.1s]

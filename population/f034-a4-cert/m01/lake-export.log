@@ -1,0 +1,10 @@
+⚠ [7/33] Replayed Biplanar.Basic
+warning: Biplanar/Basic.lean:204:12: unused variable `G`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (33 jobs).
+⚠ [7/33] Replayed Biplanar.Basic
+warning: Biplanar/Basic.lean:204:12: unused variable `G`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+biplanar-export: wrote 97073 clauses to data/a4_m01/F.cnf

@@ -1,0 +1,34 @@
+⚠ [7/16] Replayed Biplanar.Basic
+warning: Biplanar/Basic.lean:204:12: unused variable `G`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [11/16] Built Biplanar.Instances.A4M09C.Base (2.1s)
+✔ [12/16] Built Biplanar.Instances.A4M09C.Cubes (856ms)
+✔ [13/16] Built Biplanar.Instances.A4M09C.W1 (1.8s)
+✔ [14/16] Built Biplanar.Instances.A4M09C.W2 (2.1s)
+✔ [15/16] Built Biplanar.Instances.A4M09C.Leaf1 (75s)
+✔ [16/16] Built Biplanar.Instances.A4M09C.Leaf2 (87s)
+Build completed successfully (16 jobs).
+	Command being timed: "lake build Biplanar.Instances.A4M09C.Leaf1 Biplanar.Instances.A4M09C.Leaf2"
+	User time (seconds): 164.87
+	System time (seconds): 4.95
+	Percent of CPU this job got: 185%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:31.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7202532
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 757179
+	Voluntary context switches: 2368
+	Involuntary context switches: 519
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1747952
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

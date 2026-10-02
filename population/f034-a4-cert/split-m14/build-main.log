@@ -1,0 +1,46 @@
+⚠ [7/22] Replayed Biplanar.Basic
+warning: Biplanar/Basic.lean:204:12: unused variable `G`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+ℹ [22/22] Built Biplanar.Instances.A4M14S (962ms)
+info: Biplanar/Instances/A4M14S.lean:39:0: 'Biplanar.A4M14S.not_biplanar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ cover_unsat._native.native_decide.ax_1_1,
+ leaf1._native.native_decide.ax_1_1,
+ leaf1._native.native_decide.ax_1_2,
+ leaf1._native.native_decide.ax_1_3,
+ leaf1_unsat._native.native_decide.ax_1_1,
+ leaf2._native.native_decide.ax_1_1,
+ leaf2._native.native_decide.ax_1_2,
+ leaf2._native.native_decide.ax_1_3,
+ leaf2_unsat._native.native_decide.ax_1_1,
+ leaf3._native.native_decide.ax_1_1,
+ leaf3._native.native_decide.ax_1_2,
+ leaf3._native.native_decide.ax_1_3,
+ leaf3_unsat._native.native_decide.ax_1_1,
+ leaf4._native.native_decide.ax_1_1,
+ leaf4._native.native_decide.ax_1_2,
+ leaf4._native.native_decide.ax_1_3,
+ leaf4_unsat._native.native_decide.ax_1_1,
+ not_biplanar._native.native_decide.ax_1_1,
+ not_biplanar._native.native_decide.ax_1_2]
+Build completed successfully (22 jobs).
+        1.13 real         0.52 user         0.46 sys
+          1230684160  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               88333  page reclaims
+                 170  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  20  voluntary context switches
+                 840  involuntary context switches
+           359520294  instructions retired
+           153359611  cycles elapsed
+            14404288  peak memory footprint

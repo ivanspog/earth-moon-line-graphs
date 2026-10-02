@@ -1,0 +1,3 @@
+[core] F: 1065963 clauses (32555 base + 1033408 dumped); LRAT: 4573913 add steps, max id 5639876, empty clause 5639876
+[core] reachable: base 2061/32555 (ids [1, 23396, 23398, 23400, 23401, 23402, 23403, 23404]...), dumped 395626/1033408, lemmas 3197153/4573913; counter-free=True
+[core] wrote /Users/ivanspogreev/earth-moon/population/f034-a4-cert/m19/core/witnesses.txt (395626 lines)

@@ -1,0 +1,57 @@
+{
+ "verdict": "UNSAT",
+ "dump": "/Users/ivanspogreev/earth-moon/population/f034-a4-cert/split-m07/dump.jsonl",
+ "dump_sha256": "1516f39e10430993b3ee6d48db7a4cbd7323b203c10c17dbb0af608ecde39d8f",
+ "rounds": [
+  {
+   "verdict": "UNSAT",
+   "num_clauses": 2535151,
+   "num_vars": 3276,
+   "num_base": 9345,
+   "layout": {
+    "unit": [
+     1,
+     1
+    ],
+    "extra_units": [
+     2,
+     5
+    ],
+    "lex": [
+     6,
+     9345
+    ],
+    "num_base": 9345
+   },
+   "num_dumped": 2525806,
+   "solve_s": 2.2,
+   "check_s": 2.8,
+   "lrat_lines": 1252381,
+   "lrat_bytes": 66118339,
+   "core_base": 992,
+   "core_dumped": 197,
+   "cnf": "/Users/ivanspogreev/earth-moon/population/f034-a4-cert/split-m07/c7/round-0/F.cnf",
+   "lrat": "/Users/ivanspogreev/earth-moon/population/f034-a4-cert/split-m07/c7/round-0/F.lrat"
+  }
+ ],
+ "final_core_dumped": 197,
+ "counter_free": true,
+ "cube": [
+  53,
+  -151,
+  -73,
+  86
+ ],
+ "counters": false,
+ "files": {
+  "F.cnf": "37b5dce489acff76640bc5af6c50a021779c47f64983404b20dff419f1a99888",
+  "F.lrat": "73cdaa246543010b78f82cf1cb1daec139c9c12bd7394b25a6cfa0ae67fb2e41",
+  "dump_core.jsonl": "39d3c7aecf69d0cc6d6d29a91032055c079fb0f6ca034438846d4da22501ab92",
+  "witnesses.txt": "5c5a9a12b25cfec5c2a3c98f5d095fa58398d76fe67579e5589e040b35e43ca4",
+  "graph.json": "315c7191c67fc6cd85a9ecbf96badfe8c8786a38ff213ffd6249a797c5a1bf32"
+ },
+ "python_maxrss_bytes": 383696896,
+ "cadical": "/opt/homebrew/bin/cadical",
+ "lrat_check": "/Users/ivanspogreev/earth-moon/verifier/../tools/drat-trim/lrat-check",
+ "time": "2026-09-25T21:12:34-0700"
+}

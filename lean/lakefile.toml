@@ -1,0 +1,12 @@
+name = "Biplanar"
+defaultTargets = ["Biplanar"]
+
+# LRAT-Catcher (Szeider, arXiv:2607.00815), pinned to the commit read at source
+# on 2026-09-03 (main @ 4ec2168, "Docs: correct the certificate-staleness advice").
+[[require]]
+name = "LRATCatcher"
+git = "https://github.com/leansolving/lrat-catcher"
+rev = "4ec2168"
+
+[[lean_lib]]
+name = "Biplanar"

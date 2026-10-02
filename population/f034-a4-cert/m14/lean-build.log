@@ -1,0 +1,31 @@
+⚠ [7/12] Replayed Biplanar.Basic
+warning: Biplanar/Basic.lean:204:12: unused variable `G`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+ℹ [12/12] Built Biplanar.Instances.A4M14 (24s)
+info: Biplanar/Instances/A4M14.lean:33:0: 'Biplanar.A4M14.not_biplanar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ F_unsat._native.native_decide.ax_1_1,
+ not_biplanar._native.native_decide.ax_1_1,
+ not_biplanar._native.native_decide.ax_1_2,
+ not_biplanar._native.native_decide.ax_1_3]
+Build completed successfully (12 jobs).
+       24.89 real        20.55 user         1.01 sys
+          3265576960  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              164071  page reclaims
+               57095  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                9802  voluntary context switches
+               20119  involuntary context switches
+           606653297  instructions retired
+           315030172  cycles elapsed
+           148195840  peak memory footprint

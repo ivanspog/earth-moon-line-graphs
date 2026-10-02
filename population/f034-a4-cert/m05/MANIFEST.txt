@@ -1,0 +1,5 @@
+# Fri Sep 25 17:23:25 PDT 2026  cadical 3.0.1  lean leanprover/lean4:v4.30.0  (f034_a4_certify.sh)
+# member 05: A4M05, counter_free=True, 267013 witnesses
+8b37163d29f835a8f1b6f6339f9a418123b263b9a126b8dc7ee1e15744b081de  data/a4_m05/witnesses.txt
+11024be0fad57e3adc149f07009378562117e36e6cd442de1782454b79ac5f5c  data/a4_m05/F.cnf
+6bdd56b84573209a4c5c67bbe00b58cdf72013e8e120b1e7e7c532c1fab95d4c  data/a4_m05/F.lrat

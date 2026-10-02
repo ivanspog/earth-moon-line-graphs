@@ -1,0 +1,4 @@
+[lexdiff] a4_m06: pysat 7939 lex clauses (2336 tautological, omitted by Lean), Lean 5603
+[lexdiff] in pysat not in Lean: 0
+[lexdiff] in Lean not in pysat: 0
+[lexdiff] MATCH

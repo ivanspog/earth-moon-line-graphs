@@ -1,0 +1,12 @@
+2026-10-02 18:24:02 orchestrator start
+2026-10-02 18:34:55 orchestrator start
+2026-10-02 19:09:05 orchestrator start (v2: every member races both routes; first CERTIFIED wins)
+2026-10-02 20:23:07 member 11 CERTIFIED by the per-cube search (A4M11C); stopping its replay route
+2026-10-02 20:23:07   stopped tmux rp11 (process tree under pid 17096)
+2026-10-02 21:01:07 member 09 CERTIFIED by the per-cube search (A4M09C); stopping its replay route
+2026-10-02 21:01:07   stopped tmux rp09 (process tree under pid 17086)
+2026-10-02 21:13:07 member 12 CERTIFIED by the per-cube search (A4M12C); stopping its replay route
+2026-10-02 21:13:07   stopped tmux rp12 (process tree under pid 17091)
+2026-10-02 21:39:08 member 04 CERTIFIED by the per-cube search (A4M04C); stopping its replay route
+2026-10-02 21:39:08   stopped tmux rp04 (process tree under pid 17080)
+2026-10-02 21:39:08 ALL DONE

@@ -1,0 +1,66 @@
+[cs] 2026-10-02 19:09:05 member 04 -> A4M04C (a4_m04c); 876.9 GB free; workers 7, limit 1800s, leaf-max 1.00 GB
+[cs] 2026-10-02 19:19:10 probe 600s -> 16 initial jobs (edges [104, 93, 135, 142])
+[cs] 2026-10-02 19:19:11 search p105_p94_n136_p143: UNSAT 1s
+[cs] 2026-10-02 19:19:11 search p105_p94_p136_n143: UNSAT 1s
+[cs] 2026-10-02 19:19:12 search p105_n94_n136_p143: UNSAT 1s
+[cs] 2026-10-02 19:19:12 search p105_p94_p136_p143: UNSAT 1s
+[cs] 2026-10-02 19:19:12 search p105_n94_p136_n143: UNSAT 1s
+[cs] 2026-10-02 19:19:12 search p105_n94_p136_p143: UNSAT 1s
+[cs] 2026-10-02 19:19:12 search p105_p94_n136_n143: UNSAT 1s
+[cs] 2026-10-02 19:19:13 search p105_n94_n136_n143: UNSAT 1s
+[cs] 2026-10-02 19:26:21 search n105_n94_p136_p143: UNSAT 430s
+[cs] 2026-10-02 19:26:42 search n105_p94_n136_n143: UNSAT 451s
+[cs] 2026-10-02 19:26:43 static p105_p94_n136_p143: leaf (184 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 19:26:44 static p105_p94_p136_n143: leaf (6 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 19:26:44 static p105_n94_n136_p143: leaf (223 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 19:26:45 static p105_p94_p136_p143: leaf (700 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 19:26:45 static p105_n94_p136_n143: leaf (4 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 19:26:46 static p105_n94_p136_p143: leaf (1 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 19:26:47 static p105_p94_n136_n143: leaf (479 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 19:26:47 static p105_n94_n136_n143: leaf (294 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 19:26:50 search n105_p94_p136_n143: UNSAT 459s
+[cs] 2026-10-02 19:27:23 search n105_p94_p136_p143: UNSAT 491s
+[cs] 2026-10-02 19:28:15 search n105_n94_n136_p143: UNSAT 542s
+[cs] 2026-10-02 19:36:43 static n105_n94_p136_p143: leaf (294342 witnesses, 0.47 GB, solve 560s)
+[cs] 2026-10-02 19:36:48 static n105_p94_n136_n143: leaf (300552 witnesses, 0.47 GB, solve 560s)
+[cs] 2026-10-02 19:37:54 static n105_p94_p136_n143: leaf (304582 witnesses, 0.49 GB, solve 593s)
+[cs] 2026-10-02 19:39:19 static n105_p94_p136_p143: leaf (312554 witnesses, 0.54 GB, solve 623s)
+[cs] 2026-10-02 19:42:48 search n105_p94_n136_p143: UNSAT 1416s
+[cs] 2026-10-02 19:49:20 search n105_n94_p136_n143: TIMEOUT 1800s -> split on edge 105
+[cs] 2026-10-02 19:49:48 static n105_n94_n136_p143: leaf (334879 witnesses, 0.56 GB, solve 744s)
+[cs] 2026-10-02 19:49:56 search n105_n94_p136_n143_p106: UNSAT 36s
+[cs] 2026-10-02 19:50:13 static n105_n94_p136_n143_p106: leaf (41826 witnesses, 0.06 GB, solve 11s)
+[cs] 2026-10-02 19:56:29 search n105_n94_n136_n143: TIMEOUT 1800s -> split on edge 105
+[cs] 2026-10-02 19:57:21 search n105_n94_n136_n143_p106: UNSAT 51s
+[cs] 2026-10-02 19:57:42 static n105_n94_n136_n143_p106: leaf (45517 witnesses, 0.06 GB, solve 14s)
+[cs] 2026-10-02 20:05:33 static n105_p94_n136_p143: certificate 1.01 GB > leaf-max -> bisect on edge 144 (same dump)
+[cs] 2026-10-02 20:13:16 static n105_p94_n136_p143_p145: leaf (278807 witnesses, 0.44 GB, solve 412s)
+[cs] 2026-10-02 20:15:21 static n105_p94_n136_p143_n145: leaf (347160 witnesses, 0.57 GB, solve 533s)
+[cs] 2026-10-02 20:19:29 search n105_n94_p136_n143_n106: TIMEOUT 1800s -> split on edge 144
+[cs] 2026-10-02 20:26:38 search n105_n94_n136_n143_n106: TIMEOUT 1800s -> split on edge 144
+[cs] 2026-10-02 20:26:38 search n105_n94_p136_n143_n106_n145: UNSAT 426s
+[cs] 2026-10-02 20:34:17 search n105_n94_n136_n143_n106_n145: UNSAT 459s
+[cs] 2026-10-02 20:36:38 static n105_n94_p136_n143_n106_n145: leaf (323381 witnesses, 0.57 GB, solve 559s)
+[cs] 2026-10-02 20:36:41 search n105_n94_p136_n143_n106_p145: UNSAT 1032s
+[cs] 2026-10-02 20:38:35 search n105_n94_n136_n143_n106_p145: UNSAT 717s
+[cs] 2026-10-02 20:44:34 static n105_n94_n136_n143_n106_n145: leaf (316198 witnesses, 0.52 GB, solve 580s)
+[cs] 2026-10-02 20:52:41 static n105_n94_n136_n143_n106_p145: leaf (332178 witnesses, 0.81 GB, solve 798s)
+[cs] 2026-10-02 20:56:57 static n105_n94_p136_n143_n106_p145: certificate 1.06 GB > leaf-max -> bisect on edge 145 (same dump)
+[cs] 2026-10-02 21:00:24 static n105_n94_p136_n143_n106_p145_n146: leaf (184094 witnesses, 0.25 GB, solve 176s)
+[cs] 2026-10-02 21:11:10 static n105_n94_p136_n143_n106_p145_p146: leaf (399682 witnesses, 0.84 GB, solve 798s)
+[cs] 2026-10-02 21:11:10 all cubes refuted: 22 leaves, 20 searches, 4 timeouts, 6 splits; queue wall 6720s
+[cs] 2026-10-02 21:12:47 Lean modules for 22 leaves generated; graph check OK; 0 tautologies; lex MATCH
+[cs] 2026-10-02 21:25:22 Lean-side CaDiCaL + lrat-check VERIFIED for 22 leaves and the cover (754s wall)
+[cs] 2026-10-02 21:27:54 leaves 1..2 built (153s, max RSS 11.2 GB)
+[cs] 2026-10-02 21:29:38 leaves 3..4 built (103s, max RSS 9.7 GB)
+[cs] 2026-10-02 21:31:11 leaves 5..6 built (93s, max RSS 7.5 GB)
+[cs] 2026-10-02 21:33:41 leaves 7..8 built (150s, max RSS 11.3 GB)
+[cs] 2026-10-02 21:35:16 leaves 9..10 built (96s, max RSS 9.3 GB)
+[cs] 2026-10-02 21:37:00 leaves 11..12 built (103s, max RSS 9.8 GB)
+[cs] 2026-10-02 21:38:41 leaves 13..14 built (102s, max RSS 9.5 GB)
+[cs] 2026-10-02 21:38:43 leaves 15..16 built (2s, max RSS 1.6 GB)
+[cs] 2026-10-02 21:38:45 leaves 17..18 built (2s, max RSS 1.6 GB)
+[cs] 2026-10-02 21:38:47 leaves 19..20 built (2s, max RSS 1.6 GB)
+[cs] 2026-10-02 21:38:49 leaves 21..22 built (2s, max RSS 1.6 GB)
+[cs] 2026-10-02 21:38:53 CERTIFIED: Biplanar.A4M04C.not_biplanar via 22 leaves (axioms: standard + 91 native_decide)
+EXIT=0

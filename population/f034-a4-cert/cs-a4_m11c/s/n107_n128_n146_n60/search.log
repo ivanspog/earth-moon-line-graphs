@@ -1,0 +1,60 @@
+# A4 member 11: slack=1 e=155 n=28 mults=[05:2 06:6 14:4 15:3 16:1 23:5 25:3 34:3 46:1] generators=19 backend=boyer Fri Oct  2 18:29:28 2026 cube=[-107, -128, -146, -60]
+[f034-a4-11-e155] n=28 m=155 cap=78 | 389 K5s, 3363 K3,3s, 19 sym generators, 40347 clauses, propagator check_at=9 planarity=boyer, clause dump -> /root/earth-moon/population/f034-a4-cert/cs-a4_m11c/s/n107_n128_n146_n60/dump.jsonl
+    ... {'checks': 50000, 'confl': 12340, 'model_rej': 0} 3s
+    ... {'checks': 100000, 'confl': 23315, 'model_rej': 0} 5s
+    ... {'checks': 150000, 'confl': 34725, 'model_rej': 0} 8s
+    ... {'checks': 200000, 'confl': 46148, 'model_rej': 0} 11s
+    ... {'checks': 250000, 'confl': 56001, 'model_rej': 0} 14s
+    ... {'checks': 300000, 'confl': 65620, 'model_rej': 0} 17s
+    ... {'checks': 350000, 'confl': 75708, 'model_rej': 0} 20s
+    ... {'checks': 400000, 'confl': 86582, 'model_rej': 0} 23s
+    ... {'checks': 450000, 'confl': 95437, 'model_rej': 0} 26s
+    ... {'checks': 500000, 'confl': 103893, 'model_rej': 0} 28s
+    ... {'checks': 550000, 'confl': 110153, 'model_rej': 0} 32s
+    ... {'checks': 600000, 'confl': 119495, 'model_rej': 0} 35s
+    ... {'checks': 650000, 'confl': 126474, 'model_rej': 0} 38s
+    ... {'checks': 700000, 'confl': 133712, 'model_rej': 0} 41s
+    ... {'checks': 750000, 'confl': 141478, 'model_rej': 0} 44s
+    ... {'checks': 800000, 'confl': 147298, 'model_rej': 0} 47s
+    ... {'checks': 850000, 'confl': 151902, 'model_rej': 0} 50s
+    ... {'checks': 900000, 'confl': 157934, 'model_rej': 0} 54s
+    ... {'checks': 950000, 'confl': 165470, 'model_rej': 0} 57s
+    ... {'checks': 1000000, 'confl': 175487, 'model_rej': 0} 60s
+    ... {'checks': 1050000, 'confl': 185261, 'model_rej': 0} 63s
+    ... {'checks': 1100000, 'confl': 194954, 'model_rej': 0} 67s
+    ... {'checks': 1150000, 'confl': 203859, 'model_rej': 0} 70s
+    ... {'checks': 1200000, 'confl': 212040, 'model_rej': 0} 73s
+    ... {'checks': 1250000, 'confl': 221099, 'model_rej': 0} 77s
+    ... {'checks': 1300000, 'confl': 231002, 'model_rej': 0} 80s
+    ... {'checks': 1350000, 'confl': 239805, 'model_rej': 0} 85s
+    ... {'checks': 1400000, 'confl': 248339, 'model_rej': 0} 91s
+    ... {'checks': 1450000, 'confl': 253742, 'model_rej': 0} 94s
+    ... {'checks': 1500000, 'confl': 261327, 'model_rej': 0} 98s
+    ... {'checks': 1550000, 'confl': 268399, 'model_rej': 0} 102s
+    ... {'checks': 1600000, 'confl': 275745, 'model_rej': 0} 106s
+    ... {'checks': 1650000, 'confl': 281647, 'model_rej': 0} 110s
+    ... {'checks': 1700000, 'confl': 287912, 'model_rej': 0} 114s
+    ... {'checks': 1750000, 'confl': 295319, 'model_rej': 0} 119s
+    ... {'checks': 1800000, 'confl': 302224, 'model_rej': 0} 126s
+    ... {'checks': 1850000, 'confl': 307031, 'model_rej': 0} 130s
+    ... {'checks': 1900000, 'confl': 313331, 'model_rej': 0} 135s
+    ... {'checks': 1950000, 'confl': 318525, 'model_rej': 0} 139s
+    ... {'checks': 2000000, 'confl': 325340, 'model_rej': 0} 142s
+    ... {'checks': 2050000, 'confl': 330893, 'model_rej': 0} 145s
+    ... {'checks': 2100000, 'confl': 335675, 'model_rej': 0} 148s
+    ... {'checks': 2150000, 'confl': 340865, 'model_rej': 0} 152s
+    ... {'checks': 2200000, 'confl': 345726, 'model_rej': 0} 157s
+    ... {'checks': 2250000, 'confl': 348722, 'model_rej': 0} 161s
+    ... {'checks': 2300000, 'confl': 351715, 'model_rej': 0} 165s
+    ... {'checks': 2350000, 'confl': 355297, 'model_rej': 0} 168s
+    ... {'checks': 2400000, 'confl': 359997, 'model_rej': 0} 172s
+    ... {'checks': 2450000, 'confl': 364201, 'model_rej': 0} 177s
+    ... {'checks': 2500000, 'confl': 368330, 'model_rej': 0} 180s
+    ... {'checks': 2550000, 'confl': 372422, 'model_rej': 0} 186s
+    ... {'checks': 2600000, 'confl': 375177, 'model_rej': 0} 190s
+    ... {'checks': 2650000, 'confl': 378901, 'model_rej': 0} 193s
+    ... {'checks': 2700000, 'confl': 383201, 'model_rej': 0} 198s
+[f034-a4-11-e155] stats: {'checks': 2740184, 'confl': 387622, 'model_rej': 0}
+[f034-a4-11-e155] clause dump closed: {'preseed': 7504, 'prop': 775244, 'model': 0}
+[f034-a4-11-e155] UNSAT in 200.9s — NOT BIPLANAR (subject to control validation)
+RESULT f034-a4-11-e155 UNSAT 201.1s

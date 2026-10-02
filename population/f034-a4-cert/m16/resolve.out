@@ -1,0 +1,4 @@
+[resolve] sym-on dump with 19 recorded generators: the static formula includes their lex blocks; the Lean theorem will carry hypothesis (H3).
+[resolve] /Users/ivanspogreev/earth-moon/population/f034-a4-cert/m16/dump.jsonl: 813348 dumped lines, 813348 distinct valid clauses; n=28 m=154 cap=78 units=[]
+[resolve] round 0: UNSAT | clauses=845816 vars=14936 solve=369.3s check=8.3s lrat=4447555 lines core: base 1549/32468, dumped 298070/813348
+[resolve] DONE: UNSAT certified externally; core keeps 298070 dumped clauses -> /Users/ivanspogreev/earth-moon/population/f034-a4-cert/m16/resolve/witnesses.txt

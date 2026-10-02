@@ -1,0 +1,27 @@
+⚠ [7/14] Replayed Biplanar.Basic
+warning: Biplanar/Basic.lean:204:12: unused variable `G`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [11/14] Built Biplanar.Instances.A4M07S.Base (6.3s)
+✔ [12/14] Built Biplanar.Instances.A4M07S.W1 (781ms)
+✔ [13/14] Built Biplanar.Instances.A4M07S.Cubes (809ms)
+✔ [14/14] Built Biplanar.Instances.A4M07S.Leaf1 (960ms)
+Build completed successfully (14 jobs).
+        8.41 real         2.58 user         2.10 sys
+          1320452096  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              265597  page reclaims
+               58775  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                9705  voluntary context switches
+               52332  involuntary context switches
+           548005275  instructions retired
+           259048037  cycles elapsed
+            17221952  peak memory footprint

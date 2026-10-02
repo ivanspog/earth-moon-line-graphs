@@ -1,0 +1,94 @@
+⚠ [7/46] Replayed Biplanar.Basic
+warning: Biplanar/Basic.lean:204:12: unused variable `G`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+ℹ [46/46] Built Biplanar.Instances.A4M07S (1.0s)
+info: Biplanar/Instances/A4M07S.lean:63:0: 'Biplanar.A4M07S.not_biplanar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ cover_unsat._native.native_decide.ax_1_1,
+ leaf1._native.native_decide.ax_1_1,
+ leaf1._native.native_decide.ax_1_2,
+ leaf1._native.native_decide.ax_1_3,
+ leaf10._native.native_decide.ax_1_1,
+ leaf10._native.native_decide.ax_1_2,
+ leaf10._native.native_decide.ax_1_3,
+ leaf10_unsat._native.native_decide.ax_1_1,
+ leaf11._native.native_decide.ax_1_1,
+ leaf11._native.native_decide.ax_1_2,
+ leaf11._native.native_decide.ax_1_3,
+ leaf11_unsat._native.native_decide.ax_1_1,
+ leaf12._native.native_decide.ax_1_1,
+ leaf12._native.native_decide.ax_1_2,
+ leaf12._native.native_decide.ax_1_3,
+ leaf12_unsat._native.native_decide.ax_1_1,
+ leaf13._native.native_decide.ax_1_1,
+ leaf13._native.native_decide.ax_1_2,
+ leaf13._native.native_decide.ax_1_3,
+ leaf13_unsat._native.native_decide.ax_1_1,
+ leaf14._native.native_decide.ax_1_1,
+ leaf14._native.native_decide.ax_1_2,
+ leaf14._native.native_decide.ax_1_3,
+ leaf14_unsat._native.native_decide.ax_1_1,
+ leaf15._native.native_decide.ax_1_1,
+ leaf15._native.native_decide.ax_1_2,
+ leaf15._native.native_decide.ax_1_3,
+ leaf15_unsat._native.native_decide.ax_1_1,
+ leaf16._native.native_decide.ax_1_1,
+ leaf16._native.native_decide.ax_1_2,
+ leaf16._native.native_decide.ax_1_3,
+ leaf16_unsat._native.native_decide.ax_1_1,
+ leaf1_unsat._native.native_decide.ax_1_1,
+ leaf2._native.native_decide.ax_1_1,
+ leaf2._native.native_decide.ax_1_2,
+ leaf2._native.native_decide.ax_1_3,
+ leaf2_unsat._native.native_decide.ax_1_1,
+ leaf3._native.native_decide.ax_1_1,
+ leaf3._native.native_decide.ax_1_2,
+ leaf3._native.native_decide.ax_1_3,
+ leaf3_unsat._native.native_decide.ax_1_1,
+ leaf4._native.native_decide.ax_1_1,
+ leaf4._native.native_decide.ax_1_2,
+ leaf4._native.native_decide.ax_1_3,
+ leaf4_unsat._native.native_decide.ax_1_1,
+ leaf5._native.native_decide.ax_1_1,
+ leaf5._native.native_decide.ax_1_2,
+ leaf5._native.native_decide.ax_1_3,
+ leaf5_unsat._native.native_decide.ax_1_1,
+ leaf6._native.native_decide.ax_1_1,
+ leaf6._native.native_decide.ax_1_2,
+ leaf6._native.native_decide.ax_1_3,
+ leaf6_unsat._native.native_decide.ax_1_1,
+ leaf7._native.native_decide.ax_1_1,
+ leaf7._native.native_decide.ax_1_2,
+ leaf7._native.native_decide.ax_1_3,
+ leaf7_unsat._native.native_decide.ax_1_1,
+ leaf8._native.native_decide.ax_1_1,
+ leaf8._native.native_decide.ax_1_2,
+ leaf8._native.native_decide.ax_1_3,
+ leaf8_unsat._native.native_decide.ax_1_1,
+ leaf9._native.native_decide.ax_1_1,
+ leaf9._native.native_decide.ax_1_2,
+ leaf9._native.native_decide.ax_1_3,
+ leaf9_unsat._native.native_decide.ax_1_1,
+ not_biplanar._native.native_decide.ax_1_1,
+ not_biplanar._native.native_decide.ax_1_2]
+Build completed successfully (46 jobs).
+        1.12 real         0.47 user         0.48 sys
+          1599356928  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              110818  page reclaims
+                 208  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 271  voluntary context switches
+                1248  involuntary context switches
+           425103018  instructions retired
+           181747875  cycles elapsed
+            15649536  peak memory footprint

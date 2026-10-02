@@ -1,0 +1,58 @@
+# A4 member 21: slack=6 e=150 n=28 mults=[05:2 06:6 14:4 15:4 23:6 25:2 34:2 46:2] generators=23 backend=boyer Fri Sep 25 17:36:55 2026
+[f034-a4-21-e150] n=28 m=150 cap=78 | 380 K5s, 3092 K3,3s, 23 sym generators, 39724 clauses, propagator check_at=9 planarity=boyer, clause dump -> /Users/ivanspogreev/earth-moon/population/f034-a4-cert/m21/dump.jsonl
+    ... {'checks': 50000, 'confl': 12101, 'model_rej': 0} 2s
+    ... {'checks': 100000, 'confl': 23018, 'model_rej': 0} 5s
+    ... {'checks': 150000, 'confl': 33134, 'model_rej': 0} 7s
+    ... {'checks': 200000, 'confl': 41621, 'model_rej': 0} 9s
+    ... {'checks': 250000, 'confl': 51643, 'model_rej': 0} 11s
+    ... {'checks': 300000, 'confl': 60359, 'model_rej': 0} 14s
+    ... {'checks': 350000, 'confl': 69028, 'model_rej': 0} 16s
+    ... {'checks': 400000, 'confl': 77334, 'model_rej': 0} 18s
+    ... {'checks': 450000, 'confl': 86064, 'model_rej': 0} 21s
+    ... {'checks': 500000, 'confl': 93789, 'model_rej': 0} 24s
+    ... {'checks': 550000, 'confl': 101562, 'model_rej': 0} 26s
+    ... {'checks': 600000, 'confl': 108156, 'model_rej': 0} 29s
+    ... {'checks': 650000, 'confl': 113981, 'model_rej': 0} 32s
+    ... {'checks': 700000, 'confl': 119618, 'model_rej': 0} 35s
+    ... {'checks': 750000, 'confl': 122188, 'model_rej': 0} 37s
+    ... {'checks': 800000, 'confl': 125700, 'model_rej': 0} 40s
+    ... {'checks': 850000, 'confl': 132377, 'model_rej': 0} 43s
+    ... {'checks': 900000, 'confl': 137416, 'model_rej': 0} 45s
+    ... {'checks': 950000, 'confl': 143904, 'model_rej': 0} 48s
+    ... {'checks': 1000000, 'confl': 149092, 'model_rej': 0} 51s
+    ... {'checks': 1050000, 'confl': 154362, 'model_rej': 0} 55s
+    ... {'checks': 1100000, 'confl': 158821, 'model_rej': 0} 58s
+    ... {'checks': 1150000, 'confl': 163522, 'model_rej': 0} 61s
+    ... {'checks': 1200000, 'confl': 167617, 'model_rej': 0} 64s
+    ... {'checks': 1250000, 'confl': 171511, 'model_rej': 0} 66s
+    ... {'checks': 1300000, 'confl': 174940, 'model_rej': 0} 70s
+    ... {'checks': 1350000, 'confl': 180483, 'model_rej': 0} 73s
+    ... {'checks': 1400000, 'confl': 183913, 'model_rej': 0} 76s
+    ... {'checks': 1450000, 'confl': 187527, 'model_rej': 0} 78s
+    ... {'checks': 1500000, 'confl': 191128, 'model_rej': 0} 81s
+    ... {'checks': 1550000, 'confl': 193667, 'model_rej': 0} 85s
+    ... {'checks': 1600000, 'confl': 196671, 'model_rej': 0} 88s
+    ... {'checks': 1650000, 'confl': 199215, 'model_rej': 0} 91s
+    ... {'checks': 1700000, 'confl': 201891, 'model_rej': 0} 94s
+    ... {'checks': 1750000, 'confl': 204465, 'model_rej': 0} 98s
+    ... {'checks': 1800000, 'confl': 207092, 'model_rej': 0} 100s
+    ... {'checks': 1850000, 'confl': 210669, 'model_rej': 0} 104s
+    ... {'checks': 1900000, 'confl': 213683, 'model_rej': 0} 107s
+    ... {'checks': 1950000, 'confl': 216163, 'model_rej': 0} 110s
+    ... {'checks': 2000000, 'confl': 218215, 'model_rej': 0} 113s
+    ... {'checks': 2050000, 'confl': 221016, 'model_rej': 0} 116s
+    ... {'checks': 2100000, 'confl': 222764, 'model_rej': 0} 119s
+    ... {'checks': 2150000, 'confl': 224072, 'model_rej': 0} 122s
+    ... {'checks': 2200000, 'confl': 225613, 'model_rej': 0} 125s
+    ... {'checks': 2250000, 'confl': 227733, 'model_rej': 0} 128s
+    ... {'checks': 2300000, 'confl': 230069, 'model_rej': 0} 130s
+    ... {'checks': 2350000, 'confl': 231448, 'model_rej': 0} 133s
+    ... {'checks': 2400000, 'confl': 233845, 'model_rej': 0} 137s
+    ... {'checks': 2450000, 'confl': 235785, 'model_rej': 0} 140s
+    ... {'checks': 2500000, 'confl': 237113, 'model_rej': 0} 143s
+    ... {'checks': 2550000, 'confl': 238187, 'model_rej': 0} 145s
+    ... {'checks': 2600000, 'confl': 239226, 'model_rej': 0} 147s
+[f034-a4-21-e150] stats: {'checks': 2610893, 'confl': 239517, 'model_rej': 0}
+[f034-a4-21-e150] clause dump closed: {'preseed': 6944, 'prop': 479034, 'model': 0}
+[f034-a4-21-e150] UNSAT in 147.9s — NOT BIPLANAR (subject to control validation)
+RESULT f034-a4-21-e150 UNSAT 148.1s

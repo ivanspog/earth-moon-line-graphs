@@ -1,0 +1,5 @@
+⚠ [7/73] Replayed Biplanar.Basic
+warning: Biplanar/Basic.lean:204:12: unused variable `G`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+biplanar-export: wrote 41113 clauses to data/a4_m14s/leaf4.cnf (cube of 2 literals)

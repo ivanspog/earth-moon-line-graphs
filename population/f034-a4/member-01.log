@@ -1,0 +1,40 @@
+# A4 member 1: slack=0 e=156 n=28 mults=[05:2 06:6 14:4 15:2 16:2 23:5 25:3 34:3 45:1] generators=19 backend=boyer Thu Sep 24 15:41:10 2026
+[f034-a4-01-e156] n=28 m=156 cap=78 | 399 K5s, 3766 K3,3s, 19 sym generators, 41540 clauses, propagator check_at=9 planarity=boyer
+    ... {'checks': 50000, 'confl': 12261, 'model_rej': 0} 1s
+    ... {'checks': 100000, 'confl': 23555, 'model_rej': 0} 3s
+    ... {'checks': 150000, 'confl': 34433, 'model_rej': 0} 4s
+    ... {'checks': 200000, 'confl': 44947, 'model_rej': 0} 6s
+    ... {'checks': 250000, 'confl': 54604, 'model_rej': 0} 7s
+    ... {'checks': 300000, 'confl': 63860, 'model_rej': 0} 9s
+    ... {'checks': 350000, 'confl': 74904, 'model_rej': 0} 10s
+    ... {'checks': 400000, 'confl': 86125, 'model_rej': 0} 12s
+    ... {'checks': 450000, 'confl': 96725, 'model_rej': 0} 13s
+    ... {'checks': 500000, 'confl': 107560, 'model_rej': 0} 15s
+    ... {'checks': 550000, 'confl': 116397, 'model_rej': 0} 17s
+    ... {'checks': 600000, 'confl': 126488, 'model_rej': 0} 19s
+    ... {'checks': 650000, 'confl': 133742, 'model_rej': 0} 21s
+    ... {'checks': 700000, 'confl': 138721, 'model_rej': 0} 22s
+    ... {'checks': 750000, 'confl': 145846, 'model_rej': 0} 25s
+    ... {'checks': 800000, 'confl': 151683, 'model_rej': 0} 27s
+    ... {'checks': 850000, 'confl': 156376, 'model_rej': 0} 29s
+    ... {'checks': 900000, 'confl': 162383, 'model_rej': 0} 30s
+    ... {'checks': 950000, 'confl': 168809, 'model_rej': 0} 32s
+    ... {'checks': 1000000, 'confl': 174748, 'model_rej': 0} 35s
+    ... {'checks': 1050000, 'confl': 180138, 'model_rej': 0} 36s
+    ... {'checks': 1100000, 'confl': 183259, 'model_rej': 0} 38s
+    ... {'checks': 1150000, 'confl': 186396, 'model_rej': 0} 40s
+    ... {'checks': 1200000, 'confl': 190663, 'model_rej': 0} 42s
+    ... {'checks': 1250000, 'confl': 194572, 'model_rej': 0} 45s
+    ... {'checks': 1300000, 'confl': 197210, 'model_rej': 0} 48s
+    ... {'checks': 1350000, 'confl': 200214, 'model_rej': 0} 50s
+    ... {'checks': 1400000, 'confl': 203541, 'model_rej': 0} 53s
+    ... {'checks': 1450000, 'confl': 206375, 'model_rej': 0} 55s
+    ... {'checks': 1500000, 'confl': 209940, 'model_rej': 0} 58s
+    ... {'checks': 1550000, 'confl': 212770, 'model_rej': 0} 61s
+    ... {'checks': 1600000, 'confl': 215668, 'model_rej': 0} 63s
+    ... {'checks': 1650000, 'confl': 218411, 'model_rej': 0} 65s
+    ... {'checks': 1700000, 'confl': 219934, 'model_rej': 0} 68s
+    ... {'checks': 1750000, 'confl': 222151, 'model_rej': 0} 73s
+[f034-a4-01-e156] stats: {'checks': 1780674, 'confl': 223404, 'model_rej': 0}
+[f034-a4-01-e156] UNSAT in 73.9s — NOT BIPLANAR (subject to control validation)
+RESULT f034-a4-01-e156 UNSAT 74.0s

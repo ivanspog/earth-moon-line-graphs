@@ -1,0 +1,1 @@
+info: Biplanar/Instances/A4M00.lean:33:0: 'Biplanar.A4M00.not_biplanar' depends on axioms: [propext, Classical.choice, Quot.sound, F_unsat._native.native_decide.ax_1_1, not_biplanar._native.native_decide.ax_1_1, not_biplanar._native.native_decide.ax_1_2, not_biplanar._native.native_decide.ax_1_3] 

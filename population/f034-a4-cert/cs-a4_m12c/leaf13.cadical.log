@@ -1,0 +1,164 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2026
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 3.0.1 c60730422e758ef1cebe7aeddf2dda31c996bf04
+c g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0 -Wall -Wextra -O3 -DNDEBUG
+c Fri Oct 2 18:00:09 UTC 2026 Linux ai-math 6.8.0-139-generic x86_64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/root/earth-moon/lean/data/a4_m12c/leaf13.lrat'
+c writing non-binary proof trace to '/root/earth-moon/lean/data/a4_m12c/leaf13.lrat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/root/earth-moon/lean/data/a4_m12c/leaf13.cnf'
+c opening file to read '/root/earth-moon/lean/data/a4_m12c/leaf13.cnf'
+c found 'p cnf 2945 5937' header
+c parsed 5937 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c   --lrat=true                    (different from default 'false')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail       remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c *  0.00  6  0 0   0  0    0    0 0.0 0 0 2 6  0% 5794 2904 99%
+c )  0.00  6  0 0   0  0    0    0 0.0 0 0 2 6  0% 5794 2904 99%
+c {  0.00  6  0 0   0  0    0    0 0.0 0 0 2 6  0% 5794 2904 99%
+c i  0.00  6 1002 0   0 20   95    5 1.9 4 2 2 6 43% 5711 2896 98%
+c i  0.00  6 1002 0   0 20   96    5 1.9 3 2 2 6 43% 5711 2895 98%
+c i  0.00  6 1003 0   0 19   99    7 1.9 3 2 2 6 44% 5711 2894 98%
+c i  0.01  6 791 0   7 19  175   30 1.5 7 5 2 6 41% 5662 2893 98%
+c i  0.01  6 736 0   9 19  189   34 1.5 7 4 2 6 39% 5655 2889 98%
+c -  0.01  6 503 1   9 14  309   51 1.6 6 4 2 6 39% 5547 2889 98%
+c i  0.01  6 501 1   9 15  311   52 1.6 6 4 2 6 39% 5547 2878 98%
+c i  0.01  6 492 1   9 14  317   53 1.6 6 4 2 6 39% 5547 2794 95%
+c i  0.01  6 487 1   9 15  323   54 1.6 6 4 2 6 39% 5543 2793 95%
+c i  0.01  6 474 1   9 14  335   54 1.6 5 3 2 6 38% 5539 2687 91%
+c i  0.01  6 470 1   9 15  338   54 1.6 5 3 2 6 38% 5539 2685 91%
+c i  0.01  6 448 1   9 14  364   60 1.6 5 3 2 6 37% 5521 2684 91%
+c i  0.01  6 374 1  13 12  468   90 1.7 6 4 2 6 36% 5464 2683 91%
+c i  0.01  6 371 1  13 12  471   90 1.7 6 3 2 6 35% 5462 2682 91%
+c i  0.01  6 370 1  13 12  474   90 1.7 6 3 2 6 35% 5461 2681 91%
+c i  0.01  6 369 1  13 12  475   90 1.7 6 3 2 6 35% 5461 2680 91%
+c i  0.01  6 366 1  13 11  479   90 1.7 6 3 2 6 35% 5460 2645 90%
+c 
+c  seconds   reduction conflicts       size tier2     variables
+c         MB     restarts   redundant    glue  trail       remaining
+c           level     rate       size/glu tier1 irredundant
+c 
+c i  0.01  6 365 1  13 11  480   90 1.7 6 3 2 6 35% 5460 2644 90%
+c i  0.01  6 364 1  13 11  481   90 1.7 6 3 2 6 35% 5460 2643 90%
+c i  0.01  6 363 1  13 11  482   90 1.7 6 3 2 6 35% 5460 2642 90%
+c i  0.01  6 363 1  13 11  483   90 1.7 5 3 2 6 35% 5460 2641 90%
+c i  0.01  6 362 1  13 11  484   90 1.7 5 3 2 6 35% 5460 2636 90%
+c -  0.01  7 259 2  14  8  750  100 1.7 6 3 2 6 37% 4955 2636 90%
+c i  0.01  7 253 2  17  8  769  103 1.7 6 4 2 6 36% 4940 2635 89%
+c i  0.01  7 253 2  17  8  770  103 1.7 6 3 2 6 36% 4940 2634 89%
+c i  0.01  7 252 2  17  8  771  103 1.7 6 3 2 6 36% 4940 2633 89%
+c i  0.01  7 251 2  18  8  775  104 1.7 6 3 2 6 36% 4938 2632 89%
+c i  0.01  7 241 2  27  8  814  116 1.7 6 3 2 6 36% 4917 2631 89%
+c i  0.01  7 233 2  27  8  846  126 1.7 6 3 2 6 35% 4901 2630 89%
+c i  0.01  7 221 2  27  8  897  143 1.7 6 3 2 6 35% 4876 2629 89%
+c i  0.01  7 221 2  27  8  901  145 1.7 6 3 2 6 34% 4876 2628 89%
+c i  0.01  7 217 2  27  8  917  153 1.8 6 3 2 6 34% 4872 2627 89%
+c }  0.01  7 201 2  27  7 1001  186 1.9 6 3 2 6 33% 4840 2627 89%
+c [  0.01  7  0 2  27  0 1001  186 0.0 0 0 2 6  0% 4840 2627 89%
+c O  0.01  7  2 2  27  3 1002  187 1.5 3 2 2 6 20% 4840 2627 89%
+c i  0.01  7  2 2  27  1 1012  189 1.6 3 2 2 6 19% 4836 2622 89%
+c i  0.01  7  2 2  27  2 1019  193 1.8 2 1 2 6 17% 4834 2616 89%
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail       remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c i  0.01  7  3 2  27  2 1026  196 1.5 3 2 2 6 17% 4832 2615 89%
+c i  0.01  7  3 2  27  2 1027  196 1.5 3 2 2 6 17% 4832 2614 89%
+c i  0.01  7  3 2  27  2 1045  202 1.7 3 2 2 6 17% 4827 2588 88%
+c ]  0.01  7  3 2  27  2 1048  201 1.7 3 2 2 6 17% 4827 2427 82%
+c 0  0.01  7  3 2  27  2 1048  201 1.7 3 2 2 6 17% 4827 2427 82%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c LRAT proof file '/root/earth-moon/lean/data/a4_m12c/leaf13.lrat' closed
+c LRAT 6355 added clauses 48.51%
+c LRAT 6745 deleted clauses 51.49%
+c LRAT 316975 bytes (0.30 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.01   98.40% search
+c         0.01   81.05% unstable
+c         0.00   38.68% parse
+c         0.00   10.20% lucky
+c         0.00    6.64% stable
+c         0.00    0.00% simplify
+c   =================================
+c         0.01   70.54% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:               690        65.84 %  of conflicts
+c conflicts:                  1048    144292.99    per second
+c decisions:                  6964    958832.44    per second
+c fixed:                       518        17.59 %  of all variables
+c learned:                     348        33.21 %  per conflict
+c learned_lits:               2364       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                    193         8.16 %  learned literals
+c minishrunken:                 98         4.15 %  learned literals
+c otfs:                       1304       124.43 %  of conflict
+c propagations:              61598         8.48 M  per second
+c reduced:                      10         0.95 %  per conflict
+c rephased:                      1      1048.00    interval
+c restarts:                     27        38.81    interval
+c stabilizing:                   1         3.91 %  of conflicts
+c subsumed:                   1283        21.07 %  of all clauses
+c strengthened:                682        11.20 %  of all clauses
+c ticks:                    241443         3.92    propagation
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 2 used 139 clauses 28.25% accumulated 58.13% tier1
+c focused glue 3 used 100 clauses 20.32% accumulated 78.45%
+c focused glue 4 used 56 clauses 11.38% accumulated 89.83%
+c focused glue 5 used 17 clauses 3.455% accumulated 93.29%
+c focused glue 6 used 8 clauses 1.626% accumulated 94.91% tier2
+c 
+c stable glue 1 used 59 clauses 56.19% accumulated 56.19% tier1
+c stable glue 2 used 23 clauses 21.90% accumulated 78.09% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.01    seconds
+c total real time since initialization:            0.01    seconds
+c maximum resident set size of process:           21.25    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20

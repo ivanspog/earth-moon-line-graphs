@@ -1,0 +1,620 @@
+{
+ "member": "09",
+ "key": "a4_m09c",
+ "name": "A4M09C",
+ "args": {
+  "member": 9,
+  "workers": 7,
+  "limit": 1800.0,
+  "probe": 600.0,
+  "initial_depth": 4,
+  "leaf_max": 1000000000.0,
+  "min_shrink": 0.75,
+  "max_depth": 24,
+  "lean_jobs": 2,
+  "floor": 50.0,
+  "from_dump": null,
+  "replay_log": null,
+  "static_depth": 0,
+  "key": null,
+  "name": null
+ },
+ "jobs": [],
+ "running": [],
+ "leaves": [
+  {
+   "cube": [
+    101,
+    106,
+    108,
+    -141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/p101_p106_p108_n141.txt",
+   "py_solve_s": 0.1,
+   "py_lrat_bytes": 1063815,
+   "core": 1,
+   "dumped": 14678,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/p101_p106_p108_n141/graph.json"
+  },
+  {
+   "cube": [
+    101,
+    -106,
+    108,
+    141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/p101_n106_p108_p141.txt",
+   "py_solve_s": 0.1,
+   "py_lrat_bytes": 815826,
+   "core": 1,
+   "dumped": 14258,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/p101_n106_p108_p141/graph.json"
+  },
+  {
+   "cube": [
+    101,
+    106,
+    108,
+    141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/p101_p106_p108_p141.txt",
+   "py_solve_s": 0.1,
+   "py_lrat_bytes": 953800,
+   "core": 1,
+   "dumped": 16028,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/p101_p106_p108_p141/graph.json"
+  },
+  {
+   "cube": [
+    101,
+    -106,
+    108,
+    -141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/p101_n106_p108_n141.txt",
+   "py_solve_s": 0.1,
+   "py_lrat_bytes": 1555982,
+   "core": 5,
+   "dumped": 17696,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/p101_n106_p108_n141/graph.json"
+  },
+  {
+   "cube": [
+    -101,
+    106,
+    108,
+    141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/n101_p106_p108_p141.txt",
+   "py_solve_s": 0.1,
+   "py_lrat_bytes": 1101464,
+   "core": 1,
+   "dumped": 14266,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/n101_p106_p108_p141/graph.json"
+  },
+  {
+   "cube": [
+    -101,
+    106,
+    108,
+    -141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/n101_p106_p108_n141.txt",
+   "py_solve_s": 0.1,
+   "py_lrat_bytes": 935599,
+   "core": 2,
+   "dumped": 15960,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/n101_p106_p108_n141/graph.json"
+  },
+  {
+   "cube": [
+    -101,
+    -106,
+    108,
+    141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/n101_n106_p108_p141.txt",
+   "py_solve_s": 0.1,
+   "py_lrat_bytes": 1295847,
+   "core": 2,
+   "dumped": 14126,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/n101_n106_p108_p141/graph.json"
+  },
+  {
+   "cube": [
+    -101,
+    -106,
+    108,
+    -141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/n101_n106_p108_n141.txt",
+   "py_solve_s": 0.1,
+   "py_lrat_bytes": 1103714,
+   "core": 181,
+   "dumped": 18172,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/n101_n106_p108_n141/graph.json"
+  },
+  {
+   "cube": [
+    101,
+    106,
+    -108,
+    141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/p101_p106_n108_p141.txt",
+   "py_solve_s": 459.0,
+   "py_lrat_bytes": 487682985,
+   "core": 316720,
+   "dumped": 996614,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/p101_p106_n108_p141/graph.json"
+  },
+  {
+   "cube": [
+    -101,
+    -106,
+    -108,
+    141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/n101_n106_n108_p141.txt",
+   "py_solve_s": 609.5,
+   "py_lrat_bytes": 494113208,
+   "core": 358294,
+   "dumped": 1440954,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/n101_n106_n108_p141/graph.json"
+  },
+  {
+   "cube": [
+    -101,
+    -106,
+    -108,
+    -141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/n101_n106_n108_n141.txt",
+   "py_solve_s": 353.9,
+   "py_lrat_bytes": 387311879,
+   "core": 275732,
+   "dumped": 842922,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/n101_n106_n108_n141/graph.json"
+  },
+  {
+   "cube": [
+    -101,
+    106,
+    -108,
+    -141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/n101_p106_n108_n141.txt",
+   "py_solve_s": 1053.2,
+   "py_lrat_bytes": 730392680,
+   "core": 421616,
+   "dumped": 1390870,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/n101_p106_n108_n141/graph.json"
+  },
+  {
+   "cube": [
+    101,
+    -106,
+    -108,
+    141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/p101_n106_n108_p141.txt",
+   "py_solve_s": 1057.4,
+   "py_lrat_bytes": 715669152,
+   "core": 419764,
+   "dumped": 1405808,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/p101_n106_n108_p141/graph.json"
+  },
+  {
+   "cube": [
+    -101,
+    106,
+    -108,
+    141,
+    38
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/n101_p106_n108_p141_p38.txt",
+   "py_solve_s": 328.0,
+   "py_lrat_bytes": 352270442,
+   "core": 261434,
+   "dumped": 995172,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/n101_p106_n108_p141_p38/graph.json"
+  },
+  {
+   "cube": [
+    101,
+    106,
+    -108,
+    -141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/p101_p106_n108_n141.txt",
+   "py_solve_s": 1231.8,
+   "py_lrat_bytes": 861776112,
+   "core": 438841,
+   "dumped": 1481376,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/p101_p106_n108_n141/graph.json"
+  },
+  {
+   "cube": [
+    -101,
+    106,
+    -108,
+    141,
+    -38,
+    59
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/n101_p106_n108_p141_n38_p59.txt",
+   "py_solve_s": 0.0,
+   "py_lrat_bytes": 603420,
+   "core": 3,
+   "dumped": 15300,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/n101_p106_n108_p141_n38_p59/graph.json"
+  },
+  {
+   "cube": [
+    101,
+    -106,
+    -108,
+    -141
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/p101_n106_n108_n141.txt",
+   "py_solve_s": 1806.1,
+   "py_lrat_bytes": 952465767,
+   "core": 524996,
+   "dumped": 1801504,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/p101_n106_n108_n141/graph.json"
+  },
+  {
+   "cube": [
+    -101,
+    106,
+    -108,
+    141,
+    -38,
+    -59
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/w/n101_p106_n108_p141_n38_n59.txt",
+   "py_solve_s": 399.1,
+   "py_lrat_bytes": 452793320,
+   "core": 286036,
+   "dumped": 1123368,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m09c/r/n101_p106_n108_p141_n38_n59/graph.json"
+  }
+ ],
+ "splits": [
+  {
+   "cube": [
+    -101,
+    106,
+    -108,
+    141
+   ],
+   "edge": 37,
+   "why": "timeout",
+   "after_s": 1800
+  },
+  {
+   "cube": [
+    -101,
+    106,
+    -108,
+    141,
+    -38
+   ],
+   "edge": 58,
+   "why": "timeout",
+   "after_s": 1800
+  }
+ ],
+ "dumps": {},
+ "stats": {
+  "search_s": 12137.70028591156,
+  "static_s": 7754.575803995132,
+  "searches": 18,
+  "timeouts": 2,
+  "queue_wall_s": 4542
+ },
+ "initial_edges": [
+  100,
+  105,
+  107,
+  140
+ ],
+ "probe_done": true,
+ "search_done": true,
+ "export_done": true,
+ "lean": {
+  "leaf1": {
+   "cadical_s": 199.7,
+   "lratcheck_s": 5.2,
+   "lrat_bytes": 358685944,
+   "lrat_sha256": "bee7df257282b0feddb30b2286f55c70eea768a19829f8503f96cac19327b138",
+   "cnf_sha256": "16b40a37363452314d495dc58ce9a4869f576a85b25d91510b96d56f2aece9e0"
+  },
+  "leaf2": {
+   "cadical_s": 217.5,
+   "lratcheck_s": 5.5,
+   "lrat_bytes": 359611473,
+   "lrat_sha256": "24228f0bbe338bc1c117c989a000fc893804461bd2537e75f7546d7855aab4b6",
+   "cnf_sha256": "70f7a6731ffe6ef639d6e394792019aca0625d7fcdc2b2386dfa0afd794f64f1"
+  },
+  "leaf3": {
+   "cadical_s": 0.0,
+   "lratcheck_s": 0.0,
+   "lrat_bytes": 455185,
+   "lrat_sha256": "96e29b4a1dad2e44d5349f2bfc51184d7ee9b8a6986cc40ba558cdef245c5328",
+   "cnf_sha256": "145e0f075debacbf757b34de1cff098654447c9c9fd05c95ac07f85e523dfe5a"
+  },
+  "leaf4": {
+   "cadical_s": 0.0,
+   "lratcheck_s": 0.0,
+   "lrat_bytes": 607487,
+   "lrat_sha256": "3416f430573621f4a5164e23683d53b507c7d697274f03a5dcfd563ec7fca9aa",
+   "cnf_sha256": "fbf3ff6c60004d84d364c2c716cf6411a55bfd5fef7a63d5796ae0a40090707b"
+  },
+  "leaf5": {
+   "cadical_s": 540.1,
+   "lratcheck_s": 10.2,
+   "lrat_bytes": 654130523,
+   "lrat_sha256": "36e30ef1d1823df44b40da1174223a6deb6d6846baaee18487a37b9b11433405",
+   "cnf_sha256": "04cf26932f8e05eefe6b5c56e71a99c195df28123b119297906350b69951550f"
+  },
+  "leaf6": {
+   "cadical_s": 241.4,
+   "lratcheck_s": 6.3,
+   "lrat_bytes": 415136215,
+   "lrat_sha256": "badf49eb091d99f2c39dc1584f0db711bb134ed2d9d2f7772ccb26c2663d3ff9",
+   "cnf_sha256": "515b1a9ecacfc8d3b926dfbd87fe0f85a80b00facbe05cdbd93cc0985798d64f"
+  },
+  "leaf7": {
+   "cadical_s": 0.0,
+   "lratcheck_s": 0.0,
+   "lrat_bytes": 234075,
+   "lrat_sha256": "f1a7b1d9835b28d2f7f11dfd25fedbb2e7a4614abd7fa4e4b6be0ffb7cb9c0f1",
+   "cnf_sha256": "381cc68c469a62d80452a3b10618b4ece9b346f77f01db83e212fac791d18dc6"
+  },
+  "leaf8": {
+   "cadical_s": 141.0,
+   "lratcheck_s": 4.0,
+   "lrat_bytes": 268584457,
+   "lrat_sha256": "7e0ce400e3ca06789ace0e279ff467b7d3e7a6bb07818e46c728966779ec1965",
+   "cnf_sha256": "ed37369f49ef15243ee809517b6292d35d87daab16248bb74d49fc5b0fe6ea68"
+  },
+  "leaf9": {
+   "cadical_s": 0.0,
+   "lratcheck_s": 0.0,
+   "lrat_bytes": 306174,
+   "lrat_sha256": "653a7e18ce631941559a61dccadb60fe7950a29dd5decbdc40bd59918889dd9a",
+   "cnf_sha256": "f6b43fd38b215c9ac6898a391a08a7518b00ef6e08054c680cff24a1ef12f362"
+  },
+  "leaf10": {
+   "cadical_s": 0.0,
+   "lratcheck_s": 0.0,
+   "lrat_bytes": 306092,
+   "lrat_sha256": "71f95036d0ca2cd7dfeb749d54382d15980b74cbc399745c11458b0dc7cd506d",
+   "cnf_sha256": "656283421fcdf8d032061aefb8061bcd4fbd38e63bb477f7933ad818b2c8e719"
+  },
+  "leaf11": {
+   "cadical_s": 732.8,
+   "lratcheck_s": 11.6,
+   "lrat_bytes": 789422153,
+   "lrat_sha256": "f799e1552d4492c003fef55a0df5e3490d34773b620bbd1790dd290670e05bb7",
+   "cnf_sha256": "5d740a059475a90cef243932ca9dfa37d0cda81dc129c7451be079704a2c9aa8"
+  },
+  "leaf12": {
+   "cadical_s": 532.7,
+   "lratcheck_s": 9.6,
+   "lrat_bytes": 630042108,
+   "lrat_sha256": "d5a3fefc1f181c86af4e2118efd0b02e09f3f1b4f9ac4b1f14d9e459c7589093",
+   "cnf_sha256": "cbebc482969d60308b86ef4beabf3aef572aae1c52438d4db101226d6dc284c5"
+  },
+  "leaf13": {
+   "cadical_s": 0.0,
+   "lratcheck_s": 0.0,
+   "lrat_bytes": 332705,
+   "lrat_sha256": "f9f7586ab11ce0aeb08b1e74b6dc08c7d7c0edf36a6fa3a96bafe0b8ec8db798",
+   "cnf_sha256": "00e51a75b1a64776f20dc143896063f365fbefe6df3b412b6d4d40aa44edb4d1"
+  },
+  "leaf14": {
+   "cadical_s": 0.0,
+   "lratcheck_s": 0.0,
+   "lrat_bytes": 608971,
+   "lrat_sha256": "12b2b0a8bd240d0a6b8459f45861105406367aaadaa81c40251106f4143f1346",
+   "cnf_sha256": "1fee576ed4391c87e58fa609de53b9c3e98a9d5fd81009dd4876c7b7bcf06977"
+  },
+  "leaf15": {
+   "cadical_s": 648.4,
+   "lratcheck_s": 11.0,
+   "lrat_bytes": 736182731,
+   "lrat_sha256": "cd3bafd974918cc7e0afe254479c6a157c50bb4e85ba1b3864a2b0ec53f8c094",
+   "cnf_sha256": "2dc169ca7e6bd23128433ba2bd036886bce31759898e93d861b2bc770d6a2c06"
+  },
+  "leaf16": {
+   "cadical_s": 214.8,
+   "lratcheck_s": 5.8,
+   "lrat_bytes": 389294506,
+   "lrat_sha256": "751e09d440a3a7aef455fa259f488d8c2a0ba55b0179c4bf1b97d683c042b564",
+   "cnf_sha256": "b8e85daa5c6a94db4376191344417dcb390b18d6acff0cc9ce3c1db0ca3a6a97"
+  },
+  "leaf17": {
+   "cadical_s": 0.0,
+   "lratcheck_s": 0.0,
+   "lrat_bytes": 306090,
+   "lrat_sha256": "16f47c664ddc659d9d7e89b678baca8146926e0635d73bbfec6696453cc95032",
+   "cnf_sha256": "6f97e925d23f31207e95998f00d1f88d50086b10a93bc4990cacda57fdecc6b5"
+  },
+  "leaf18": {
+   "cadical_s": 0.0,
+   "lratcheck_s": 0.0,
+   "lrat_bytes": 306092,
+   "lrat_sha256": "7b11c10dad8f464f3c3781ee3b2b4acdc57b87c3c7f933c6bf11821485ee6d4e",
+   "cnf_sha256": "d23b0e835075b1ac18a20c3c1ef64d6113865a13f62b34468a3d66041eb55d9a"
+  },
+  "cover": {
+   "cadical_s": 0.0,
+   "lratcheck_s": 0.0,
+   "lrat_bytes": 484,
+   "lrat_sha256": "8a48cf3a382e4afcb1b801300ac1c682f10f37086156b97bc7ac25adcbe3db1e",
+   "cnf_sha256": "67a3a25ce3ca9bab1904b1f1de5caf3c3b5129bcffc4cdbd75ed5498ac7e0110"
+  }
+ },
+ "lean_solve_wall_s": 805,
+ "lean_solved": true,
+ "leaf_batches_done": 9,
+ "leaf_build": [
+  {
+   "leaves": [
+    1,
+    2
+   ],
+   "wall_s": 92,
+   "maxrss": 7375392768
+  },
+  {
+   "leaves": [
+    3,
+    4
+   ],
+   "wall_s": 2,
+   "maxrss": 1570017280
+  },
+  {
+   "leaves": [
+    5,
+    6
+   ],
+   "wall_s": 145,
+   "maxrss": 11425443840
+  },
+  {
+   "leaves": [
+    7,
+    8
+   ],
+   "wall_s": 70,
+   "maxrss": 5512130560
+  },
+  {
+   "leaves": [
+    9,
+    10
+   ],
+   "wall_s": 2,
+   "maxrss": 1566339072
+  },
+  {
+   "leaves": [
+    11,
+    12
+   ],
+   "wall_s": 178,
+   "maxrss": 11467169792
+  },
+  {
+   "leaves": [
+    13,
+    14
+   ],
+   "wall_s": 2,
+   "maxrss": 1571409920
+  },
+  {
+   "leaves": [
+    15,
+    16
+   ],
+   "wall_s": 157,
+   "maxrss": 11708280832
+  },
+  {
+   "leaves": [
+    17,
+    18
+   ],
+   "wall_s": 2,
+   "maxrss": 1564569600
+  }
+ ],
+ "axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "cover_unsat._native.native_decide.ax_1_1",
+  "leaf1._native.native_decide.ax_1_1",
+  "leaf1._native.native_decide.ax_1_2",
+  "leaf1._native.native_decide.ax_1_3",
+  "leaf10._native.native_decide.ax_1_1",
+  "leaf10._native.native_decide.ax_1_2",
+  "leaf10._native.native_decide.ax_1_3",
+  "leaf10_unsat._native.native_decide.ax_1_1",
+  "leaf11._native.native_decide.ax_1_1",
+  "leaf11._native.native_decide.ax_1_2",
+  "leaf11._native.native_decide.ax_1_3",
+  "leaf11_unsat._native.native_decide.ax_1_1",
+  "leaf12._native.native_decide.ax_1_1",
+  "leaf12._native.native_decide.ax_1_2",
+  "leaf12._native.native_decide.ax_1_3",
+  "leaf12_unsat._native.native_decide.ax_1_1",
+  "leaf13._native.native_decide.ax_1_1",
+  "leaf13._native.native_decide.ax_1_2",
+  "leaf13._native.native_decide.ax_1_3",
+  "leaf13_unsat._native.native_decide.ax_1_1",
+  "leaf14._native.native_decide.ax_1_1",
+  "leaf14._native.native_decide.ax_1_2",
+  "leaf14._native.native_decide.ax_1_3",
+  "leaf14_unsat._native.native_decide.ax_1_1",
+  "leaf15._native.native_decide.ax_1_1",
+  "leaf15._native.native_decide.ax_1_2",
+  "leaf15._native.native_decide.ax_1_3",
+  "leaf15_unsat._native.native_decide.ax_1_1",
+  "leaf16._native.native_decide.ax_1_1",
+  "leaf16._native.native_decide.ax_1_2",
+  "leaf16._native.native_decide.ax_1_3",
+  "leaf16_unsat._native.native_decide.ax_1_1",
+  "leaf17._native.native_decide.ax_1_1",
+  "leaf17._native.native_decide.ax_1_2",
+  "leaf17._native.native_decide.ax_1_3",
+  "leaf17_unsat._native.native_decide.ax_1_1",
+  "leaf18._native.native_decide.ax_1_1",
+  "leaf18._native.native_decide.ax_1_2",
+  "leaf18._native.native_decide.ax_1_3",
+  "leaf18_unsat._native.native_decide.ax_1_1",
+  "leaf1_unsat._native.native_decide.ax_1_1",
+  "leaf2._native.native_decide.ax_1_1",
+  "leaf2._native.native_decide.ax_1_2",
+  "leaf2._native.native_decide.ax_1_3",
+  "leaf2_unsat._native.native_decide.ax_1_1",
+  "leaf3._native.native_decide.ax_1_1",
+  "leaf3._native.native_decide.ax_1_2",
+  "leaf3._native.native_decide.ax_1_3",
+  "leaf3_unsat._native.native_decide.ax_1_1",
+  "leaf4._native.native_decide.ax_1_1",
+  "leaf4._native.native_decide.ax_1_2",
+  "leaf4._native.native_decide.ax_1_3",
+  "leaf4_unsat._native.native_decide.ax_1_1",
+  "leaf5._native.native_decide.ax_1_1",
+  "leaf5._native.native_decide.ax_1_2",
+  "leaf5._native.native_decide.ax_1_3",
+  "leaf5_unsat._native.native_decide.ax_1_1",
+  "leaf6._native.native_decide.ax_1_1",
+  "leaf6._native.native_decide.ax_1_2",
+  "leaf6._native.native_decide.ax_1_3",
+  "leaf6_unsat._native.native_decide.ax_1_1",
+  "leaf7._native.native_decide.ax_1_1",
+  "leaf7._native.native_decide.ax_1_2",
+  "leaf7._native.native_decide.ax_1_3",
+  "leaf7_unsat._native.native_decide.ax_1_1",
+  "leaf8._native.native_decide.ax_1_1",
+  "leaf8._native.native_decide.ax_1_2",
+  "leaf8._native.native_decide.ax_1_3",
+  "leaf8_unsat._native.native_decide.ax_1_1",
+  "leaf9._native.native_decide.ax_1_1",
+  "leaf9._native.native_decide.ax_1_2",
+  "leaf9._native.native_decide.ax_1_3",
+  "leaf9_unsat._native.native_decide.ax_1_1",
+  "not_biplanar._native.native_decide.ax_1_1",
+  "not_biplanar._native.native_decide.ax_1_2"
+ ],
+ "built": true,
+ "build_wall_s": 653,
+ "free_gb_end": 869.1
+}

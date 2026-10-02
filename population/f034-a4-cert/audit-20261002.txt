@@ -1,0 +1,31 @@
+trusted core (compare across machines):
+  0923ec9254285fa5  Biplanar/Basic.lean
+  be9477477fc06c14  Biplanar/SymDefs.lean
+  32b11d4a4047b5a4  Biplanar/Sym.lean
+  b6fd481609994b9b  Biplanar/Lift.lean
+enumeration recomputed: 22 members, cache agrees
+  member 00  A4M00     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 01  A4M01     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 02  A4M02     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 03  A4M03     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 04  A4M04C    OK   (91 native_decide axioms, 22 witness file(s) match MANIFEST)
+  member 05  A4M05     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 06  A4M06     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 07  A4M07S    OK   (67 native_decide axioms, 16 witness file(s) match MANIFEST)
+  member 08  A4M08     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 09  A4M09C    OK   (75 native_decide axioms, 18 witness file(s) match MANIFEST)
+  member 10  A4M10     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 11  A4M11C    OK   (75 native_decide axioms, 18 witness file(s) match MANIFEST)
+  member 12  A4M12C    OK   (75 native_decide axioms, 18 witness file(s) match MANIFEST)
+  member 13  A4M13S    OK   (67 native_decide axioms, 16 witness file(s) match MANIFEST)
+  member 14  A4M14     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 14  A4M14S    OK   (19 native_decide axioms, 4 witness file(s) match MANIFEST)
+  member 15  A4M15     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 16  A4M16     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 17  A4M17     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 17  A4M17S    OK   (35 native_decide axioms, 8 witness file(s) match MANIFEST)
+  member 18  A4M18     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 19  A4M19     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 20  A4M20     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+  member 21  A4M21     OK   (4 native_decide axioms, 1 witness file(s) match MANIFEST)
+=== 22/22 members covered by an audited Lean theorem; 0 failing instance(s)

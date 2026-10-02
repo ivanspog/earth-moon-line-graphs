@@ -1,0 +1,16 @@
+⚠ [7/47] Replayed Biplanar.Basic
+warning: Biplanar/Basic.lean:204:12: unused variable `G`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [41/47] Built Biplanar.Instances.A4M18.Defs (6.3s)
+✔ [42/47] Built Biplanar.Instances.A4M18.Defs:c.o (640ms)
+✔ [43/47] Built Biplanar.Instances (945ms)
+✔ [44/47] Built Biplanar.Instances:c.o (77ms)
+✔ [45/47] Built Export (943ms)
+✔ [47/47] Built «biplanar-export»:exe (2.3s)
+Build completed successfully (47 jobs).
+⚠ [7/47] Replayed Biplanar.Basic
+warning: Biplanar/Basic.lean:204:12: unused variable `G`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+biplanar-export: wrote 356003 clauses to data/a4_m18/F.cnf

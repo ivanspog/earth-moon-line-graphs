@@ -1,0 +1,6 @@
+wrote /Users/ivanspogreev/earth-moon/verifier/../lean/Biplanar/Instances/A4M03/Defs.lean, /Users/ivanspogreev/earth-moon/verifier/../lean/Biplanar/Instances/A4M03.lean, data/a4_m03/witnesses.txt (124131 lines)
+NEXT: register ("a4_m03", Biplanar.A4M03.F) in lean/Biplanar/Instances.lean (import Biplanar.Instances.A4M03.Defs), then from lean/:
+  lake exe biplanar-export a4_m03 data/a4_m03/F.cnf
+  cadical --lrat --no-binary --no-factor data/a4_m03/F.cnf data/a4_m03/F.lrat
+  ../tools/drat-trim/lrat-check data/a4_m03/F.cnf data/a4_m03/F.lrat
+  lake build Biplanar.Instances.A4M03

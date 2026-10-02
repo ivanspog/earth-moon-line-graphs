@@ -1,0 +1,615 @@
+{
+ "member": "11",
+ "key": "a4_m11c",
+ "name": "A4M11C",
+ "args": {
+  "member": 11,
+  "workers": 12,
+  "limit": 3600.0,
+  "probe": 600.0,
+  "initial_depth": 4,
+  "leaf_max": 1000000000.0,
+  "min_shrink": 0.75,
+  "max_depth": 24,
+  "lean_jobs": 2,
+  "floor": 50.0,
+  "key": null,
+  "name": null
+ },
+ "jobs": [],
+ "running": [],
+ "leaves": [
+  {
+   "cube": [
+    107,
+    128,
+    -146,
+    60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/p107_p128_n146_p60.txt",
+   "py_solve_s": 0.1,
+   "py_lrat_bytes": 1384030,
+   "core": 4,
+   "dumped": 11558,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/p107_p128_n146_p60/graph.json"
+  },
+  {
+   "cube": [
+    107,
+    128,
+    146,
+    60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/p107_p128_p146_p60.txt",
+   "py_solve_s": 0.0,
+   "py_lrat_bytes": 872858,
+   "core": 128,
+   "dumped": 13492,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/p107_p128_p146_p60/graph.json"
+  },
+  {
+   "cube": [
+    107,
+    -128,
+    146,
+    60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/p107_n128_p146_p60.txt",
+   "py_solve_s": 0.1,
+   "py_lrat_bytes": 5336880,
+   "core": 257,
+   "dumped": 13066,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/p107_n128_p146_p60/graph.json"
+  },
+  {
+   "cube": [
+    107,
+    -128,
+    146,
+    -60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/p107_n128_p146_n60.txt",
+   "py_solve_s": 0.0,
+   "py_lrat_bytes": 1060458,
+   "core": 191,
+   "dumped": 13706,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/p107_n128_p146_n60/graph.json"
+  },
+  {
+   "cube": [
+    107,
+    128,
+    146,
+    -60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/p107_p128_p146_n60.txt",
+   "py_solve_s": 0.0,
+   "py_lrat_bytes": 746195,
+   "core": 270,
+   "dumped": 14944,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/p107_p128_p146_n60/graph.json"
+  },
+  {
+   "cube": [
+    107,
+    -128,
+    -146,
+    60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/p107_n128_n146_p60.txt",
+   "py_solve_s": 0.1,
+   "py_lrat_bytes": 1507784,
+   "core": 244,
+   "dumped": 14594,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/p107_n128_n146_p60/graph.json"
+  },
+  {
+   "cube": [
+    107,
+    -128,
+    -146,
+    -60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/p107_n128_n146_n60.txt",
+   "py_solve_s": 0.0,
+   "py_lrat_bytes": 1260246,
+   "core": 154,
+   "dumped": 15226,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/p107_n128_n146_n60/graph.json"
+  },
+  {
+   "cube": [
+    107,
+    128,
+    -146,
+    -60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/p107_p128_n146_n60.txt",
+   "py_solve_s": 0.1,
+   "py_lrat_bytes": 1583796,
+   "core": 226,
+   "dumped": 17872,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/p107_p128_n146_n60/graph.json"
+  },
+  {
+   "cube": [
+    -107,
+    -128,
+    146,
+    60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/n107_n128_p146_p60.txt",
+   "py_solve_s": 81.1,
+   "py_lrat_bytes": 160585677,
+   "core": 127522,
+   "dumped": 377980,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/n107_n128_p146_p60/graph.json"
+  },
+  {
+   "cube": [
+    -107,
+    128,
+    -146,
+    60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/n107_p128_n146_p60.txt",
+   "py_solve_s": 90.6,
+   "py_lrat_bytes": 175185337,
+   "core": 136102,
+   "dumped": 409538,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/n107_p128_n146_p60/graph.json"
+  },
+  {
+   "cube": [
+    -107,
+    -128,
+    -146,
+    -60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/n107_n128_n146_n60.txt",
+   "py_solve_s": 73.9,
+   "py_lrat_bytes": 174762246,
+   "core": 122667,
+   "dumped": 782748,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/n107_n128_n146_n60/graph.json"
+  },
+  {
+   "cube": [
+    -107,
+    128,
+    146,
+    -60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/n107_p128_p146_n60.txt",
+   "py_solve_s": 94.9,
+   "py_lrat_bytes": 215559028,
+   "core": 129728,
+   "dumped": 898536,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/n107_p128_p146_n60/graph.json"
+  },
+  {
+   "cube": [
+    -107,
+    -128,
+    -146,
+    60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/n107_n128_n146_p60.txt",
+   "py_solve_s": 365.4,
+   "py_lrat_bytes": 530633780,
+   "core": 269853,
+   "dumped": 804880,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/n107_n128_n146_p60/graph.json"
+  },
+  {
+   "cube": [
+    -107,
+    128,
+    146,
+    60
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/n107_p128_p146_p60.txt",
+   "py_solve_s": 509.3,
+   "py_lrat_bytes": 617541010,
+   "core": 321924,
+   "dumped": 981476,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/n107_p128_p146_p60/graph.json"
+  },
+  {
+   "cube": [
+    -107,
+    -128,
+    146,
+    -60,
+    94
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/n107_n128_p146_n60_p94.txt",
+   "py_solve_s": 71.2,
+   "py_lrat_bytes": 159037211,
+   "core": 126490,
+   "dumped": 363096,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/n107_n128_p146_n60_p94/graph.json"
+  },
+  {
+   "cube": [
+    -107,
+    -128,
+    146,
+    -60,
+    -94
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/n107_n128_p146_n60_n94.txt",
+   "py_solve_s": 71.1,
+   "py_lrat_bytes": 142292747,
+   "core": 123453,
+   "dumped": 514876,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/n107_n128_p146_n60_n94/graph.json"
+  },
+  {
+   "cube": [
+    -107,
+    128,
+    -146,
+    -60,
+    108
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/n107_p128_n146_n60_p108.txt",
+   "py_solve_s": 125.4,
+   "py_lrat_bytes": 209362179,
+   "core": 112045,
+   "dumped": 1441114,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/n107_p128_n146_n60_p108/graph.json"
+  },
+  {
+   "cube": [
+    -107,
+    128,
+    -146,
+    -60,
+    -108
+   ],
+   "w": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/w/n107_p128_n146_n60_n108.txt",
+   "py_solve_s": 1675.8,
+   "py_lrat_bytes": 1080723217,
+   "core": 461099,
+   "dumped": 1441114,
+   "graph": "/root/earth-moon/population/f034-a4-cert/cs-a4_m11c/r/n107_p128_n146_n60_n108/graph.json"
+  }
+ ],
+ "splits": [
+  {
+   "cube": [
+    -107,
+    -128,
+    146,
+    -60
+   ],
+   "edge": 93,
+   "why": "timeout",
+   "after_s": 1800
+  },
+  {
+   "cube": [
+    -107,
+    128,
+    -146,
+    -60
+   ],
+   "edge": 107,
+   "why": "leaf-too-big",
+   "lrat_bytes": 1134711979
+  }
+ ],
+ "dumps": {},
+ "stats": {
+  "search_s": 5523.834790945053,
+  "static_s": 5046.040999174118,
+  "searches": 17,
+  "timeouts": 1,
+  "queue_wall_s": 4909
+ },
+ "initial_edges": [
+  106,
+  127,
+  145,
+  59
+ ],
+ "probe_done": true,
+ "search_done": true,
+ "export_done": true,
+ "lean": {
+  "leaf1": {
+   "cadical_s": 55.6,
+   "lratcheck_s": 2.1,
+   "lrat_bytes": 139612429,
+   "lrat_sha256": "fe0bcf7f3362385b358e25fe8910f582f5abea594c1b07063e7d3c6a888e63d7",
+   "cnf_sha256": "288109ae4a38061e82ffcc4c25d53bb70dd7b31c77f204a0dea88aeac86b6121"
+  },
+  "leaf2": {
+   "cadical_s": 321.5,
+   "lratcheck_s": 7.4,
+   "lrat_bytes": 502565772,
+   "lrat_sha256": "05db620a4de152654b1f0065998da0c71b0fb49fe3608e51f6409bd9f18de63b",
+   "cnf_sha256": "8c3f79dc28258161286a48d08b7b1624da942e435cd98c1b35c14cc0ead96cbc"
+  },
+  "leaf3": {
+   "cadical_s": 56.3,
+   "lratcheck_s": 2.2,
+   "lrat_bytes": 133301506,
+   "lrat_sha256": "6bd35b513c1a6e3bfca8582d2c4713349c4047137a8700e2f323ef91938cdd41",
+   "cnf_sha256": "06b77b3df9d4700c43772ec1f120912cf7fe929683ca0c3722f3124df7291d10"
+  },
+  "leaf4": {
+   "cadical_s": 53.4,
+   "lratcheck_s": 2.4,
+   "lrat_bytes": 139182989,
+   "lrat_sha256": "971a0f390a36629f13e4adc0789bcea760d209ce771d1c809d0655a42231cbd0",
+   "cnf_sha256": "85ae4cd06cd0a6ba4f96d42c83afa1446529c4514d26d5677fb92a44b9a34bb9"
+  },
+  "leaf5": {
+   "cadical_s": 60.0,
+   "lratcheck_s": 2.4,
+   "lrat_bytes": 144764118,
+   "lrat_sha256": "5a878f77c48609db6ee6371e77afeb9c3bdfb05f77db268406c4cacb923466a3",
+   "cnf_sha256": "44f8a9ed1f91ac4c897b751bb99c22c83d0d2a16b36f4c9c283af5eaa3202632"
+  },
+  "leaf6": {
+   "cadical_s": 982.3,
+   "lratcheck_s": 13.8,
+   "lrat_bytes": 949361693,
+   "lrat_sha256": "adb97e23207a0abb4e21aeabca0d45a842e1f9a5a8ead411723e4f50ae2e185f",
+   "cnf_sha256": "17c13533981761ef0fb19f02c300610188ead78b81f67d481bf8caf1cfa7fb13"
+  },
+  "leaf7": {
+   "cadical_s": 48.1,
+   "lratcheck_s": 2.1,
+   "lrat_bytes": 125621702,
+   "lrat_sha256": "ae10291d01bc7f4cddbe044f2d2a2dcf4c24bb5c71e8e15246bf13de8c69e69c",
+   "cnf_sha256": "02c588939bad3b48197a4bb57cd790a52f707d06316581cc83a7d34ad2482351"
+  },
+  "leaf8": {
+   "cadical_s": 71.3,
+   "lratcheck_s": 2.5,
+   "lrat_bytes": 168513829,
+   "lrat_sha256": "4291ea8d73a535f3c821de84a6f297fa1200582912ee5ef4547db6b77392adf3",
+   "cnf_sha256": "6f9f7c07a82ff7947da3007d6c3bcb2e767113112aeee2d85c687a720f0551cf"
+  },
+  "leaf9": {
+   "cadical_s": 74.3,
+   "lratcheck_s": 2.6,
+   "lrat_bytes": 166619336,
+   "lrat_sha256": "d57a9ffa1cd47bc62ee3553af9602ce9247883457ff467a5c98b86a97b24ab41",
+   "cnf_sha256": "98066440fba539baf7fd2afcaa0096b24feeddb340d89ec0e337f548b8dbc28b"
+  },
+  "leaf10": {
+   "cadical_s": 424.4,
+   "lratcheck_s": 8.2,
+   "lrat_bytes": 586838022,
+   "lrat_sha256": "026f7756535fd403c02d23b3d96cb970ec96d96ef3c4f4a65e1ddfc4e003a283",
+   "cnf_sha256": "ee3bd7d3a6c60a91d934baee89765978c82ba0939c66ae0523037e8cedea89f6"
+  },
+  "leaf11": {
+   "cadical_s": 0.0,
+   "lratcheck_s": 0.1,
+   "lrat_bytes": 523946,
+   "lrat_sha256": "74e2a32b42a3f96c3cd6192738258af01ed80761dffd17773ec70554791d157c",
+   "cnf_sha256": "87477c62accc4dad9482bbf72836c32b3b0ce9e3107155feab18ab67d0f2e336"
+  },
+  "leaf12": {
+   "cadical_s": 0.1,
+   "lratcheck_s": 0.0,
+   "lrat_bytes": 505215,
+   "lrat_sha256": "6ce53bbf294b0cb7f77f19b6bfe71ceb8a479a085fdb97a17a1314e4419ce958",
+   "cnf_sha256": "d7e72eabb77cb479e507f6b7449bda434a36545afa0aa31e73aa966cd1598b25"
+  },
+  "leaf13": {
+   "cadical_s": 0.1,
+   "lratcheck_s": 0.1,
+   "lrat_bytes": 554365,
+   "lrat_sha256": "737a9c751de6dc16538edeb7ddc19edaaa734537468499cbe420bcf016ec5365",
+   "cnf_sha256": "39cb34c3cc84b95a9f942ae04fbb08f6513c36de1a7f140a2f72b71252184ddb"
+  },
+  "leaf14": {
+   "cadical_s": 0.1,
+   "lratcheck_s": 0.1,
+   "lrat_bytes": 463141,
+   "lrat_sha256": "847bc431d7caf45f933a5b3cd48157f40d943e935bb6e2f6f51a5c2fb4b3b066",
+   "cnf_sha256": "60ccbee00f8888ade478963a32fb62ae0c2f7166643b10ae369b6403d8d95dac"
+  },
+  "leaf15": {
+   "cadical_s": 0.1,
+   "lratcheck_s": 0.1,
+   "lrat_bytes": 413598,
+   "lrat_sha256": "54d06147d67edcf63ef0e3087ba14e90033512b66df3e7976492a7846cc490b9",
+   "cnf_sha256": "6a225df9e6dbd5fe627a6353a3f3f3b477cd76f499ab50f4ed03b6c22839fb9e"
+  },
+  "leaf16": {
+   "cadical_s": 0.1,
+   "lratcheck_s": 0.1,
+   "lrat_bytes": 496005,
+   "lrat_sha256": "04e835a228fb45cdeaa42d8a4d5e3aa7c5b33b9ce659f37422c361ccd5943bd1",
+   "cnf_sha256": "fcaf19d7057c3d58eec07ea704563b172a3b452dbace8011e36f16f70e67e36e"
+  },
+  "leaf17": {
+   "cadical_s": 0.1,
+   "lratcheck_s": 0.1,
+   "lrat_bytes": 599833,
+   "lrat_sha256": "85f44c3f2b70967a1b7deea4d3adc4c58b91e541886c2b1305c55834670574ae",
+   "cnf_sha256": "9b94a2da9370b20f7fe4f958af15dd795d3415a316edcc728f31fe5e7f33bb3e"
+  },
+  "leaf18": {
+   "cadical_s": 0.1,
+   "lratcheck_s": 0.1,
+   "lrat_bytes": 626900,
+   "lrat_sha256": "42b1420757839bb86c6fa03434be680d7f5f258a6108528d1d4d89a1be74928e",
+   "cnf_sha256": "5828024283a782974c0659271a787c09b4331e63a3fdb5fb1977d589a38983a5"
+  },
+  "cover": {
+   "cadical_s": 0.0,
+   "lratcheck_s": 0.0,
+   "lrat_bytes": 472,
+   "lrat_sha256": "a712cc2a41050656c9c60971aad28a9f2d02f721e0389eabfab7267d7b7472aa",
+   "cnf_sha256": "7ff66cf9ce2d4c076d62e185c43e2140f5f88c80739741383846a3cbdbae7acc"
+  }
+ },
+ "lean_solve_wall_s": 997,
+ "lean_solved": true,
+ "leaf_batches_done": 9,
+ "leaf_build": [
+  {
+   "leaves": [
+    1,
+    2
+   ],
+   "wall_s": 105,
+   "maxrss": 9272332288
+  },
+  {
+   "leaves": [
+    3,
+    4
+   ],
+   "wall_s": 35,
+   "maxrss": 3631648768
+  },
+  {
+   "leaves": [
+    5,
+    6
+   ],
+   "wall_s": 186,
+   "maxrss": 12929724416
+  },
+  {
+   "leaves": [
+    7,
+    8
+   ],
+   "wall_s": 41,
+   "maxrss": 3920531456
+  },
+  {
+   "leaves": [
+    9,
+    10
+   ],
+   "wall_s": 116,
+   "maxrss": 10356121600
+  },
+  {
+   "leaves": [
+    11,
+    12
+   ],
+   "wall_s": 2,
+   "maxrss": 1570148352
+  },
+  {
+   "leaves": [
+    13,
+    14
+   ],
+   "wall_s": 2,
+   "maxrss": 1547509760
+  },
+  {
+   "leaves": [
+    15,
+    16
+   ],
+   "wall_s": 2,
+   "maxrss": 1565532160
+  },
+  {
+   "leaves": [
+    17,
+    18
+   ],
+   "wall_s": 2,
+   "maxrss": 1569538048
+  }
+ ],
+ "axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "cover_unsat._native.native_decide.ax_1_1",
+  "leaf1._native.native_decide.ax_1_1",
+  "leaf1._native.native_decide.ax_1_2",
+  "leaf1._native.native_decide.ax_1_3",
+  "leaf10._native.native_decide.ax_1_1",
+  "leaf10._native.native_decide.ax_1_2",
+  "leaf10._native.native_decide.ax_1_3",
+  "leaf10_unsat._native.native_decide.ax_1_1",
+  "leaf11._native.native_decide.ax_1_1",
+  "leaf11._native.native_decide.ax_1_2",
+  "leaf11._native.native_decide.ax_1_3",
+  "leaf11_unsat._native.native_decide.ax_1_1",
+  "leaf12._native.native_decide.ax_1_1",
+  "leaf12._native.native_decide.ax_1_2",
+  "leaf12._native.native_decide.ax_1_3",
+  "leaf12_unsat._native.native_decide.ax_1_1",
+  "leaf13._native.native_decide.ax_1_1",
+  "leaf13._native.native_decide.ax_1_2",
+  "leaf13._native.native_decide.ax_1_3",
+  "leaf13_unsat._native.native_decide.ax_1_1",
+  "leaf14._native.native_decide.ax_1_1",
+  "leaf14._native.native_decide.ax_1_2",
+  "leaf14._native.native_decide.ax_1_3",
+  "leaf14_unsat._native.native_decide.ax_1_1",
+  "leaf15._native.native_decide.ax_1_1",
+  "leaf15._native.native_decide.ax_1_2",
+  "leaf15._native.native_decide.ax_1_3",
+  "leaf15_unsat._native.native_decide.ax_1_1",
+  "leaf16._native.native_decide.ax_1_1",
+  "leaf16._native.native_decide.ax_1_2",
+  "leaf16._native.native_decide.ax_1_3",
+  "leaf16_unsat._native.native_decide.ax_1_1",
+  "leaf17._native.native_decide.ax_1_1",
+  "leaf17._native.native_decide.ax_1_2",
+  "leaf17._native.native_decide.ax_1_3",
+  "leaf17_unsat._native.native_decide.ax_1_1",
+  "leaf18._native.native_decide.ax_1_1",
+  "leaf18._native.native_decide.ax_1_2",
+  "leaf18._native.native_decide.ax_1_3",
+  "leaf18_unsat._native.native_decide.ax_1_1",
+  "leaf1_unsat._native.native_decide.ax_1_1",
+  "leaf2._native.native_decide.ax_1_1",
+  "leaf2._native.native_decide.ax_1_2",
+  "leaf2._native.native_decide.ax_1_3",
+  "leaf2_unsat._native.native_decide.ax_1_1",
+  "leaf3._native.native_decide.ax_1_1",
+  "leaf3._native.native_decide.ax_1_2",
+  "leaf3._native.native_decide.ax_1_3",
+  "leaf3_unsat._native.native_decide.ax_1_1",
+  "leaf4._native.native_decide.ax_1_1",
+  "leaf4._native.native_decide.ax_1_2",
+  "leaf4._native.native_decide.ax_1_3",
+  "leaf4_unsat._native.native_decide.ax_1_1",
+  "leaf5._native.native_decide.ax_1_1",
+  "leaf5._native.native_decide.ax_1_2",
+  "leaf5._native.native_decide.ax_1_3",
+  "leaf5_unsat._native.native_decide.ax_1_1",
+  "leaf6._native.native_decide.ax_1_1",
+  "leaf6._native.native_decide.ax_1_2",
+  "leaf6._native.native_decide.ax_1_3",
+  "leaf6_unsat._native.native_decide.ax_1_1",
+  "leaf7._native.native_decide.ax_1_1",
+  "leaf7._native.native_decide.ax_1_2",
+  "leaf7._native.native_decide.ax_1_3",
+  "leaf7_unsat._native.native_decide.ax_1_1",
+  "leaf8._native.native_decide.ax_1_1",
+  "leaf8._native.native_decide.ax_1_2",
+  "leaf8._native.native_decide.ax_1_3",
+  "leaf8_unsat._native.native_decide.ax_1_1",
+  "leaf9._native.native_decide.ax_1_1",
+  "leaf9._native.native_decide.ax_1_2",
+  "leaf9._native.native_decide.ax_1_3",
+  "leaf9_unsat._native.native_decide.ax_1_1",
+  "not_biplanar._native.native_decide.ax_1_1",
+  "not_biplanar._native.native_decide.ax_1_2"
+ ],
+ "built": true,
+ "build_wall_s": 494,
+ "free_gb_end": 873.6
+}

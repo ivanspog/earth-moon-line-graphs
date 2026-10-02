@@ -1,0 +1,6 @@
+# A4 member 11: slack=1 e=155 n=28 mults=[05:2 06:6 14:4 15:3 16:1 23:5 25:3 34:3 46:1] generators=19 backend=boyer Fri Oct  2 18:29:27 2026 cube=[107, 128, 146, 60]
+[f034-a4-11-e155] n=28 m=155 cap=78 | 389 K5s, 3363 K3,3s, 19 sym generators, 40347 clauses, propagator check_at=9 planarity=boyer, clause dump -> /root/earth-moon/population/f034-a4-cert/cs-a4_m11c/s/p107_p128_p146_p60/dump.jsonl
+[f034-a4-11-e155] stats: {'checks': 14071, 'confl': 2994, 'model_rej': 0}
+[f034-a4-11-e155] clause dump closed: {'preseed': 7504, 'prop': 5988, 'model': 0}
+[f034-a4-11-e155] UNSAT in 0.7s — NOT BIPLANAR (subject to control validation)
+RESULT f034-a4-11-e155 UNSAT 0.9s

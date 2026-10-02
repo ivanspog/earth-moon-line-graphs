@@ -1,0 +1,56 @@
+[cs] 2026-10-02 18:19:21 member 11 -> A4M11C (a4_m11c); 879.7 GB free; workers 12, limit 3600s, leaf-max 1.00 GB
+[cs] 2026-10-02 18:29:27 probe 600s -> 16 initial jobs (edges [106, 127, 145, 59])
+[cs] 2026-10-02 18:29:28 search p107_p128_n146_p60: UNSAT 1s
+[cs] 2026-10-02 18:29:28 search p107_p128_p146_p60: UNSAT 1s
+[cs] 2026-10-02 18:29:28 search p107_n128_p146_p60: UNSAT 1s
+[cs] 2026-10-02 18:29:28 search p107_n128_p146_n60: UNSAT 1s
+[cs] 2026-10-02 18:29:28 search p107_n128_n146_p60: UNSAT 1s
+[cs] 2026-10-02 18:29:28 search p107_p128_p146_n60: UNSAT 1s
+[cs] 2026-10-02 18:29:28 search p107_n128_n146_n60: UNSAT 1s
+[cs] 2026-10-02 18:29:28 search p107_p128_n146_n60: UNSAT 1s
+[cs] 2026-10-02 18:29:28 static p107_p128_n146_p60: leaf (4 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 18:29:28 static p107_p128_p146_p60: leaf (128 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 18:29:29 static p107_n128_p146_p60: leaf (257 witnesses, 0.01 GB, solve 0s)
+[cs] 2026-10-02 18:29:29 static p107_n128_p146_n60: leaf (191 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 18:29:29 static p107_p128_p146_n60: leaf (270 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 18:29:29 static p107_n128_n146_p60: leaf (244 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 18:29:29 static p107_n128_n146_n60: leaf (154 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 18:29:29 static p107_p128_n146_n60: leaf (226 witnesses, 0.00 GB, solve 0s)
+[cs] 2026-10-02 18:31:28 search n107_n128_p146_p60: UNSAT 120s
+[cs] 2026-10-02 18:31:45 search n107_p128_n146_p60: UNSAT 139s
+[cs] 2026-10-02 18:32:49 search n107_n128_n146_n60: UNSAT 201s
+[cs] 2026-10-02 18:33:03 static n107_n128_p146_p60: leaf (127522 witnesses, 0.16 GB, solve 81s)
+[cs] 2026-10-02 18:33:32 static n107_p128_n146_p60: leaf (136102 witnesses, 0.18 GB, solve 91s)
+[cs] 2026-10-02 18:34:04 search n107_p128_p146_n60: UNSAT 277s
+[cs] 2026-10-02 18:34:25 static n107_n128_n146_n60: leaf (122667 witnesses, 0.17 GB, solve 74s)
+[cs] 2026-10-02 18:34:55 member 11 -> A4M11C (a4_m11c); 877.6 GB free; workers 22, limit 1800s, leaf-max 1.00 GB
+[cs] 2026-10-02 18:34:55 resuming: re-queue 5 interrupted jobs
+[cs] 2026-10-02 18:36:55 static n107_p128_p146_n60: leaf (129728 witnesses, 0.22 GB, solve 95s)
+[cs] 2026-10-02 18:43:01 search n107_n128_n146_p60: UNSAT 486s
+[cs] 2026-10-02 18:45:58 search n107_p128_p146_p60: UNSAT 663s
+[cs] 2026-10-02 18:49:44 static n107_n128_n146_p60: leaf (269853 witnesses, 0.53 GB, solve 365s)
+[cs] 2026-10-02 18:55:10 static n107_p128_p146_p60: leaf (321924 witnesses, 0.62 GB, solve 509s)
+[cs] 2026-10-02 19:01:00 search n107_p128_n146_n60: UNSAT 1565s
+[cs] 2026-10-02 19:05:03 search n107_n128_p146_n60: TIMEOUT 1800s -> split on edge 93
+[cs] 2026-10-02 19:07:00 search n107_n128_p146_n60_p94: UNSAT 117s
+[cs] 2026-10-02 19:07:29 search n107_n128_p146_n60_n94: UNSAT 146s
+[cs] 2026-10-02 19:08:25 static n107_n128_p146_n60_p94: leaf (126490 witnesses, 0.16 GB, solve 71s)
+[cs] 2026-10-02 19:08:56 static n107_n128_p146_n60_n94: leaf (123453 witnesses, 0.14 GB, solve 71s)
+[cs] 2026-10-02 19:27:38 static n107_p128_n146_n60: certificate 1.13 GB > leaf-max -> bisect on edge 107 (same dump)
+[cs] 2026-10-02 19:30:18 static n107_p128_n146_n60_p108: leaf (112045 witnesses, 0.21 GB, solve 125s)
+[cs] 2026-10-02 19:56:44 static n107_p128_n146_n60_n108: 1.08 GB > leaf-max but not < 0.75 x parent (1.13 GB) -> accepted as a leaf
+[cs] 2026-10-02 19:56:44 static n107_p128_n146_n60_n108: leaf (461099 witnesses, 1.08 GB, solve 1676s)
+[cs] 2026-10-02 19:56:44 all cubes refuted: 18 leaves, 17 searches, 1 timeouts, 2 splits; queue wall 4909s
+[cs] 2026-10-02 19:57:44 Lean modules for 18 leaves generated; graph check OK; 0 tautologies; lex MATCH
+[cs] 2026-10-02 20:14:21 Lean-side CaDiCaL + lrat-check VERIFIED for 18 leaves and the cover (997s wall)
+[cs] 2026-10-02 20:16:06 leaves 1..2 built (105s, max RSS 9.3 GB)
+[cs] 2026-10-02 20:16:40 leaves 3..4 built (35s, max RSS 3.6 GB)
+[cs] 2026-10-02 20:19:46 leaves 5..6 built (186s, max RSS 12.9 GB)
+[cs] 2026-10-02 20:20:27 leaves 7..8 built (41s, max RSS 3.9 GB)
+[cs] 2026-10-02 20:22:23 leaves 9..10 built (116s, max RSS 10.4 GB)
+[cs] 2026-10-02 20:22:25 leaves 11..12 built (2s, max RSS 1.6 GB)
+[cs] 2026-10-02 20:22:27 leaves 13..14 built (2s, max RSS 1.5 GB)
+[cs] 2026-10-02 20:22:29 leaves 15..16 built (2s, max RSS 1.6 GB)
+[cs] 2026-10-02 20:22:31 leaves 17..18 built (2s, max RSS 1.6 GB)
+[cs] 2026-10-02 20:22:35 CERTIFIED: Biplanar.A4M11C.not_biplanar via 18 leaves (axioms: standard + 75 native_decide)
+EXIT=0

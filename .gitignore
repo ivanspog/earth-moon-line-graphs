@@ -1,0 +1,12 @@
+# Lean build output and regenerated certificates (tools/rebuild.py)
+lean/.lake/
+lean/data/*/F.cnf
+lean/data/*/F.lrat
+lean/data/*/leaf*.cnf
+lean/data/*/leaf*.lrat
+rebuild-logs/
+# witness files are restored from data/witnesses/*.tar.xz by tools/unpack_witnesses.sh
+lean/data/*/w*.txt
+lean/data/*/witnesses.txt
+__pycache__/
+*.pyc
