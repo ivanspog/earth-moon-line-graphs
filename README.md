@@ -18,8 +18,9 @@ graphs, open since Ringel 1959. The known bounds are 9 ≤ χ ≤ 12.
 This is a research record, not a refereed paper. Every claim below carries its verification
 status. **Nothing here has been peer-reviewed.**
 
-Archived releases: DOI to be added after the first release. The earlier deposit on the α ≤ 2
-route is [10.5281/zenodo.22242268](https://doi.org/10.5281/zenodo.22242268).
+Archived on Zenodo: **[10.5281/zenodo.23113159](https://doi.org/10.5281/zenodo.23113159)** (all versions;
+v1.0.0 is [10.5281/zenodo.23113160](https://doi.org/10.5281/zenodo.23113160)). The earlier deposit on the
+α ≤ 2 route is [10.5281/zenodo.22242268](https://doi.org/10.5281/zenodo.22242268).
 
 ## Claims
 
