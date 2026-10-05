@@ -1,0 +1,7 @@
+ℹ [44/47] Built Biplanar.Enum.Main (502s)
+✔ [45/47] Built Biplanar.Enum.Main:c.o (58ms)
+✔ [46/47] Built Biplanar.Enum.Main:dynlib (46ms)
+ℹ [47/47] Built Biplanar.Enum.Close (3.1s)
+Build completed successfully (47 jobs).
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:54.47
+	Maximum resident set size (kbytes): 2956156

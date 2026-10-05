@@ -1,0 +1,24 @@
+20:02:01 # f036 worker n23-ils-s109 pid 56136 n=23 evals=60000 seed=109 start=mix
+20:02:01 corpus pairs usable at n <= 23: 37
+20:02:01 start corpus: chi_f=8.500000
+20:02:01 ev 0: seed #1 from k5c8: chi_f=9.000000
+20:02:02 NEW CORE n23-ils-s109-c001: state n=23 e=119 chi_f=9.000000; core n=13 e=66 alpha=2 chi_f in [9, 9] wl=ce6a1ee6f7
+20:02:38 ev 4526: seed #2 from corpus: chi_f=8.500000
+20:03:01 ev 9065 [151.1/s] cur=8.0000 elite=8.5000 best=9.0000 seeds=2 cores>=9: 1  top visited: 9.0000x107, 8.5000x1689, 8.0000x4594, 7.5000x1083
+20:03:03 ev 9271: seed #3 from k5c8: chi_f=9.000000
+20:03:43 ev 13944: seed #4 from corpus: chi_f=8.200000
+20:04:01 ev 16817 [140.1/s] cur=8.0000 elite=8.5000 best=9.0000 seeds=4 cores>=9: 1  top visited: 9.0000x263, 8.5000x2498, 8.3333x141, 8.2000x2
+20:04:17 ev 18797: seed #5 from random: chi_f=6.000000
+20:05:01 ev 22681 [126.0/s] cur=7.0000 elite=8.0000 best=9.0000 seeds=5 cores>=9: 1  top visited: 9.0000x263, 8.5000x2675, 8.3333x141, 8.2000x2
+20:05:22 ev 25618: seed #6 from k5c8: chi_f=9.000000
+20:05:49 ev 30134: seed #7 from random: chi_f=6.000000
+20:06:01 ev 31381 [130.7/s] cur=7.0000 elite=7.0000 best=9.0000 seeds=7 cores>=9: 1  top visited: 9.0000x316, 8.5000x3408, 8.3333x141, 8.2000x2
+20:06:53 ev 36949: seed #8 from k5c8: chi_f=9.000000
+20:07:02 ev 37853 [125.9/s] cur=9.0000 elite=9.0000 best=9.0000 seeds=8 cores>=9: 1  top visited: 9.0000x364, 8.5000x3703, 8.3333x141, 8.2000x2
+20:07:37 ev 41482: seed #9 from random: chi_f=5.500000
+20:08:02 ev 44173 [122.5/s] cur=8.0000 elite=8.0000 best=9.0000 seeds=9 cores>=9: 1  top visited: 9.0000x675, 8.5000x5077, 8.3333x141, 8.2000x2
+20:08:22 ev 46761: seed #10 from corpus: chi_f=8.500000
+20:08:47 ev 51383: seed #11 from k5c8: chi_f=9.000000
+20:09:02 ev 53638 [127.5/s] cur=9.0000 elite=9.0000 best=9.0000 seeds=11 cores>=9: 1  top visited: 9.0000x751, 8.5000x6905, 8.3333x141, 8.2000x2
+20:09:18 ev 56145: seed #12 from k5c8: chi_f=9.000000
+20:09:46 # DONE ev=60000 best=9.000000 seeds=12 cores>=9=1 elapsed=465s  top visited: 9.0000x905, 8.5000x8095, 8.3333x141, 8.2000x2, 8.0000x27290, 7.6667x13, 7.5000x3373, 7.3333x31

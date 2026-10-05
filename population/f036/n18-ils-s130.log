@@ -1,0 +1,14 @@
+20:41:26 # f036 worker n18-ils-s130 pid 60957 n=18 evals=20000 seed=130 start=mix
+20:41:26 corpus pairs usable at n <= 18: 18
+20:41:26 start random: chi_f=6.000000
+20:41:26 ev 0: seed #1 from random: chi_f=5.500000
+20:41:26 ev 3: new best chi_f=5.666667 (n=18, e=81)
+20:41:26 ev 4: new best chi_f=6.000000 (n=18, e=80)
+20:41:26 ev 49: new best chi_f=6.500000 (n=18, e=91)
+20:41:26 ev 71: new best chi_f=7.000000 (n=18, e=90)
+20:41:34 ev 1213: new best chi_f=8.000000 (n=18, e=87)
+20:42:04 ev 6400: seed #2 from corpus: chi_f=8.500000
+20:42:26 ev 9959 [165.9/s] cur=7.0000 elite=8.5000 best=8.5000 seeds=2 cores>=9: 0  top visited: 8.5000x133, 8.0000x4026, 7.6667x1, 7.5000x248
+20:42:32 ev 11033: seed #3 from corpus: chi_f=8.500000
+20:42:59 ev 15919: seed #4 from corpus: chi_f=8.500000
+20:43:20 # DONE ev=20000 best=8.500000 seeds=4 cores>=9=0 elapsed=114s  top visited: 8.5000x548, 8.0000x8945, 7.7500x1, 7.6667x1, 7.5000x667, 7.3333x22, 7.2000x1, 7.0000x8347

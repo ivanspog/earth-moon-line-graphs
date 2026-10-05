@@ -1,0 +1,13 @@
+20:48:43 # f036 worker n18-ils-s508 pid 61831 n=18 evals=30000 seed=508 start=corpus
+20:48:43 corpus pairs usable at n <= 18: 18
+20:48:44 start corpus: chi_f=8.500000
+20:48:44 ev 0: seed #1 from corpus: chi_f=8.500000
+20:49:03 ev 4778: seed #2 from corpus: chi_f=8.500000
+20:49:24 ev 9788: seed #3 from corpus: chi_f=8.500000
+20:49:43 ev 14754: seed #4 from corpus: chi_f=8.500000
+20:49:44 ev 14931 [248.8/s] cur=8.5000 elite=8.5000 best=8.5000 seeds=4 cores>=9: 0  top visited: 8.5000x570, 8.0000x7456, 7.5000x743, 7.3333x4
+20:50:02 ev 19374: seed #5 from corpus: chi_f=8.500000
+20:50:20 ev 23968: seed #6 from corpus: chi_f=8.500000
+20:50:41 ev 29250: seed #7 from corpus: chi_f=8.500000
+20:50:44 ev 29771 [248.1/s] cur=8.0000 elite=8.5000 best=8.5000 seeds=7 cores>=9: 0  top visited: 8.5000x1331, 8.0000x15870, 7.5000x1536, 7.3333x10
+20:50:44 # DONE ev=30000 best=8.500000 seeds=7 cores>=9=0 elapsed=121s  top visited: 8.5000x1331, 8.0000x16018, 7.5000x1536, 7.3333x10, 7.2500x1, 7.2000x1, 7.0000x10163, 6.6667x11

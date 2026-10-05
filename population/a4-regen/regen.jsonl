@@ -1,0 +1,211 @@
+{"step": "cover", "key": "a4_m04c", "sha_match": true}
+{"step": "cover", "key": "a4_m07s", "sha_match": true}
+{"step": "cover", "key": "a4_m09c", "sha_match": true}
+{"step": "cover", "key": "a4_m11c", "sha_match": true}
+{"step": "cover", "key": "a4_m12c", "sha_match": true}
+{"step": "cover", "key": "a4_m13s", "sha_match": true}
+{"step": "start", "members": 22, "certificates": 124, "workers": 4}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf11", "write_s": 38.5, "cnf_sha_match": true, "cadical_s": 816.5, "lrat_bytes": 789422153, "lrat_sha_match": true, "lratcheck_s": 12.3, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b001", "modules": ["Biplanar.Instances.A4M09C.Leaf11"], "rc": 0, "s": 187.3, "ok": true}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf6", "write_s": 38.5, "cnf_sha_match": true, "cadical_s": 1040.7, "lrat_bytes": 949361693, "lrat_sha_match": true, "lratcheck_s": 14.2, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b002", "modules": ["Biplanar.Instances.A4M11C.Leaf6"], "rc": 0, "s": 202.5, "ok": true}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf4", "write_s": 36.2, "cnf_sha_match": true, "cadical_s": 1365.9, "lrat_bytes": 938806294, "lrat_sha_match": true, "lratcheck_s": 14.7, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf7", "write_s": 9.9, "cnf_sha_match": true, "cadical_s": 741.0, "lrat_bytes": 775070042, "lrat_sha_match": true, "lratcheck_s": 13.6, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b003", "modules": ["Biplanar.Instances.A4M12C.Leaf4"], "rc": 0, "s": 203.8, "ok": true}
+{"step": "lake", "label": "b004", "modules": ["Biplanar.Instances.A4M04C.Leaf7"], "rc": 0, "s": 171.6, "ok": true}
+{"step": "solve", "key": "a4_m17", "tag": "F", "write_s": 39.6, "cnf_sha_match": true, "cadical_s": 1834.8, "lrat_bytes": 1165622078, "lrat_sha_match": true, "lratcheck_s": 17.7, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m06", "tag": "F", "write_s": 7.9, "cnf_sha_match": true, "cadical_s": 902.9, "lrat_bytes": 788026056, "lrat_sha_match": true, "lratcheck_s": 12.3, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf15", "write_s": 8.6, "cnf_sha_match": true, "cadical_s": 695.1, "lrat_bytes": 736182731, "lrat_sha_match": true, "lratcheck_s": 11.6, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b005", "modules": ["Biplanar.Instances.A4M17"], "rc": 0, "s": 255.5, "ok": true}
+{"step": "lake", "label": "b006", "modules": ["Biplanar.Instances.A4M06", "Biplanar.Instances.A4M09C.Leaf15"], "rc": 0, "s": 176.5, "ok": true}
+{"step": "solve", "key": "a4_m18", "tag": "F", "write_s": 7.9, "cnf_sha_match": true, "cadical_s": 348.7, "lrat_bytes": 497452725, "lrat_sha_match": true, "lratcheck_s": 7.1, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b007", "modules": ["Biplanar.Instances.A4M18"], "rc": 0, "s": 138.7, "ok": true}
+{"step": "solve", "key": "a4_m08", "tag": "F", "write_s": 7.3, "cnf_sha_match": true, "cadical_s": 666.7, "lrat_bytes": 600396355, "lrat_sha_match": true, "lratcheck_s": 12.3, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b008", "modules": ["Biplanar.Instances.A4M08"], "rc": 0, "s": 152.1, "ok": true}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf1", "write_s": 7.2, "cnf_sha_match": true, "cadical_s": 968.6, "lrat_bytes": 784329978, "lrat_sha_match": true, "lratcheck_s": 12.9, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf5", "write_s": 8.2, "cnf_sha_match": true, "cadical_s": 1235.2, "lrat_bytes": 1000428733, "lrat_sha_match": true, "lratcheck_s": 16.5, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b009", "modules": ["Biplanar.Instances.A4M12C.Leaf1"], "rc": 0, "s": 194.9, "ok": true}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf5", "write_s": 8.5, "cnf_sha_match": true, "cadical_s": 605.7, "lrat_bytes": 654130523, "lrat_sha_match": true, "lratcheck_s": 10.7, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b010", "modules": ["Biplanar.Instances.A4M12C.Leaf5"], "rc": 0, "s": 214.5, "ok": true}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf12", "write_s": 7.6, "cnf_sha_match": true, "cadical_s": 593.6, "lrat_bytes": 630042108, "lrat_sha_match": true, "lratcheck_s": 10.1, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b011", "modules": ["Biplanar.Instances.A4M09C.Leaf5"], "rc": 0, "s": 165.1, "ok": true}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf10", "write_s": 6.0, "cnf_sha_match": true, "cadical_s": 456.7, "lrat_bytes": 586838022, "lrat_sha_match": true, "lratcheck_s": 9.4, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b012", "modules": ["Biplanar.Instances.A4M09C.Leaf12"], "rc": 0, "s": 149.8, "ok": true}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf9", "write_s": 6.8, "cnf_sha_match": true, "cadical_s": 315.6, "lrat_bytes": 365619530, "lrat_sha_match": true, "lratcheck_s": 6.8, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf2", "write_s": 7.0, "cnf_sha_match": true, "cadical_s": 810.3, "lrat_bytes": 821136162, "lrat_sha_match": true, "lratcheck_s": 11.7, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b013", "modules": ["Biplanar.Instances.A4M11C.Leaf10"], "rc": 0, "s": 129.2, "ok": true}
+{"step": "solve", "key": "a4_m19", "tag": "F", "write_s": 7.2, "cnf_sha_match": true, "cadical_s": 913.7, "lrat_bytes": 815610710, "lrat_sha_match": true, "lratcheck_s": 13.2, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b014", "modules": ["Biplanar.Instances.A4M04C.Leaf2", "Biplanar.Instances.A4M07S.Leaf9"], "rc": 0, "s": 161.5, "ok": true}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf11", "write_s": 6.0, "cnf_sha_match": true, "cadical_s": 373.5, "lrat_bytes": 516504174, "lrat_sha_match": true, "lratcheck_s": 10.5, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf13", "write_s": 5.8, "cnf_sha_match": true, "cadical_s": 298.2, "lrat_bytes": 416258667, "lrat_sha_match": true, "lratcheck_s": 9.6, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf15", "write_s": 6.0, "cnf_sha_match": true, "cadical_s": 418.2, "lrat_bytes": 526838367, "lrat_sha_match": true, "lratcheck_s": 8.5, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b015", "modules": ["Biplanar.Instances.A4M19"], "rc": 0, "s": 183.3, "ok": true}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf11", "write_s": 6.8, "cnf_sha_match": true, "cadical_s": 292.4, "lrat_bytes": 343431913, "lrat_sha_match": true, "lratcheck_s": 5.3, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b016", "modules": ["Biplanar.Instances.A4M04C.Leaf11", "Biplanar.Instances.A4M07S.Leaf15"], "rc": 0, "s": 125.5, "ok": true}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf2", "write_s": 7.0, "cnf_sha_match": true, "cadical_s": 239.0, "lrat_bytes": 359611473, "lrat_sha_match": true, "lratcheck_s": 9.7, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b017", "modules": ["Biplanar.Instances.A4M07S.Leaf13", "Biplanar.Instances.A4M07S.Leaf11"], "rc": 0, "s": 103.4, "ok": true}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf16", "write_s": 5.8, "cnf_sha_match": true, "cadical_s": 271.1, "lrat_bytes": 428318402, "lrat_sha_match": true, "lratcheck_s": 6.8, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf10", "write_s": 5.6, "cnf_sha_match": true, "cadical_s": 224.2, "lrat_bytes": 318474961, "lrat_sha_match": true, "lratcheck_s": 5.7, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b018", "modules": ["Biplanar.Instances.A4M09C.Leaf2"], "rc": 0, "s": 94.5, "ok": true}
+{"step": "lake", "label": "b019", "modules": ["Biplanar.Instances.A4M07S.Leaf16", "Biplanar.Instances.A4M07S.Leaf10"], "rc": 0, "s": 111.4, "ok": true}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf12", "write_s": 5.3, "cnf_sha_match": true, "cadical_s": 207.7, "lrat_bytes": 281093450, "lrat_sha_match": true, "lratcheck_s": 4.8, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b020", "modules": ["Biplanar.Instances.A4M07S.Leaf12"], "rc": 0, "s": 86.4, "ok": true}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf5", "write_s": 5.6, "cnf_sha_match": true, "cadical_s": 343.3, "lrat_bytes": 444608772, "lrat_sha_match": true, "lratcheck_s": 7.6, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf4", "write_s": 7.6, "cnf_sha_match": true, "cadical_s": 495.0, "lrat_bytes": 506091883, "lrat_sha_match": true, "lratcheck_s": 8.6, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf6", "write_s": 5.9, "cnf_sha_match": true, "cadical_s": 662.9, "lrat_bytes": 619085474, "lrat_sha_match": true, "lratcheck_s": 9.3, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b021", "modules": ["Biplanar.Instances.A4M04C.Leaf5"], "rc": 0, "s": 106.7, "ok": true}
+{"step": "solve", "key": "a4_m00", "tag": "F", "write_s": 4.8, "cnf_sha_match": true, "cadical_s": 347.8, "lrat_bytes": 482718290, "lrat_sha_match": true, "lratcheck_s": 7.3, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b022", "modules": ["Biplanar.Instances.A4M12C.Leaf6", "Biplanar.Instances.A4M04C.Leaf4"], "rc": 0, "s": 144.4, "ok": true}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf2", "write_s": 5.1, "cnf_sha_match": true, "cadical_s": 332.0, "lrat_bytes": 502565772, "lrat_sha_match": true, "lratcheck_s": 8.2, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b023", "modules": ["Biplanar.Instances.A4M00"], "rc": 0, "s": 99.0, "ok": true}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf14", "write_s": 5.2, "cnf_sha_match": true, "cadical_s": 201.6, "lrat_bytes": 326829170, "lrat_sha_match": true, "lratcheck_s": 5.9, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b024", "modules": ["Biplanar.Instances.A4M11C.Leaf2"], "rc": 0, "s": 115.2, "ok": true}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf1", "write_s": 10.0, "cnf_sha_match": true, "cadical_s": 421.0, "lrat_bytes": 430047906, "lrat_sha_match": true, "lratcheck_s": 9.3, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf14", "write_s": 8.0, "cnf_sha_match": true, "cadical_s": 458.0, "lrat_bytes": 500759971, "lrat_sha_match": true, "lratcheck_s": 7.6, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b025", "modules": ["Biplanar.Instances.A4M07S.Leaf14"], "rc": 0, "s": 105.7, "ok": true}
+{"step": "lake", "label": "b026", "modules": ["Biplanar.Instances.A4M04C.Leaf1", "Biplanar.Instances.A4M04C.Leaf14"], "rc": 0, "s": 110.3, "ok": true}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf13", "write_s": 6.6, "cnf_sha_match": true, "cadical_s": 378.8, "lrat_bytes": 438745461, "lrat_sha_match": true, "lratcheck_s": 8.1, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf16", "write_s": 6.6, "cnf_sha_match": true, "cadical_s": 242.5, "lrat_bytes": 389294506, "lrat_sha_match": true, "lratcheck_s": 6.4, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf10", "write_s": 5.4, "cnf_sha_match": true, "cadical_s": 289.2, "lrat_bytes": 355194021, "lrat_sha_match": true, "lratcheck_s": 6.3, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b027", "modules": ["Biplanar.Instances.A4M04C.Leaf13"], "rc": 0, "s": 109.1, "ok": true}
+{"step": "lake", "label": "b028", "modules": ["Biplanar.Instances.A4M09C.Leaf16", "Biplanar.Instances.A4M04C.Leaf10"], "rc": 0, "s": 95.3, "ok": true}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf2", "write_s": 5.7, "cnf_sha_match": true, "cadical_s": 475.0, "lrat_bytes": 432068317, "lrat_sha_match": true, "lratcheck_s": 7.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf14", "write_s": 5.6, "cnf_sha_match": true, "cadical_s": 251.6, "lrat_bytes": 301275137, "lrat_sha_match": true, "lratcheck_s": 5.0, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b029", "modules": ["Biplanar.Instances.A4M12C.Leaf2"], "rc": 0, "s": 107.3, "ok": true}
+{"step": "solve", "key": "a4_m16", "tag": "F", "write_s": 5.5, "cnf_sha_match": true, "cadical_s": 368.7, "lrat_bytes": 404582858, "lrat_sha_match": true, "lratcheck_s": 6.2, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b030", "modules": ["Biplanar.Instances.A4M13S.Leaf14"], "rc": 0, "s": 85.8, "ok": true}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf13", "write_s": 7.8, "cnf_sha_match": true, "cadical_s": 270.4, "lrat_bytes": 302615637, "lrat_sha_match": true, "lratcheck_s": 5.7, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b031", "modules": ["Biplanar.Instances.A4M16"], "rc": 0, "s": 97.9, "ok": true}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf9", "write_s": 4.9, "cnf_sha_match": true, "cadical_s": 420.6, "lrat_bytes": 485143413, "lrat_sha_match": true, "lratcheck_s": 7.9, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf12", "write_s": 4.8, "cnf_sha_match": true, "cadical_s": 272.7, "lrat_bytes": 368719538, "lrat_sha_match": true, "lratcheck_s": 7.2, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b032", "modules": ["Biplanar.Instances.A4M13S.Leaf13"], "rc": 0, "s": 88.4, "ok": true}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf5", "write_s": 4.9, "cnf_sha_match": true, "cadical_s": 274.5, "lrat_bytes": 317101456, "lrat_sha_match": true, "lratcheck_s": 5.0, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b033", "modules": ["Biplanar.Instances.A4M04C.Leaf9", "Biplanar.Instances.A4M04C.Leaf12"], "rc": 0, "s": 113.8, "ok": true}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf6", "write_s": 5.0, "cnf_sha_match": true, "cadical_s": 236.4, "lrat_bytes": 415136215, "lrat_sha_match": true, "lratcheck_s": 10.6, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf1", "write_s": 5.2, "cnf_sha_match": true, "cadical_s": 252.7, "lrat_bytes": 286842001, "lrat_sha_match": true, "lratcheck_s": 4.3, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b034", "modules": ["Biplanar.Instances.A4M13S.Leaf5"], "rc": 0, "s": 82.9, "ok": true}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf9", "write_s": 5.3, "cnf_sha_match": true, "cadical_s": 253.6, "lrat_bytes": 310547062, "lrat_sha_match": true, "lratcheck_s": 4.8, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b035", "modules": ["Biplanar.Instances.A4M09C.Leaf6", "Biplanar.Instances.A4M13S.Leaf1"], "rc": 0, "s": 96.2, "ok": true}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf10", "write_s": 4.5, "cnf_sha_match": true, "cadical_s": 222.1, "lrat_bytes": 281281664, "lrat_sha_match": true, "lratcheck_s": 6.2, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b036", "modules": ["Biplanar.Instances.A4M13S.Leaf9"], "rc": 0, "s": 79.7, "ok": true}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf8", "write_s": 4.4, "cnf_sha_match": true, "cadical_s": 154.2, "lrat_bytes": 268584457, "lrat_sha_match": true, "lratcheck_s": 4.1, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf1", "write_s": 5.9, "cnf_sha_match": true, "cadical_s": 215.6, "lrat_bytes": 358685944, "lrat_sha_match": true, "lratcheck_s": 9.1, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b037", "modules": ["Biplanar.Instances.A4M13S.Leaf10"], "rc": 0, "s": 79.3, "ok": true}
+{"step": "solve", "key": "a4_m05", "tag": "F", "write_s": 4.6, "cnf_sha_match": true, "cadical_s": 388.9, "lrat_bytes": 497404861, "lrat_sha_match": true, "lratcheck_s": 11.8, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf15", "write_s": 5.1, "cnf_sha_match": true, "cadical_s": 146.0, "lrat_bytes": 207813845, "lrat_sha_match": true, "lratcheck_s": 3.7, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b038", "modules": ["Biplanar.Instances.A4M09C.Leaf1", "Biplanar.Instances.A4M09C.Leaf8"], "rc": 0, "s": 93.4, "ok": true}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf6", "write_s": 5.6, "cnf_sha_match": true, "cadical_s": 190.1, "lrat_bytes": 238142198, "lrat_sha_match": true, "lratcheck_s": 4.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf16", "write_s": 3.8, "cnf_sha_match": true, "cadical_s": 142.1, "lrat_bytes": 208047206, "lrat_sha_match": true, "lratcheck_s": 3.7, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf2", "write_s": 6.3, "cnf_sha_match": true, "cadical_s": 218.2, "lrat_bytes": 289938627, "lrat_sha_match": true, "lratcheck_s": 4.4, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b039", "modules": ["Biplanar.Instances.A4M05", "Biplanar.Instances.A4M13S.Leaf15"], "rc": 0, "s": 122.1, "ok": true}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf7", "write_s": 4.1, "cnf_sha_match": true, "cadical_s": 163.5, "lrat_bytes": 225794668, "lrat_sha_match": true, "lratcheck_s": 5.9, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf3", "write_s": 3.8, "cnf_sha_match": true, "cadical_s": 141.7, "lrat_bytes": 216833478, "lrat_sha_match": true, "lratcheck_s": 3.3, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf12", "write_s": 4.3, "cnf_sha_match": true, "cadical_s": 131.9, "lrat_bytes": 188451095, "lrat_sha_match": true, "lratcheck_s": 3.0, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b040", "modules": ["Biplanar.Instances.A4M13S.Leaf6", "Biplanar.Instances.A4M13S.Leaf2"], "rc": 0, "s": 80.3, "ok": true}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf11", "write_s": 3.5, "cnf_sha_match": true, "cadical_s": 131.0, "lrat_bytes": 197299585, "lrat_sha_match": true, "lratcheck_s": 3.9, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b041", "modules": ["Biplanar.Instances.A4M13S.Leaf16", "Biplanar.Instances.A4M13S.Leaf7"], "rc": 0, "s": 63.0, "ok": true}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf8", "write_s": 8.0, "cnf_sha_match": true, "cadical_s": 133.7, "lrat_bytes": 214492022, "lrat_sha_match": true, "lratcheck_s": 4.5, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b042", "modules": ["Biplanar.Instances.A4M13S.Leaf3", "Biplanar.Instances.A4M13S.Leaf12"], "rc": 0, "s": 76.9, "ok": true}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf6", "write_s": 3.3, "cnf_sha_match": true, "cadical_s": 140.8, "lrat_bytes": 214839608, "lrat_sha_match": true, "lratcheck_s": 3.4, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m13s", "tag": "leaf4", "write_s": 3.0, "cnf_sha_match": true, "cadical_s": 117.5, "lrat_bytes": 197134511, "lrat_sha_match": true, "lratcheck_s": 3.5, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b043", "modules": ["Biplanar.Instances.A4M13S.Leaf11", "Biplanar.Instances.A4M13S.Leaf8"], "rc": 0, "s": 60.0, "ok": true}
+{"step": "solve", "key": "a4_m10", "tag": "F", "write_s": 6.6, "cnf_sha_match": true, "cadical_s": 244.9, "lrat_bytes": 404184838, "lrat_sha_match": true, "lratcheck_s": 6.7, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf8", "write_s": 2.8, "cnf_sha_match": true, "cadical_s": 68.1, "lrat_bytes": 168513829, "lrat_sha_match": true, "lratcheck_s": 3.1, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b044", "modules": ["Biplanar.Instances.A4M04C.Leaf6", "Biplanar.Instances.A4M13S.Leaf4"], "rc": 0, "s": 54.1, "ok": true}
+{"step": "solve", "key": "a4_m20", "tag": "F", "write_s": 3.9, "cnf_sha_match": true, "cadical_s": 154.1, "lrat_bytes": 296723478, "lrat_sha_match": true, "lratcheck_s": 5.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m21", "tag": "F", "write_s": 4.2, "cnf_sha_match": true, "cadical_s": 134.3, "lrat_bytes": 275913031, "lrat_sha_match": true, "lratcheck_s": 4.8, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf5", "write_s": 2.1, "cnf_sha_match": true, "cadical_s": 56.5, "lrat_bytes": 144764118, "lrat_sha_match": true, "lratcheck_s": 2.2, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf9", "write_s": 2.4, "cnf_sha_match": true, "cadical_s": 74.7, "lrat_bytes": 166619336, "lrat_sha_match": true, "lratcheck_s": 2.6, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf4", "write_s": 3.2, "cnf_sha_match": true, "cadical_s": 49.5, "lrat_bytes": 139182989, "lrat_sha_match": true, "lratcheck_s": 2.1, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m15", "tag": "F", "write_s": 2.3, "cnf_sha_match": true, "cadical_s": 57.5, "lrat_bytes": 155112596, "lrat_sha_match": true, "lratcheck_s": 2.5, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b045", "modules": ["Biplanar.Instances.A4M10", "Biplanar.Instances.A4M11C.Leaf8"], "rc": 0, "s": 91.8, "ok": true}
+{"step": "solve", "key": "a4_m03", "tag": "F", "write_s": 2.3, "cnf_sha_match": true, "cadical_s": 52.0, "lrat_bytes": 142964616, "lrat_sha_match": true, "lratcheck_s": 3.2, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf3", "write_s": 2.1, "cnf_sha_match": true, "cadical_s": 52.9, "lrat_bytes": 133301506, "lrat_sha_match": true, "lratcheck_s": 2.4, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf7", "write_s": 3.5, "cnf_sha_match": true, "cadical_s": 42.0, "lrat_bytes": 125621702, "lrat_sha_match": true, "lratcheck_s": 1.9, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf1", "write_s": 4.1, "cnf_sha_match": true, "cadical_s": 49.7, "lrat_bytes": 139612429, "lrat_sha_match": true, "lratcheck_s": 2.1, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m01", "tag": "F", "write_s": 1.6, "cnf_sha_match": true, "cadical_s": 35.4, "lrat_bytes": 139577340, "lrat_sha_match": true, "lratcheck_s": 2.1, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m14", "tag": "F", "write_s": 2.5, "cnf_sha_match": true, "cadical_s": 34.7, "lrat_bytes": 135116749, "lrat_sha_match": true, "lratcheck_s": 2.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf3", "write_s": 0.8, "cnf_sha_match": true, "cadical_s": 9.3, "lrat_bytes": 53615405, "lrat_sha_match": true, "lratcheck_s": 0.8, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf6", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 324846, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf5", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 372303, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf8", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 350766, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf22", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 609954, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf19", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 508539, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf10", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 696559, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf15", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 609478, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf17", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 599833, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf14", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 463141, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf12", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 505215, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf7", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 245938, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf16", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 287312, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf15", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 413598, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf7", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 354734, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf13", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 554365, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf20", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 377089, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf3", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 455185, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf11", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 523946, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf11", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 296304, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf18", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 626900, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf15", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 265589, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf16", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 258049, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf13", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 316975, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf21", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 310528, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf13", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 332705, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m11c", "tag": "leaf16", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 496005, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf17", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 315075, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf7", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 234075, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf3", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 362145, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf9", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 306174, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf4", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 607487, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf18", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 304734, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf12", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 301430, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf14", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 342494, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf10", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 306092, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf14", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 608971, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf17", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 306090, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m09c", "tag": "leaf18", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 306092, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf4", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 343602, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf8", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 305544, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf9", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 305544, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf17", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 305545, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf18", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 305547, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf1", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 296523, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m07s", "tag": "leaf2", "write_s": 0.0, "cnf_sha_match": true, "cadical_s": 0.0, "lrat_bytes": 343567, "lrat_sha_match": true, "lratcheck_s": 0.0, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m12c", "tag": "leaf3", "write_s": 1.2, "cnf_sha_match": true, "cadical_s": 16.9, "lrat_bytes": 57932334, "lrat_sha_match": true, "lratcheck_s": 0.9, "lratcheck": true, "status": "OK"}
+{"step": "solve", "key": "a4_m04c", "tag": "leaf8", "write_s": 0.7, "cnf_sha_match": true, "cadical_s": 8.3, "lrat_bytes": 45399541, "lrat_sha_match": true, "lratcheck_s": 0.9, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b046", "modules": ["Biplanar.Instances.A4M20", "Biplanar.Instances.A4M21"], "rc": 0, "s": 82.9, "ok": true}
+{"step": "solve", "key": "a4_m02", "tag": "F", "write_s": 1.9, "cnf_sha_match": true, "cadical_s": 34.6, "lrat_bytes": 138219950, "lrat_sha_match": true, "lratcheck_s": 3.5, "lratcheck": true, "status": "OK"}
+{"step": "lake", "label": "b047", "modules": ["Biplanar.Instances.A4M11C.Leaf9", "Biplanar.Instances.A4M11C.Leaf5"], "rc": 0, "s": 42.0, "ok": true}
+{"step": "lake", "label": "b048", "modules": ["Biplanar.Instances.A4M15", "Biplanar.Instances.A4M11C.Leaf4"], "rc": 0, "s": 43.5, "ok": true}
+{"step": "lake", "label": "b049", "modules": ["Biplanar.Instances.A4M03", "Biplanar.Instances.A4M11C.Leaf3"], "rc": 0, "s": 39.3, "ok": true}
+{"step": "lake", "label": "b050", "modules": ["Biplanar.Instances.A4M11C.Leaf1", "Biplanar.Instances.A4M11C.Leaf7"], "rc": 0, "s": 39.2, "ok": true}
+{"step": "lake", "label": "b051", "modules": ["Biplanar.Instances.A4M01", "Biplanar.Instances.A4M14"], "rc": 0, "s": 38.4, "ok": true}
+{"step": "lake", "label": "b052", "modules": ["Biplanar.Instances.A4M02", "Biplanar.Instances.A4M12C.Leaf3"], "rc": 0, "s": 35.5, "ok": true}
+{"step": "lake", "label": "b053", "modules": ["Biplanar.Instances.A4M04C.Leaf3", "Biplanar.Instances.A4M04C.Leaf8"], "rc": 0, "s": 16.4, "ok": true}
+{"step": "lake", "label": "b054", "modules": ["Biplanar.Instances.A4M07S.Leaf6", "Biplanar.Instances.A4M07S.Leaf5"], "rc": 0, "s": 2.4, "ok": true}
+{"step": "lake", "label": "b055", "modules": ["Biplanar.Instances.A4M07S.Leaf8", "Biplanar.Instances.A4M04C.Leaf22"], "rc": 0, "s": 2.4, "ok": true}
+{"step": "lake", "label": "b056", "modules": ["Biplanar.Instances.A4M04C.Leaf19", "Biplanar.Instances.A4M12C.Leaf10"], "rc": 0, "s": 2.3, "ok": true}
+{"step": "lake", "label": "b057", "modules": ["Biplanar.Instances.A4M04C.Leaf15", "Biplanar.Instances.A4M11C.Leaf17"], "rc": 0, "s": 2.1, "ok": true}
+{"step": "lake", "label": "b058", "modules": ["Biplanar.Instances.A4M11C.Leaf14", "Biplanar.Instances.A4M11C.Leaf12"], "rc": 0, "s": 2.0, "ok": true}
+{"step": "lake", "label": "b059", "modules": ["Biplanar.Instances.A4M12C.Leaf7", "Biplanar.Instances.A4M04C.Leaf16"], "rc": 0, "s": 2.1, "ok": true}
+{"step": "lake", "label": "b060", "modules": ["Biplanar.Instances.A4M11C.Leaf15", "Biplanar.Instances.A4M07S.Leaf7"], "rc": 0, "s": 2.2, "ok": true}
+{"step": "lake", "label": "b061", "modules": ["Biplanar.Instances.A4M11C.Leaf13", "Biplanar.Instances.A4M04C.Leaf20"], "rc": 0, "s": 2.2, "ok": true}
+{"step": "lake", "label": "b062", "modules": ["Biplanar.Instances.A4M09C.Leaf3", "Biplanar.Instances.A4M11C.Leaf11"], "rc": 0, "s": 2.0, "ok": true}
+{"step": "lake", "label": "b063", "modules": ["Biplanar.Instances.A4M12C.Leaf11", "Biplanar.Instances.A4M11C.Leaf18"], "rc": 0, "s": 2.4, "ok": true}
+{"step": "lake", "label": "b064", "modules": ["Biplanar.Instances.A4M12C.Leaf15", "Biplanar.Instances.A4M12C.Leaf16"], "rc": 0, "s": 2.2, "ok": true}
+{"step": "lake", "label": "b065", "modules": ["Biplanar.Instances.A4M12C.Leaf13", "Biplanar.Instances.A4M04C.Leaf21"], "rc": 0, "s": 2.1, "ok": true}
+{"step": "lake", "label": "b066", "modules": ["Biplanar.Instances.A4M09C.Leaf13", "Biplanar.Instances.A4M11C.Leaf16"], "rc": 0, "s": 2.2, "ok": true}
+{"step": "lake", "label": "b067", "modules": ["Biplanar.Instances.A4M04C.Leaf17", "Biplanar.Instances.A4M09C.Leaf7"], "rc": 0, "s": 2.3, "ok": true}
+{"step": "lake", "label": "b068", "modules": ["Biplanar.Instances.A4M07S.Leaf3", "Biplanar.Instances.A4M09C.Leaf9"], "rc": 0, "s": 2.1, "ok": true}
+{"step": "lake", "label": "b069", "modules": ["Biplanar.Instances.A4M09C.Leaf4", "Biplanar.Instances.A4M04C.Leaf18"], "rc": 0, "s": 2.0, "ok": true}
+{"step": "lake", "label": "b070", "modules": ["Biplanar.Instances.A4M12C.Leaf12", "Biplanar.Instances.A4M12C.Leaf14"], "rc": 0, "s": 2.1, "ok": true}
+{"step": "lake", "label": "b071", "modules": ["Biplanar.Instances.A4M09C.Leaf10", "Biplanar.Instances.A4M09C.Leaf14"], "rc": 0, "s": 2.3, "ok": true}
+{"step": "lake", "label": "b072", "modules": ["Biplanar.Instances.A4M09C.Leaf17", "Biplanar.Instances.A4M09C.Leaf18"], "rc": 0, "s": 2.2, "ok": true}
+{"step": "lake", "label": "b073", "modules": ["Biplanar.Instances.A4M07S.Leaf4", "Biplanar.Instances.A4M12C.Leaf8"], "rc": 0, "s": 2.3, "ok": true}
+{"step": "lake", "label": "b074", "modules": ["Biplanar.Instances.A4M12C.Leaf9", "Biplanar.Instances.A4M12C.Leaf17"], "rc": 0, "s": 2.3, "ok": true}
+{"step": "lake", "label": "b075", "modules": ["Biplanar.Instances.A4M12C.Leaf18", "Biplanar.Instances.A4M07S.Leaf1"], "rc": 0, "s": 2.0, "ok": true}
+{"step": "lake", "label": "b076", "modules": ["Biplanar.Instances.A4M07S.Leaf2"], "rc": 0, "s": 2.2, "ok": true}
+{"step": "lake", "label": "top00", "modules": ["Biplanar.Instances.A4M04C", "Biplanar.Instances.A4M07S"], "rc": 0, "s": 2.6, "ok": true}
+{"step": "lake", "label": "top02", "modules": ["Biplanar.Instances.A4M09C", "Biplanar.Instances.A4M11C"], "rc": 0, "s": 2.2, "ok": true}
+{"step": "lake", "label": "top04", "modules": ["Biplanar.Instances.A4M12C", "Biplanar.Instances.A4M13S"], "rc": 0, "s": 2.3, "ok": true}
+{"step": "end", "ok": true}

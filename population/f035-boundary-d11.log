@@ -1,0 +1,4 @@
+m=90: 1083950 connected labelled 11-regular circulants, 12440 with omega=6, 0 with chi_f >= 9  [150s]
+m=108: 2797773 connected labelled 11-regular circulants, 19806 with omega=6, 0 with chi_f >= 9  [468s]
+m=126: 6455442 connected labelled 11-regular circulants, 35994 with omega=6, 0 with chi_f >= 9  [1282s]
+m=144: 12662090 connected labelled 11-regular circulants, 48332 with omega=6, 0 with chi_f >= 9  [2883s]

@@ -28,6 +28,14 @@ Usage:
   python tools/rebuild.py --all --check-cnf                 # minutes; no solver needed
   python tools/rebuild.py A4M01 --check-cnf --solve --build # one instance end to end
   python tools/rebuild.py --all --check-cnf --solve --build --lean-jobs 2
+  python tools/rebuild.py --enum      # after --all ... --build: the two root enumerations (v1.1.0)
+
+--enum builds Biplanar.Enum.Close (precompiled; the native_decide enumeration takes about 7-10 min) and
+then checks lean/Biplanar/EnumFinal.lean, which imports the 22 instance theorems, with `lake env lean`
+(lake v4.30 cannot build a non-precompiled module that imports a precompileModules library: "initializer
+not found"; `lake env lean` runs the same elaborator and kernel without writing an .olean). It requires
+0 errors, no sorry, and only propext, Classical.choice, Quot.sound and native_decide auxiliaries in the
+axioms of Biplanar.Enum.seven_not_biplanar and Biplanar.Enum.five_not_biplanar.
 Options: --cadical PATH (default: cadical on PATH), --keep (keep LRAT/CNF files).
 Resources: CaDiCaL takes 20 s to ~20 min per formula on one core; a leaf's
 `lake build` needs up to ~6 GB of memory (the certificate is imported).
@@ -48,7 +56,9 @@ sys.path.insert(0, os.path.join(ROOT, "verifier"))
 import lean_cnf_writer  # noqa: E402
 
 STD_AXIOMS = {"propext", "Classical.choice", "Quot.sound"}
-NATIVE = re.compile(r"^[A-Za-z_][A-Za-z0-9_₀-₉']*\._native\.native_decide\.ax_\d+_\d+$")
+# native_decide auxiliaries are printed fully qualified (Biplanar.A4M00.F_unsat._native.native_decide.ax_1_1);
+# v1.0.0 omitted the dot from the name class and so flagged every correct build (false alarm, never a false pass)
+NATIVE = re.compile(r"^[A-Za-z_][A-Za-z0-9_₀-₉'.]*\._native\.native_decide\.ax_\d+_\d+$")
 
 
 def sha(path):
@@ -106,6 +116,41 @@ def lake_build(targets, log):
     return ok, out, time.time() - t0
 
 
+def axioms_ok(out, decl):
+    ax = re.search(rf"'{re.escape(decl)}' depends on axioms: \[(.*?)\]", out.replace("\n", " "))
+    axioms = [x.strip() for x in ax.group(1).split(",")] if ax else []
+    odd = [x for x in axioms if x not in STD_AXIOMS and not NATIVE.match(x)]
+    return bool(axioms) and not odd, axioms, odd
+
+
+def check_enum(logdir):
+    """Biplanar.Enum.Close by lake, then EnumFinal.lean by `lake env lean`; returns the problem count."""
+    log = os.path.join(logdir, "enum.log")
+    open(log, "w").close()
+    ok, out, dt = lake_build(["Biplanar.Enum.Close"], log)
+    print(f"== lake build Biplanar.Enum.Close: {'OK' if ok else 'FAILED'} ({dt:.0f} s)", flush=True)
+    if not ok:
+        return 1
+    t0 = time.time()
+    p = subprocess.run(["lake", "env", "lean", "Biplanar/EnumFinal.lean"], cwd=LEAN, capture_output=True, text=True)
+    out = p.stdout + p.stderr
+    with open(log, "a") as f:
+        f.write(out)
+    bad = 0
+    if p.returncode != 0 or "error" in out or "sorry" in out:
+        print(f"== EnumFinal.lean: FAILED (rc {p.returncode}); see {log}", flush=True)
+        return 1
+    for decl in ("Biplanar.Enum.seven_not_biplanar", "Biplanar.Enum.five_not_biplanar"):
+        good, axioms, odd = axioms_ok(out, decl)
+        if not good:
+            bad += 1
+            print(f"   {decl}: AXIOMS NOT AS EXPECTED: {odd or 'no axiom line'}", flush=True)
+        else:
+            nd = len(axioms) - len(STD_AXIOMS & set(axioms))
+            print(f"   {decl}: checked; axioms = standard + {nd} native_decide ({time.time() - t0:.0f} s)", flush=True)
+    return bad
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("names", nargs="*")
@@ -116,11 +161,12 @@ def main():
     ap.add_argument("--lean-jobs", type=int, default=2, help="leaves per lake build call")
     ap.add_argument("--cadical", default="cadical")
     ap.add_argument("--keep", action="store_true")
+    ap.add_argument("--enum", action="store_true", help="check the root enumerations (needs the 22 instances built)")
     a = ap.parse_args()
     names = (sorted(os.path.basename(p)[:-5] for p in glob.glob(os.path.join(INST, "A4M*.lean")))
              if a.all else a.names)
-    if not names:
-        ap.error("give instance names or --all")
+    if not names and not a.enum:
+        ap.error("give instance names, --all, or --enum")
     logdir = os.path.join(ROOT, "rebuild-logs")
     os.makedirs(logdir, exist_ok=True)
     bad = 0
@@ -186,7 +232,9 @@ def main():
                 for _, _, _, _, lrat in I["forms"]:
                     if os.path.exists(lrat):
                         os.remove(lrat)
-    print(f"=== {len(names)} instance(s), {bad} problem(s)")
+    if a.enum:
+        bad += check_enum(logdir)
+    print(f"=== {len(names)} instance(s){' + enumerations' if a.enum else ''}, {bad} problem(s)")
     return 1 if bad else 0
 
 

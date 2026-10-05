@@ -1,0 +1,11 @@
+20:39:43 # f036 worker n15-ils-s127 pid 60686 n=15 evals=20000 seed=127 start=mix
+20:39:43 corpus pairs usable at n <= 15: 17
+20:39:43 start k5c8: chi_f=9.000000
+20:39:44 ev 0: seed #1 from corpus: chi_f=8.500000
+20:40:04 ev 4710: seed #2 from corpus: chi_f=8.500000
+20:40:26 ev 9757: seed #3 from k5c8: chi_f=9.000000
+20:40:26 NEW CORE n15-ils-s127-c001: state n=15 e=78 chi_f=9.000000; core n=13 e=66 alpha=2 chi_f in [9, 9] wl=ce6a1ee6f7
+20:40:44 ev 13544 [225.7/s] cur=8.0000 elite=9.0000 best=9.0000 seeds=3 cores>=9: 1  top visited: 9.0000x1, 8.5000x846, 8.0000x6996, 7.6667x3
+20:40:47 ev 14372: seed #4 from k5c8: chi_f=9.000000
+20:41:10 ev 19403: seed #5 from random: chi_f=6.000000
+20:41:13 # DONE ev=20000 best=9.000000 seeds=5 cores>=9=1 elapsed=89s  top visited: 9.0000x4, 8.5000x1590, 8.0000x10137, 7.6667x6, 7.5000x817, 7.3333x9, 7.2500x5, 7.0000x6917

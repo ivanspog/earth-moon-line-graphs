@@ -1,0 +1,7 @@
+2026-09-24T18:02:51 RESULT f035-K4vC10(1.4.5) UNSAT 4588.3s
+2026-09-24T18:46:23 TIMEOUT K1vC16(1,2,6,7,8) (box 7200 s)
+2026-09-24T18:46:23 # DONE
+2026-09-24T18:46:50 [wrapper line: NOT a timeout — the no-sym run was killed by hand at ~44 min, see next line]
+2026-09-24T18:46:52 STOPPED K1vC16(1,2,6,7,8)_nosym by hand after ~45 min (redundant once sym-on timed out; see _nosym-stopped.log)
+2026-09-24T18:57:04 TIMEOUT K4vC10(1,4,5)_nosym (box 7200 s)
+2026-09-25T04:47:03 TIMEOUT K1vC16(1,2,6,7,8)_long (box 36000 s)

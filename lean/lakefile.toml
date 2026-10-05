@@ -10,3 +10,11 @@ rev = "4ec2168"
 
 [[lean_lib]]
 name = "Biplanar"
+
+
+# Formal check of the P-008 root enumerations (Biplanar/Enum/*). Precompiled so that
+# `native_decide` runs the 10^8-leaf enumeration as native code instead of in the interpreter.
+[[lean_lib]]
+name = "BiplanarEnum"
+globs = ["Biplanar.Enum.+"]
+precompileModules = true

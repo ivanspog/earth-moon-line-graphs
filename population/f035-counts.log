@@ -1,0 +1,5 @@
+# f035_counts  pid 37871  Thu Sep 24 16:35:34 2026
+TARGET	K0 v C28(1,6,7,8,13,14)	n=28 e=154 slack=2	chi_f=28/3 (certified, 448 maximal IS; census LP lower agrees, its rounded primal 1961/210 is looser)	heredEuler=-14	trifree=0 (|T|=112,|S|=28)	codeg c0=0 c1=0	DEAD by triangle-free (|S|=28, |T|=112 > 104)  [95.8s]
+BOUNDARY	K5 v C8(1,2)	n=13 e=66 slack=0	chi_f=9 (certified, 17 maximal IS; census LP agrees)	heredEuler=-12	trifree=-10 (|T|=2,|S|=3)	codeg c0=0 c1=0	SURVIVES all counts -> SAT  [0.4s]
+BOUNDARY	K4 v C10(1,4,5)	n=14 e=71 slack=1	chi_f=9 (certified, 24 maximal IS; census LP agrees)	heredEuler=-13	trifree=-10 (|T|=2,|S|=3)	codeg c0=0 c1=0	SURVIVES all counts -> SAT  [0.8s]
+BOUNDARY	K1 v C16(1,2,6,7,8)	n=17 e=88 slack=2	chi_f=9 (certified, 49 maximal IS; census LP agrees)	heredEuler=-14	trifree=-10 (|T|=2,|S|=3)	codeg c0=0 c1=0	SURVIVES all counts -> SAT  [3.3s]

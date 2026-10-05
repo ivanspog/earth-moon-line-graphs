@@ -1,0 +1,22 @@
+19:56:03 # f036 worker n21-ils-s105 pid 55409 n=21 evals=60000 seed=105 start=mix
+19:56:03 corpus pairs usable at n <= 21: 30
+19:56:03 start random: chi_f=5.500000
+19:56:03 ev 0: seed #1 from corpus: chi_f=8.500000
+19:56:38 ev 5070: seed #2 from corpus: chi_f=8.333333
+19:57:01 ev 9830: seed #3 from random: chi_f=6.000000
+19:57:03 ev 10300 [171.7/s] cur=7.0000 elite=8.0000 best=8.5000 seeds=3 cores>=9: 0  top visited: 8.5000x175, 8.3333x261, 8.0000x4977, 7.8000x1
+19:57:27 ev 14940: seed #4 from k5c8: chi_f=9.000000
+19:57:27 NEW CORE n21-ils-s105-c001: state n=21 e=113 chi_f=9.000000; core n=13 e=66 alpha=2 chi_f in [9, 9] wl=ce6a1ee6f7
+19:57:58 ev 19761: seed #5 from random: chi_f=5.333333
+19:58:03 ev 20227 [168.6/s] cur=7.0000 elite=7.0000 best=9.0000 seeds=5 cores>=9: 1  top visited: 9.0000x18, 8.5000x668, 8.3333x261, 8.0000x9934
+19:58:44 ev 26313: seed #6 from random: chi_f=6.000000
+19:59:03 ev 29036 [161.3/s] cur=7.0000 elite=7.0000 best=9.0000 seeds=6 cores>=9: 1  top visited: 9.0000x18, 8.5000x668, 8.3333x261, 8.0000x12661
+19:59:56 ev 36047: seed #7 from k5c8: chi_f=9.000000
+20:00:03 ev 37105 [154.6/s] cur=8.0000 elite=9.0000 best=9.0000 seeds=7 cores>=9: 1  top visited: 9.0000x75, 8.5000x965, 8.3333x261, 8.0000x15151
+20:00:26 ev 41025: seed #8 from random: chi_f=6.000000
+20:01:03 ev 46286 [154.2/s] cur=7.0000 elite=8.0000 best=9.0000 seeds=8 cores>=9: 1  top visited: 9.0000x125, 8.5000x1651, 8.3333x261, 8.0000x19112
+20:01:06 ev 46720: seed #9 from random: chi_f=5.500000
+20:01:40 ev 52272: seed #10 from corpus: chi_f=8.500000
+20:02:03 ev 56800 [157.7/s] cur=7.0000 elite=8.5000 best=9.0000 seeds=10 cores>=9: 1  top visited: 9.0000x125, 8.5000x1974, 8.3333x261, 8.0000x23578
+20:02:07 ev 57431: seed #11 from corpus: chi_f=8.500000
+20:02:19 # DONE ev=60000 best=9.000000 seeds=11 cores>=9=1 elapsed=376s  top visited: 9.0000x125, 8.5000x2145, 8.3333x261, 8.0000x25461, 7.8000x1, 7.7500x2, 7.6667x148, 7.5000x2477

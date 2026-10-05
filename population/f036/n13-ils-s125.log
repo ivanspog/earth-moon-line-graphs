@@ -1,0 +1,11 @@
+20:38:29 # f036 worker n13-ils-s125 pid 60492 n=13 evals=20000 seed=125 start=mix
+20:38:29 corpus pairs usable at n <= 13: 15
+20:38:29 start k5c8: chi_f=9.000000
+20:38:29 ev 0: seed #1 from random: chi_f=7.000000
+20:38:30 ev 168: new best chi_f=8.000000 (n=13, e=56)
+20:38:48 ev 5236: seed #2 from corpus: chi_f=8.500000
+20:39:06 ev 10230: seed #3 from corpus: chi_f=8.333333
+20:39:24 ev 15010: seed #4 from corpus: chi_f=8.500000
+20:39:29 ev 16321 [272.0/s] cur=8.0000 elite=8.5000 best=8.5000 seeds=4 cores>=9: 0  top visited: 8.5000x330, 8.3333x9, 8.0000x7879, 7.6667x1
+20:39:42 ev 19897: seed #5 from corpus: chi_f=8.333333
+20:39:43 # DONE ev=20000 best=8.500000 seeds=5 cores>=9=0 elapsed=74s  top visited: 8.5000x330, 8.3333x14, 8.0000x9702, 7.6667x1, 7.5000x619, 7.3333x34, 7.2500x1, 7.0000x8525

@@ -1,0 +1,12 @@
+19:54:05 # f036 worker n20-sa-s104 pid 55127 n=20 evals=20000 seed=104 start=mix
+19:54:05 corpus pairs usable at n <= 20: 22
+19:54:05 start k5c8: chi_f=9.000000
+19:54:05 NEW CORE n20-sa-s104-c001: state n=20 e=104 chi_f=9.000000; core n=13 e=66 alpha=2 chi_f in [9, 9] wl=ce6a1ee6f7
+19:54:23 ev 3778: restart from corpus: chi_f=8.500000
+19:54:35 ev 6684: restart from random: chi_f=6.000000
+19:54:52 ev 9415: restart from corpus: chi_f=8.500000
+19:55:05 ev 12317 [205.2/s] cur=8.0000 best=9.0000 T=0.0114 cores>=9: 1  top visited: 9.0000x3, 8.5000x475, 8.0000x7432, 7.5000x277
+19:55:05 ev 12401: restart from random: chi_f=6.000000
+19:55:23 ev 15143: restart from random: chi_f=5.444444
+19:55:43 ev 17742: restart from random: chi_f=6.000000
+19:56:02 # DONE ev=20000 best=9.000000 cores>=9=1 elapsed=117s  top visited: 9.0000x3, 8.5000x475, 8.0000x9557, 7.5000x277, 7.0000x7986, 6.6667x3, 6.5000x69, 6.3333x26

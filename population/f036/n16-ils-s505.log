@@ -1,0 +1,16 @@
+20:46:28 # f036 worker n16-ils-s505 pid 61647 n=16 evals=30000 seed=505 start=random
+20:46:28 corpus pairs usable at n <= 16: 17
+20:46:28 start random: chi_f=7.000000
+20:46:28 ev 0: seed #1 from random: chi_f=6.000000
+20:46:29 ev 51: new best chi_f=6.250000 (n=16, e=76)
+20:46:29 ev 58: new best chi_f=6.333333 (n=16, e=75)
+20:46:29 ev 97: new best chi_f=7.000000 (n=16, e=76)
+20:46:30 ev 365: new best chi_f=8.000000 (n=16, e=76)
+20:46:53 ev 5266: seed #2 from random: chi_f=6.000000
+20:47:18 ev 10532: seed #3 from random: chi_f=6.000000
+20:47:28 ev 12600 [210.0/s] cur=8.0000 elite=8.0000 best=8.0000 seeds=3 cores>=9: 0  top visited: 8.0000x5853, 7.5000x27, 7.3333x1, 7.2500x1
+20:47:43 ev 15714: seed #4 from random: chi_f=7.000000
+20:48:10 ev 22045: seed #5 from random: chi_f=6.250000
+20:48:28 ev 26154 [217.9/s] cur=8.0000 elite=8.0000 best=8.0000 seeds=5 cores>=9: 0  top visited: 8.0000x12185, 7.5000x130, 7.3333x12, 7.2500x4
+20:48:35 ev 27999: seed #6 from random: chi_f=6.000000
+20:48:43 # DONE ev=30000 best=8.000000 seeds=6 cores>=9=0 elapsed=135s  top visited: 8.0000x13954, 7.5000x140, 7.3333x13, 7.2500x4, 7.2000x2, 7.1667x1, 7.1500x1, 7.0000x13799

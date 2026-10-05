@@ -1,0 +1,12 @@
+20:46:27 # f036 worker n14-ils-s504 pid 61626 n=14 evals=30000 seed=504 start=corpus
+20:46:27 corpus pairs usable at n <= 14: 17
+20:46:27 start corpus: chi_f=8.500000
+20:46:27 ev 0: seed #1 from corpus: chi_f=8.500000
+20:46:48 ev 5217: seed #2 from corpus: chi_f=8.500000
+20:47:09 ev 10207: seed #3 from corpus: chi_f=8.500000
+20:47:27 ev 14802 [246.7/s] cur=8.0000 elite=8.5000 best=8.5000 seeds=3 cores>=9: 0  top visited: 8.5000x341, 8.0000x6837, 7.5000x571, 7.3333x22
+20:47:30 ev 15364: seed #4 from corpus: chi_f=8.500000
+20:47:51 ev 20538: seed #5 from corpus: chi_f=8.500000
+20:48:11 ev 25099: seed #6 from corpus: chi_f=8.500000
+20:48:27 ev 29519 [246.0/s] cur=8.0000 elite=8.5000 best=8.5000 seeds=6 cores>=9: 0  top visited: 8.5000x613, 8.0000x14210, 7.5000x1044, 7.3333x31
+20:48:29 # DONE ev=30000 best=8.500000 seeds=6 cores>=9=0 elapsed=122s  top visited: 8.5000x613, 8.0000x14470, 7.5000x1046, 7.3333x31, 7.2500x6, 7.0000x12510, 6.7500x3, 6.6667x16

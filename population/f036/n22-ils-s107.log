@@ -1,0 +1,29 @@
+19:59:29 # f036 worker n22-ils-s107 pid 55870 n=22 evals=60000 seed=107 start=mix
+19:59:29 corpus pairs usable at n <= 22: 33
+19:59:29 start k5c8: chi_f=9.000000
+19:59:29 ev 0: seed #1 from random: chi_f=5.666667
+19:59:29 ev 8: new best chi_f=5.750000 (n=22, e=107)
+19:59:29 ev 11: new best chi_f=6.000000 (n=22, e=108)
+19:59:29 ev 18: new best chi_f=6.142857 (n=22, e=109)
+19:59:29 ev 20: new best chi_f=6.500000 (n=22, e=110)
+19:59:30 ev 67: new best chi_f=7.000000 (n=22, e=113)
+19:59:50 ev 2280: new best chi_f=8.000000 (n=22, e=113)
+20:00:23 ev 7108: seed #2 from k5c8: chi_f=9.000000
+20:00:24 NEW CORE n22-ils-s107-c001: state n=22 e=117 chi_f=9.000000; core n=13 e=66 alpha=2 chi_f in [9, 9] wl=ce6a1ee6f7
+20:00:29 ev 7773 [129.5/s] cur=8.0000 elite=9.0000 best=9.0000 seeds=2 cores>=9: 1  top visited: 9.0000x59, 8.5000x192, 8.0000x1520, 7.5000x56
+20:01:02 ev 11825: seed #3 from corpus: chi_f=8.500000
+20:01:28 ev 16417: seed #4 from random: chi_f=6.000000
+20:01:29 ev 16625 [138.5/s] cur=7.0000 elite=7.0000 best=9.0000 seeds=4 cores>=9: 1  top visited: 9.0000x207, 8.5000x1732, 8.0000x5847, 7.6667x4
+20:02:15 ev 22291: seed #5 from k5c8: chi_f=9.000000
+20:02:29 ev 23884 [132.7/s] cur=8.0000 elite=9.0000 best=9.0000 seeds=5 cores>=9: 1  top visited: 9.0000x272, 8.5000x2210, 8.0000x8991, 7.6667x5
+20:02:56 ev 26837: seed #6 from k5c8: chi_f=9.000000
+20:03:24 ev 31642: seed #7 from corpus: chi_f=8.500000
+20:03:29 ev 32850 [136.9/s] cur=8.0000 elite=8.5000 best=9.0000 seeds=7 cores>=9: 1  top visited: 9.0000x445, 8.5000x3315, 8.0000x13646, 7.6667x37
+20:03:46 ev 36175: seed #8 from k5c8: chi_f=9.000000
+20:04:16 ev 40757: seed #9 from corpus: chi_f=8.500000
+20:04:29 ev 43386 [144.6/s] cur=8.5000 elite=8.5000 best=9.0000 seeds=9 cores>=9: 1  top visited: 9.0000x755, 8.5000x5641, 8.0000x19060, 7.6667x38
+20:04:40 ev 45304: seed #10 from corpus: chi_f=8.500000
+20:05:01 ev 49969: seed #11 from corpus: chi_f=8.500000
+20:05:29 ev 54576 [151.6/s] cur=8.0000 elite=8.5000 best=9.0000 seeds=11 cores>=9: 1  top visited: 9.0000x755, 8.5000x7561, 8.0000x25065, 7.7500x9
+20:05:30 ev 54616: seed #12 from random: chi_f=6.000000
+20:06:10 # DONE ev=60000 best=9.000000 seeds=12 cores>=9=1 elapsed=401s  top visited: 9.0000x755, 8.5000x7561, 8.0000x25725, 7.7500x9, 7.6667x46, 7.5000x2938, 7.3333x7, 7.2500x1

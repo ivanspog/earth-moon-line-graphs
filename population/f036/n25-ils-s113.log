@@ -1,0 +1,25 @@
+20:08:59 # f036 worker n25-ils-s113 pid 56921 n=25 evals=60000 seed=113 start=mix
+20:08:59 corpus pairs usable at n <= 25: 39
+20:08:59 start k5c8: chi_f=9.000000
+20:08:59 ev 0: seed #1 from corpus: chi_f=8.500000
+20:09:32 ev 4530: seed #2 from random: chi_f=6.000000
+20:09:59 ev 6662 [110.8/s] cur=7.0000 elite=8.0000 best=8.5000 seeds=2 cores>=9: 0  top visited: 8.5000x155, 8.2500x1, 8.0000x3516, 7.5000x57
+20:10:48 ev 10793: seed #3 from corpus: chi_f=8.500000
+20:10:59 ev 12274 [102.2/s] cur=8.5000 elite=8.5000 best=8.5000 seeds=3 cores>=9: 0  top visited: 8.5000x532, 8.2500x1, 8.0000x5215, 7.5000x362
+20:11:21 ev 15316: seed #4 from corpus: chi_f=8.100000
+20:11:59 ev 19243 [106.8/s] cur=8.0000 elite=8.5000 best=8.5000 seeds=4 cores>=9: 0  top visited: 8.5000x838, 8.3333x775, 8.2500x1, 8.2000x4
+20:12:39 ev 23184: seed #5 from k5c8: chi_f=9.000000
+20:12:39 NEW CORE n25-ils-s113-c001: state n=25 e=130 chi_f=9.000000; core n=13 e=66 alpha=2 chi_f in [9, 9] wl=ce6a1ee6f7
+20:12:59 ev 25410 [105.8/s] cur=8.0000 elite=9.0000 best=9.0000 seeds=5 cores>=9: 1  top visited: 9.0000x85, 8.5000x1817, 8.3333x775, 8.2500x1
+20:13:19 ev 27708: seed #6 from corpus: chi_f=8.500000
+20:13:59 ev 32408 [108.0/s] cur=8.0000 elite=8.5000 best=9.0000 seeds=6 cores>=9: 1  top visited: 9.0000x177, 8.5000x3042, 8.3333x775, 8.2500x1
+20:14:03 ev 32932: seed #7 from random: chi_f=5.500000
+20:14:59 ev 39297 [109.1/s] cur=7.0000 elite=8.0000 best=9.0000 seeds=7 cores>=9: 1  top visited: 9.0000x177, 8.5000x3042, 8.3333x775, 8.2500x1
+20:15:01 ev 39441: seed #8 from k5c8: chi_f=9.000000
+20:15:44 ev 44519: seed #9 from random: chi_f=5.500000
+20:15:59 ev 45742 [108.9/s] cur=7.0000 elite=7.0000 best=9.0000 seeds=9 cores>=9: 1  top visited: 9.0000x357, 8.5000x3764, 8.3333x775, 8.2500x1
+20:16:39 ev 50604: seed #10 from k5c8: chi_f=9.000000
+20:16:59 ev 52833 [110.0/s] cur=8.5000 elite=9.0000 best=9.0000 seeds=10 cores>=9: 1  top visited: 9.0000x456, 8.5000x4486, 8.3333x775, 8.2500x1
+20:17:21 ev 55281: seed #11 from random: chi_f=5.666667
+20:17:59 ev 58836 [108.9/s] cur=7.0000 elite=8.0000 best=9.0000 seeds=11 cores>=9: 1  top visited: 9.0000x510, 8.5000x5208, 8.3333x775, 8.2500x1
+20:18:08 # DONE ev=60000 best=9.000000 seeds=11 cores>=9=1 elapsed=549s  top visited: 9.0000x510, 8.5000x5208, 8.3333x775, 8.2500x1, 8.2000x4, 8.1333x1, 8.1167x1, 8.1000x2

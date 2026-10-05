@@ -1,0 +1,21 @@
+20:27:20 # f036 worker n29-sa-s122 pid 59017 n=29 evals=20000 seed=122 start=mix
+20:27:20 corpus pairs usable at n <= 29: 39
+20:27:20 start random: chi_f=5.666667
+20:27:20 ev 1: new best chi_f=5.750000
+20:27:22 ev 48: new best chi_f=5.800000
+20:27:22 ev 51: new best chi_f=6.000000
+20:27:39 ev 658: new best chi_f=6.500000
+20:27:39 ev 661: new best chi_f=7.000000
+20:28:20 ev 2985 [49.6/s] cur=7.0000 best=7.0000 T=0.0102 cores>=9: 0  top visited: 7.0000x1961, 6.5000x4, 6.3333x3, 6.2500x1
+20:28:21 ev 3031: restart from k5c8: chi_f=9.000000
+20:28:21 ev 3037: new best chi_f=9.000000
+20:28:22 NEW CORE n29-sa-s122-c001: state n=29 e=159 chi_f=9.000000; core n=13 e=66 alpha=2 chi_f in [9, 9] wl=ce6a1ee6f7
+20:29:05 ev 7038: restart from corpus: chi_f=8.500000
+20:29:20 ev 8799 [73.2/s] cur=8.0000 best=9.0000 T=0.0964 cores>=9: 1  top visited: 9.0000x3, 8.5000x1235, 8.0000x3525, 7.6667x3
+20:29:26 ev 9714: restart from random: chi_f=5.200000
+20:30:10 ev 11982: restart from k5c8: chi_f=9.000000
+20:30:21 ev 12957 [71.9/s] cur=8.5000 best=9.0000 T=0.1282 cores>=9: 1  top visited: 9.0000x49, 8.5000x1701, 8.0000x4636, 7.6667x4
+20:30:52 ev 16041: restart from corpus: chi_f=8.500000
+20:31:16 ev 18994: restart from k5c8: chi_f=9.000000
+20:31:21 ev 19308 [80.4/s] cur=8.5000 best=9.0000 T=0.0678 cores>=9: 1  top visited: 9.0000x94, 8.5000x3500, 8.0000x8150, 7.6667x4
+20:31:27 # DONE ev=20000 best=9.000000 cores>=9=1 elapsed=247s  top visited: 9.0000x94, 8.5000x3821, 8.0000x8437, 7.6667x4, 7.5000x1086, 7.3333x1, 7.0000x4014, 6.5000x67
